@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
-import { writeFile } from "fs/promises";
-import path from "path";
+import { put } from "@vercel/blob";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -19,26 +18,21 @@ export async function POST(request) {
     const additionalInfo = formData.get("additionalInfo");
     const resumeFile = formData.get("resume");
 
-    // Create uploads directory if it doesn't exist
-    const uploadDir = path.join(process.cwd(), "public", "uploads");
-    try {
-      await writeFile(path.join(uploadDir, ".gitkeep"), "");
-    } catch (error) {
-      // Directory already exists, continue
-    }
-
-    // Save the resume file
+    // Upload resume to Vercel Blob storage
     const fileExtension = resumeFile.name.split(".").pop();
     const fileName = `${firstName}-${lastName}-resume-${Date.now()}.${fileExtension}`;
-    const filePath = path.join(uploadDir, fileName);
 
-    const buffer = Buffer.from(await resumeFile.arrayBuffer());
-    await writeFile(filePath, buffer);
+    const blob = await put(fileName, resumeFile, {
+      access: "public",
+      addRandomSuffix: true, // Adds a random suffix to ensure uniqueness
+    });
+
+    console.log(blob.url);
 
     // Send email notification
     await resend.emails.send({
-      from: "Your Company <onboarding@resend.dev>", // Update with your verified domain
-      to: ["your-email@example.com"], // Update with your receiving email
+      from: " <contact@supremeinfrastructure.in>", // Update with your verified domain
+      to: "prathmeshsadake@gmail.com", // Update with your receiving email
       subject: `New Career Application: ${position}`,
       html: `
         <h2>New Career Application</h2>
@@ -55,13 +49,16 @@ export async function POST(request) {
         <p>${additionalInfo || "No additional information provided."}</p>
         
         <h3>Resume</h3>
-        <p>Resume file saved as: ${fileName}</p>
-        <p>You can find the resume in the uploads directory of the application.</p>
+        <p><a href="${
+          blob.url
+        }" target="_blank">Click here to view resume</a></p>
+        <p>The resume will be available for download using the link above.</p>
       `,
     });
 
     return NextResponse.json({
       message: "Application submitted successfully",
+      resumeUrl: blob.url,
     });
   } catch (error) {
     console.error("Career application error:", error);

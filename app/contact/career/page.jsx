@@ -21,7 +21,7 @@ const CareerPage = () => {
     additionalInfo: "",
   });
 
-  const [resume, setResume] = (useState < File) | (null > null);
+  const [resume, setResume] = useState(null);
   const [submitStatus, setSubmitStatus] = useState({
     loading: false,
     success: false,

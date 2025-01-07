@@ -8,8 +8,8 @@ export async function POST(request) {
     const { fullName, email, contactNumber, message } = await request.json();
 
     const data = await resend.emails.send({
-      from: "Your Company <onboarding@resend.dev>", // Update this with your verified domain
-      to: ["your-email@example.com"], // Update this with your receiving email
+      from: "Supreme Infrastructure <contact@supremeinfrastructure.in>", // Update this with your verified domain
+      to: "prathmeshsadake@gmail.com", // Update this with your receiving email
       subject: "New Contact Form Submission",
       html: `
         <h2>New Contact Form Submission</h2>
