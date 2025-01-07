@@ -32,7 +32,7 @@ export async function POST(request) {
     // Send email notification
     await resend.emails.send({
       from: " <contact@supremeinfrastructure.in>", // Update with your verified domain
-      to: "prathmeshsadake@gmail.com", // Update with your receiving email
+      to: "hrsupremewebsite@gmail.com", // Update with your receiving email
       subject: `New Career Application: ${position}`,
       html: `
         <h2>New Career Application</h2>
