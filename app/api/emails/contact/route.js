@@ -9,7 +9,7 @@ export async function POST(request) {
 
     const data = await resend.emails.send({
       from: "Supreme Infrastructure <contact@supremeinfrastructure.in>", // Update this with your verified domain
-      to: "prathmeshsadake@gmail.com", // Update this with your receiving email
+      to: "hrsupremewebsite@gmail.com", // Update this with your receiving email
       subject: "New Contact Form Submission",
       html: `
         <h2>New Contact Form Submission</h2>
