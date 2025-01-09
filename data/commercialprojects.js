@@ -347,20 +347,12 @@ export const projects = [
     // Added video section
     galleryImages: [
       { image: "/images/projects/COACT/coact-1.jpg", alt: "coact-1" },
-      { image: "/images/projects/COACT/coact-2.jpg", alt: "coact-2" },
       { image: "/images/projects/COACT/coact-3.jpg", alt: "coact-3" },
-      { image: "/images/projects/COACT/coact-4.jpg", alt: "coact-4" },
       { image: "/images/projects/COACT/coact-5.jpg", alt: "coact-5" },
-      { image: "/images/projects/COACT/coact-6.jpg", alt: "coact-6" },
-      { image: "/images/projects/COACT/coact-7.jpg", alt: "coact-7" },
-      { image: "/images/projects/COACT/coact-8.jpg", alt: "coact-8" },
-      { image: "/images/projects/COACT/coact-9.jpg", alt: "coact-9" },
       { image: "/images/projects/COACT/coact-10.jpg", alt: "coact-10" },
       { image: "/images/projects/COACT/coact-11.jpg", alt: "coact-11" },
-      { image: "/images/projects/COACT/coact-12.jpg", alt: "coact-12" },
       { image: "/images/projects/COACT/coact-13.jpg", alt: "coact-13" },
-      { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" },
-      { image: "/images/projects/COACT/coact-15.jpg", alt: "coact-15" },
+      { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" }
 
     ],
   }
