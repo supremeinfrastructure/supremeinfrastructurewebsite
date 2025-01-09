@@ -99,9 +99,9 @@ const portfolioItems = [
       '/services/garden-maintenence/garden-8.JPG',
       '/services/horticulture-design/horticulture-3.JPG',
       '/services/horticulture-design/horticulture-4.JPG',
-      '/services/horticulture-design/horticulture-5.JPG',
-      '/services/horticulture-design/horticulture-6.JPG',
-      '/services/horticulture-design/horticulture-7.JPG',
+      '/services/horticulture-design/horticulture-5.jpg',
+      '/services/horticulture-design/horticulture-6.jpg',
+      '/services/horticulture-design/horticulture-7.jpg',
     ]
   },
   {
