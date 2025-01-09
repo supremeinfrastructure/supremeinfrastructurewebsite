@@ -155,20 +155,14 @@ export const projects = [
     ],
 
     galleryImages: [
-      // { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-8.jpg", alt: "tataSport-8" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-9.jpg", alt: "tataSport-9" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-11.jpg", alt: "tataGym-11" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-12.jpg", alt: "tataGym-12" },
-      // { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-24.jpg", alt: "tataGym-24" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-25.jpg", alt: "tataGym-25" },
-      // { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-26.jpg", alt: "tataGym-26" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-30.jpg", alt: "tataGym-30" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-32.jpg", alt: "tataGym-32" },
-      // { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-33.jpg", alt: "tataGym-33" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-34.jpg", alt: "tataGym-34" },
-      // { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-35.jpg", alt: "tataGym-35" },
       { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-36.jpg", alt: "tataGym-36" },
-      // { image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-37.jpg", alt: "tataGym-37" },
     ],
   },
   {
