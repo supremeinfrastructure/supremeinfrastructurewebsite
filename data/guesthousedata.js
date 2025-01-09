@@ -64,7 +64,7 @@ export const guestprojects = [
     {
         slug: "project-3",
         title: "IHCL–TAJ AMA LONAVALA",
-        image: "/images/projects/IHCL/ihcl-9.jpg",
+        image: "/images/projects/IHCL/ihcl-10.jpg",
         description: "TATA POWER SOLAR MULSHI",
         fullDescription:
             "A distinctive branded offering by IHCL, amã Stays & Trails comprise untouched experiential escapes ranging from charming residences to mesmerizing trails in unique locations amã Stays & Trails Sluice House, Lonavala is a heritage bungalow spread over 27000 square  feet, with four cosy bedrooms with en suite bathrooms, two independent living spaces, a  dining room and charming veranda to bask in magical mornings or spend lazy afternoons.  The verdant lawns and gardens outside with a marble fountain are perfect to indulge in nature  therapy, or host an intimate evening soiree, or a barbecue dinner. The refreshing hues, mini malist design, eclectic artworks and bright, airy spaces of the bungalow, located only a few  miles drive from Mumbai and Pune, are a haven to unwind, rejuvenate and enjoy the simple  pleasures of life. Sluice House, Lonavala is furnished with contemporary comforts like  air-conditioning, Wifi, television and a tea & coffee maker.",
@@ -82,21 +82,13 @@ export const guestprojects = [
         ],
 
         galleryImages: [
-            // { image: "/images/projects/IHCL/ihcl-1.jpg", alt: "ihcl-1" },
-            // { image: "/images/projects/IHCL/ihcl-2.jpg", alt: "ihcl-2" },
-            // { image: "/images/projects/IHCL/ihcl-4.jpg", alt: "ihcl-4" },
-            // { image: "/images/projects/IHCL/ihcl-5.jpg", alt: "ihcl-5" },
             { image: "/images/projects/IHCL/ihcl-6.jpg", alt: "ihcl-6" },
             { image: "/images/projects/IHCL/ihcl-7.jpg", alt: "ihcl-7" },
             { image: "/images/projects/IHCL/ihcl-8.jpg", alt: "ihcl-8" },
-            { image: "/images/projects/IHCL/ihcl-9.jpg", alt: "ihcl-9" },
             { image: "/images/projects/IHCL/ihcl-10.jpg", alt: "ihcl-10" },
             { image: "/images/projects/IHCL/ihcl-11.jpg", alt: "ihcl-11" },
             { image: "/images/projects/IHCL/ihcl-12.jpg", alt: "ihcl-12" },
-            // { image: "/images/projects/IHCL/ihcl-13.jpg", alt: "ihcl-13" },
             { image: "/images/projects/IHCL/ihcl-14.jpg", alt: "ihcl-14" },
-            // { image: "/images/projects/IHCL/ihcl-15.jpg", alt: "ihcl-15" },
-            { image: "/images/projects/IHCL/ihcl-16.jpg", alt: "ihcl-16" },
             { image: "/images/projects/IHCL/ihcl-17.jpg", alt: "ihcl-17" },
         ],
     },
