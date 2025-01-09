@@ -53,24 +53,20 @@ export const projects = [
     ],
 
     galleryImages: [
-      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-4.jpg", alt: "tataBanglore-4" },
+
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-5.jpg", alt: "tataBanglore-5" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-6.jpg", alt: "tataBanglore-6" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-8.jpg", alt: "tataBanglore-8" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-9.jpg", alt: "tataBanglore-9" },
-      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-10.jpg", alt: "tataBanglore-10" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-11.jpg", alt: "tataBanglore-11" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-12.jpg", alt: "tataBanglore-12" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-13.jpg", alt: "tataBanglore-13" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-17.jpg", alt: "tataBanglore-17" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-18.jpg", alt: "tataBanglore-18" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-19.jpg", alt: "tataBanglore-19" },
-      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-21.jpg", alt: "tataBanglore-21" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-22.jpg", alt: "tataBanglore-22" },
-      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-24.jpg", alt: "tataBanglore-24" },
-      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-32.jpg", alt: "tataBanglore-32" },
       { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-34.jpg", alt: "tataBanglore-34" },
-      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-35.jpg", alt: "tataBanglore-35" },
+
     ],
   },
   {
@@ -353,7 +349,7 @@ export const projects = [
       { image: "/images/projects/TOSHIBAKARANJADE/toshiba-2.jpg", alt: "toshiba-2" },
       { image: "/images/projects/TOSHIBAKARANJADE/toshiba-3.jpg", alt: "toshiba-3" },
       { image: "/images/projects/TOSHIBAKARANJADE/toshiba-5.jpg", alt: "toshiba-5" },
-     
+
     ],
   },
   {
