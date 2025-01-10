@@ -3,7 +3,7 @@ import "./globals.css";
 // import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { NavbarDemo } from "@/components/Navbar";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const kanit = Kanit({
   weight: '500',
@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
         {/* <Header/> */}
         <NavbarDemo />
         {children}
+        <SpeedInsights/>
         <Footer />
-        <SpeedInsights />
       </body>
     </html>
   );
