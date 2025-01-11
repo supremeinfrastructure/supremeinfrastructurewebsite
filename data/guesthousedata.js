@@ -82,9 +82,6 @@ export const guestprojects = [
         ],
 
         galleryImages: [
-            { image: "/images/projects/IHCL/ihcl-6.jpg", alt: "ihcl-6" },
-            { image: "/images/projects/IHCL/ihcl-7.jpg", alt: "ihcl-7" },
-            { image: "/images/projects/IHCL/ihcl-8.jpg", alt: "ihcl-8" },
             { image: "/images/projects/IHCL/ihcl-10.jpg", alt: "ihcl-10" },
             { image: "/images/projects/IHCL/ihcl-11.jpg", alt: "ihcl-11" },
             { image: "/images/projects/IHCL/ihcl-12.jpg", alt: "ihcl-12" },
