@@ -77,17 +77,17 @@ const portfolioItems = [
   {
     name: "Horticulture Design",
     images: [
-      '/services/horticulture-design/horticulture-1.JPG',
-      '/services/horticulture-design/horticulture-2.JPG',
+      // '/services/horticulture-design/horticulture-1.JPG',
+      // '/services/horticulture-design/horticulture-2.JPG',
       '/services/horticulture-design/horticulture-3.JPG',
       '/services/horticulture-design/horticulture-4.JPG',
       '/services/horticulture-design/horticulture-5.jpg',
       '/services/horticulture-design/horticulture-6.jpg',
       '/services/horticulture-design/horticulture-7.jpg',
       '/services/horticulture-design/horticulture-8.jpg',
-      '/services/horticulture-design/horticulture-9.jpg',
-      '/services/horticulture-design/horticulture-10.jpg',
-      '/services/horticulture-design/horticulture-11.jpg',
+      // '/services/horticulture-design/horticulture-9.jpg',
+      // '/services/horticulture-design/horticulture-10.jpg',
+      // '/services/horticulture-design/horticulture-11.jpg',
       '/services/horticulture-design/horticulture-12.jpg',
       '/services/horticulture-design/horticulture-13.jpg',
     ]
@@ -105,11 +105,10 @@ const portfolioItems = [
   },
   {
     name: "Building Design",
-    images: ['/services/building-design/building-1.JPG',
+    images: [
       '/services/building-design/building-2.JPG',
       '/services/building-design/building-3.JPG',
       '/services/building-design/building-4.JPG',
-      '/services/building-design/building-5.JPG',
     ]
   },
 ];
