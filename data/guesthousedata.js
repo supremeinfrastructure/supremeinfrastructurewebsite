@@ -113,15 +113,9 @@ export const guestprojects = [
         ],
 
         galleryImages: [
-            // { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-1.jpeg", alt: "tata-1" },
-            // { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-2.jpeg", alt: "tata-2" },
-            // { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-3.png", alt: "tata-3" },
-            // { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-4.png", alt: "tata-4" },
-            // { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-5.png", alt: "tata-5" },
             { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-6.jpg", alt: "tata-6" },
             { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-7.jpg", alt: "tata-7" },
             { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-8.jpg", alt: "tata-8" },
-            { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-9.jpg", alt: "tata-9" },
             { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-10.jpg", alt: "tata-10" },
             { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-11.jpg", alt: "tata-11" },
             { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-12.jpg", alt: "tata-12" },
