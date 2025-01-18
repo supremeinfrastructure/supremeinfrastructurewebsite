@@ -7,7 +7,6 @@ export const projects = [
     fullDescription:
       "The project Atlantas Involved merging 8 offices into 1 single large space. The challenging, part was to keep the singularity of all office like ‘FIRE, ELECTRICAL & Washroom pipeline, so that in near future the offices can be leased out without making much modifications to the present setup. The Design was based on the young and vibrant People who were going to woirk. It Had a Pantry with all modern facility. The reception lobby depicted the line of work Atlanta’s was doing. The design was done with the latest tools like providing 3D walkways, which provided the client what the office will look like before it could be done.The space looks more beautiful with the Mood lights, Colour combinations of tiles & Furniture, Max Height Glass partition and used elements on wall decor from their Core filed.",
     tagLine: "Atlanats Crew Management",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Armchair", description: "100+ Seating at single floor" },
       { icon: "Coffee", description: "65+ seating for cafeteria" },
@@ -37,7 +36,6 @@ export const projects = [
     fullDescription:
       "This high-impact design project spans approximately 14,000 square feet, transforming a warehouse and dumpyard into the Tata Power Solar Procurement Office—a modern, efficient, and visually stunning workspace. Completed in an impressive 99-day timeline, the project incorporates top-tier materials and finishes, creating an environment that reflects the brand's innovative energy solutions. The transformation of the space from industrial use to a sleek office environment demonstrates an exceptional commitment to sustainability and design excellence.This project stands as a model of effective design and functionality, where each element—whether structural, aesthetic, or environmental—works in harmony. The Tata Power Procurement Office combines cutting-edge sustainability practices with a refined visual experience, setting a new standard for commercial design in the renewable energy sector.",
     tagLine: "Atlanats Crew Management",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "LogIn", description: "ENTERENCE WITH WOODEN PATTERNS" },
       { icon: "LampCeilingIcon", description: "POWDER COATED CEILING" },
@@ -74,7 +72,6 @@ export const projects = [
     fullDescription:
       "The Civil and Estate Office renovation for Tata Power Trombay transformed a 6,000 sq. ft. workspace into a modern, efficient environment in just 60 days. Key design elements included a welcoming waiting area, customized wallpaper reflecting the company’s brand identity, and energy-efficient profile lighting to create a bright, inviting atmosphere. Decorative decal stickers added a personalized touch, while soundproof partitions were strategically placed to ensure privacy and minimize noise distractions. Modular furniture was chosen for its flexibility and ergonomic benefits, allowing for adaptable workspaces. The project combined aesthetics with functionality to provide Tata Power employees and visitors with a comfortable, collaborative, and highly productive environment, aligning with the company's vision for a contemporary office space.",
     tagLine: "Atlanats Crew Management",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Timer", description: "Waiting Area" },
       { icon: "Wallpaper", description: "Customize Wallpaper" },
@@ -103,7 +100,6 @@ export const projects = [
     fullDescription:
       "The Tata Power Solar office and breakout area in Bangalore underwent a complete redesign, enhancing both functionality and aesthetics within its expansive 12,500 sq. ft. space. Key design elements include vibrant customized wallpapers that reflect the company’s innovative ethos, as well as colorful hanging lights that add energy and character to the environment. A highlighted wall, featuring painted designs, serves as a focal point, offering a dynamic visual contrast. The addition of globe lights and outdoor furniture extends the office’s atmosphere to the surrounding outdoor areas, creating an inviting, relaxed space for employees to unwind. Completed in just 60 days, this project blends modern design with thoughtful work-life balance features, fostering an inspiring and collaborative environment for the Tata Power Solar team.",
     tagLine: "TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA , BANGOLARE",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Wallpaper", description: "Customize wallpaper" },
       { icon: "LampCeilingIcon", description: "Colorfull hanging lights" },
@@ -134,7 +130,6 @@ export const projects = [
     fullDescription:
       "This state-of-the-art sports complex at Tata Sports Trombay is designed to be an oasis of recreation and wellness, featuring an Olympic-sized swimming pool complete with a pavilion. The pool area is surrounded by elegant bollard lighting and boasts beautiful mosaic tiles, while lush landscaping enhances the natural ambiance. An open shower area adds convenience, and the WPC deck and column cladding offer a modern aesthetic touch. The complex includes a multipurpose hall with a sleek metal false ceiling, perfect for a variety of events. The flooring around the pool area is crafted from EPDM rubber for added safety and comfort. Rounded, custom hanging lights provide a unique and inviting glow, making this 15,000-square-foot space a standout destination for fitness and relaxation. Expected project duration: 270 days.",
     tagLine: "TATA SPORT COMPLEX OLYMPIC SIZE SWIMMING POOL & PAVILION WITH WASHROOM FACILITIES",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Waves", description: "Olympic size swimming pool" },
       { icon: "ShowerHead", description: "Open shower area" },
@@ -170,7 +165,6 @@ export const projects = [
     fullDescription:
       "The new Admin and HR office for Tata Power Solar in Bangalore combines functionality with modern design elements to create an inspiring workspace. The 15,000-square-foot office features a sleek powder-coated open cell ceiling in the passage areas, giving the space a contemporary, open feel. Soft fabric lighting adds warmth, complementing the functional yet stylish open-close bookshelf design. Custom 3D lettering enhances branding throughout the space, while acoustic floats are strategically placed to ensure sound control and create a quiet, productive environment. This thoughtful layout, expected to be completed in 105 days, aims to foster a collaborative atmosphere in a visually appealing setting tailored to the needs of administrative and HR professionals.",
     tagLine: "DEVELOPMENT OF FINANCES OFFICE SPACE AT TPSSL, BANGALARE",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Home", description: "Powder coated open cell ceiling for passage area" },
       { icon: "LampCeiling", description: "Fabric lights" },
@@ -202,7 +196,6 @@ export const projects = [
     fullDescription:
       "Spanning 1,100 square feet, the Supreme Infrastructure Head Office renovation at Mayuresh Planet, Belapur, is a model of space efficiency and contemporary design, completed in just 44 days. The office’s vibrant, functional atmosphere is achieved through a combination of striking decorative MS partitions and colorful back-painted magnetic glass, adding both utility and visual interest. Unique lighting elements, including zigzag hanging lights, lend character and warmth to the space, enhancing the modern aesthetic. Thoughtful space utilization ensures that every area is both purposeful and appealing, providing a stylish and efficient workspace that reflects the dynamic ethos of Supreme Infrastructure.",
     tagLine: "DEVELOPMENT OF FINANCES OFFICE SPACE AT TPSSL, BANGOLARE",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "BetweenVerticalStart", description: "Decorative MS partition" },
       { icon: "FlipHorizontal", description: "colorfull backpanted magnetic glass" },
@@ -236,7 +229,6 @@ export const projects = [
     fullDescription:
       "The Finance Headquarters of Tata Power Peninsula spans 8,000 square feet and is set for transformation over 45 days into a sophisticated, functional workspace that reflects Tata Power’s values. Key design elements include tastefully highlighted walls with elegant wallpaper, roller blinds on the windows for adjustable natural light, and a luxurious CFO cabin designed with attention to detail. Decorative fluted panels add a touch of modern elegance, while customized furniture enhances the comfort and professionalism of the space. This project combines high-quality finishes with thoughtful layouts, creating an inviting environment that fosters productivity and aligns with Tata Power’s prestigious brand.",
     tagLine: "Project information",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Wallpaper", description: "Highlisting the walls with wallpaper" },
       { icon: "FlipHorizontal", description: "windows with roller blinds" },
@@ -279,7 +271,6 @@ export const projects = [
     fullDescription:
       "At the Karanjade Boundary Wall project for the 220KV GIS Station by Toshiba, a comprehensive boundary development plan was implemented. The project encompassed a detailed 1.4 km boundary wall construction with strategic garden fencing that seamlessly integrated the surrounding landscaping area. Diverse plant selections were carefully curated to enhance the aesthetic appeal, featuring a vibrant palette of colorful botanical species. The thoughtfully designed landscape not only provides robust perimeter security but also creates an visually appealing green environment around the critical infrastructure. Precision in foundation work and strategic plant placement ensures both functional and aesthetic excellence, transforming the boundary wall from a mere structural element into an integrated, attractive landscape solution that complements the technical infrastructure of the GIS station.",
     tagLine: "Project information",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Wallpaper", description: "1.4 km Boundry Wall" },
       { icon: "FlipHorizontal", description: "Garden fencing" },
@@ -306,7 +297,6 @@ export const projects = [
     fullDescription:
       "The Allana Factory and Garden Landscaping project in Khopoli is a comprehensive construction and landscaping initiative, covering 10,000 square feet and set for completion in 60 days. The G+4 story building boasts a striking glazed and ACP façade, providing a sleek, modern exterior that stands out. Surrounding the building, acres of carefully planned garden landscaping incorporate colorful plants and a variety of green shades, creating a vibrant, layered effect that complements the building’s architecture. Designed with aesthetics in mind, the landscaping brings visual harmony and a natural charm to the industrial setting, offering a balanced and inviting environment for employees and visitors alike.",
     tagLine: "Project information",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "BrickWall", description: "G + 4 story building with glaze and acp facade" },
       { icon: "Fence", description: "Acres of garden landscaping at building surrounding area " },
@@ -332,7 +322,6 @@ export const projects = [
     fullDescription:
       "The TATA Power Peninsula project aims to revitalize an 8000 sqft area over a 45-day period, creating an elegant and functional workspace that embodies the essence of TATA Power. This design initiative focuses on sophistication and comfort, ensuring a pleasant environment for employees and visitors alike.The TATA Power Peninsula project is set to create a refined and inviting environment that reflects the company’s values and culture. With a focus on high-quality finishes and thoughtful design, this project will serve as a benchmark for contemporary office spaces, enhancing both employee satisfaction and brand representation.",
     tagLine: "Project information",
-    reraNumber: "P52000011751",
     highlights: [
       { icon: "Wallpaper", description: "20+ Seating at single floor." },
       { icon: "FlipHorizontal", description: "8 seater open Conference room" },
