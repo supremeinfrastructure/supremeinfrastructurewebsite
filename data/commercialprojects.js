@@ -204,6 +204,7 @@ export const projects = [
       { icon: "CheckSquare", description: "utilization of space" },
     ],
     configuration: [
+      
       { flat: "1100 sqft", carpet: "44 days" },
     ],
 
