@@ -110,7 +110,6 @@ export const projects = [
     configuration: [
       { flat: "12500 sqft", carpet: "60 days" },
     ],
-
     galleryImages: [
       { image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-1.jpg", alt: "tataBanglore-1" },
       { image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-3.jpg", alt: "tataBanglore-3" },
@@ -119,7 +118,6 @@ export const projects = [
       { image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-13.jpg", alt: "tataBanglore-13" },
       { image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-20.jpg", alt: "tataBanglore-20" },
       { image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-22.jpg", alt: "tataBanglore-22" },
-
     ],
   },
   {
