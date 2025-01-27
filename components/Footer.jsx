@@ -28,9 +28,9 @@ const Footer = () => {
                         <h2 className="text-xl sm:text-xl  uppercase border-b-2 border-gray-500 pb-2 mb-4 text-start">Contact Us</h2>
                         <div className="space-y-3">
                             {[
-                                { icon: FaPhone, text: 'CALL US : (+1) 212-946-2707' },
-                                { icon: FaWhatsapp, text: 'WHATSAPP : +91 - 86570 04324' },
-                                { icon: FaEnvelope, text: 'EMAIL : info@supremeinfrastructure' },
+                                { icon: FaPhone, text: 'CALL US : +91 8591269664' },
+                                { icon: FaWhatsapp, text: 'WHATSAPP :  +91 8591269664' },
+                                { icon: FaEnvelope, text: 'EMAIL : contact@supremeinfrastructure.in' },
                                 { icon: FaGlobe, text: 'WEBSITE : www.supremeinfrastructure.in' }
                             ].map((item, index) => (
                                 <div key={index} className="flex items-center space-x-3 sm:space-x-7 group">
