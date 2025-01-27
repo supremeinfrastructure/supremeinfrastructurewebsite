@@ -197,7 +197,7 @@ export default function Contact() {
                 <div>
                   <p className='font-semibold'>Phone:</p>
                   <p className='text-sm md:text-base'>
-                    +91 86570 04324 / (+1) 212-946-2707
+                    +91 8591269664 / 022-40110378
                   </p>
                 </div>
               </div>
