@@ -206,7 +206,7 @@ export default function Contact() {
                 <div>
                   <p className='font-semibold'>Email:</p>
                   <p className='text-sm md:text-base'>
-                    info@supremeinfrastructure
+                    contact@supremeinfrastructure.in
                   </p>
                 </div>
               </div>
@@ -253,9 +253,8 @@ export default function Contact() {
                     value={formData.fullName}
                     onChange={handleChange}
                     required
-                    className={`w-full p-3 border-2 ${
-                      errors.fullName ? "border-red-500" : "border-gray-300"
-                    } focus:border-amber-700 outline-none rounded transition duration-300`}
+                    className={`w-full p-3 border-2 ${errors.fullName ? "border-red-500" : "border-gray-300"
+                      } focus:border-amber-700 outline-none rounded transition duration-300`}
                   />
                   {errors.fullName && (
                     <p className='text-red-500 text-sm mt-1'>
@@ -271,9 +270,8 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className={`w-full p-3 border-2 ${
-                      errors.email ? "border-red-500" : "border-gray-300"
-                    } focus:border-amber-700 outline-none rounded transition duration-300`}
+                    className={`w-full p-3 border-2 ${errors.email ? "border-red-500" : "border-gray-300"
+                      } focus:border-amber-700 outline-none rounded transition duration-300`}
                   />
                   {errors.email && (
                     <p className='text-red-500 text-sm mt-1'>{errors.email}</p>
@@ -288,9 +286,8 @@ export default function Contact() {
                   value={formData.contactNumber}
                   onChange={handleChange}
                   required
-                  className={`w-full p-3 border-2 ${
-                    errors.contactNumber ? "border-red-500" : "border-gray-300"
-                  } focus:border-amber-700 outline-none rounded transition duration-300`}
+                  className={`w-full p-3 border-2 ${errors.contactNumber ? "border-red-500" : "border-gray-300"
+                    } focus:border-amber-700 outline-none rounded transition duration-300`}
                 />
                 {errors.contactNumber && (
                   <p className='text-red-500 text-sm mt-1'>
@@ -305,9 +302,8 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className={`w-full p-3 border-2 ${
-                    errors.message ? "border-red-500" : "border-gray-300"
-                  } focus:border-amber-700 outline-none rounded transition duration-300`}
+                  className={`w-full p-3 border-2 ${errors.message ? "border-red-500" : "border-gray-300"
+                    } focus:border-amber-700 outline-none rounded transition duration-300`}
                   rows={4}
                 />
                 {errors.message && (
