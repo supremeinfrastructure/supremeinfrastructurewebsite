@@ -17,14 +17,14 @@ export const metadata = {
   icons: {
     icon: [
       {
-        url: '/images/home/logo.png',
+        url: '/images/home/urlLogo.png',
         href: '/images/home/logo.png',
       },
     ],
     // You can also add Apple touch icon if needed
     apple: [
       {
-        url: '/images/home/logo.png',
+        url: '/images/home/urlLogo.png',
         sizes: '180x180',
         type: 'image/png',
       },
