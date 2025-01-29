@@ -18,7 +18,7 @@ export const metadata = {
     icon: [
       {
         url: '/images/home/urlLogo.png',
-        href: '/images/home/logo.png',
+        href: '/images/home/urlLogo.png',
       },
     ],
     // You can also add Apple touch icon if needed
