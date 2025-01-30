@@ -14,7 +14,11 @@ const kanit = Kanit({
 export const metadata = {
   title: "Supreme Infrastructure Company",
   description: "supreme infrastructure company",
-  icons: "/favicon.ico",
+  icons: [
+    { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    { rel: "icon", url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+    { rel: "icon", url: "/favicon.ico", type: "image/x-icon" }, // Default ICO format
+  ],
 };
 
 export default function RootLayout({ children }) {
