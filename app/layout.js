@@ -14,22 +14,7 @@ const kanit = Kanit({
 export const metadata = {
   title: "Supreme Infrastructure Company",
   description: "supreme infrastructure company",
-  icons: {
-    icon: [
-      {
-        url: '/images/home/urlLogo.png',
-        href: '/images/home/urlLogo.png',
-      },
-    ],
-    // You can also add Apple touch icon if needed
-    apple: [
-      {
-        url: '/images/home/urlLogo.png',
-        sizes: '180x180',
-        type: 'image/png',
-      },
-    ],
-  },
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({ children }) {
