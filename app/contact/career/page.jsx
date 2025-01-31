@@ -328,16 +328,14 @@ const CareerPage = () => {
                     >
                       <option value=''>Select a position</option>
                       <option value='site-engineer'>Site Engineer</option>
-                      <option value='purchase-engineer'>
-                        Purchase Engineer
-                      </option>
-                      <option value='interior-designer'>
-                        Interior Designer
-                      </option>
+                      <option value='purchase-engineer'>Purchase Engineer</option>
+                      <option value='interior-designer'>Interior Designer</option>
                       <option value='admin'>Admin</option>
                       <option value='accountant'>Accountant</option>
                       <option value='billing-engineer'>Billing Engineer</option>
                       <option value='qa-qc-engineer'>QA/QC Engineer</option>
+                      <option value='qa-qc-engineer'>Civil Site supervisor</option>
+                      <option value='qa-qc-engineer'>interior Site Supervisor</option>
                     </select>
                   </div>
 
