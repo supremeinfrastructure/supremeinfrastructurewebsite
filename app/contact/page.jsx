@@ -184,9 +184,9 @@ export default function Contact() {
                   <p className='text-sm md:text-base'>
                     SUPREME INFRASTRUCTURE COMPANY
                     <br />
-                    Office No 603, Sector 15, opposite Belapur Court Station,
+                    Mayuresh PLanet ,Office No 603, Sector 15,
                     <br />
-                    CBD Belapur,
+                    opposite Belapur Court Station, CBD Belapur,
                     <br />
                     Navi Mumbai, Maharashtra 400614
                   </p>
