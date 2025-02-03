@@ -212,7 +212,7 @@ export default function Contact() {
               </div>
             </div>
             <div className='mt-8 text-center'>
-              <h3 className='text-lg sm:text-xl font-semibold mb-4 text-amber-700'>
+              <h3 className='text-sm sm:text-lg font-semibold mb-4 text-amber-700'>
                 Follow Us
               </h3>
               <div className='flex justify-center space-x-14'>
