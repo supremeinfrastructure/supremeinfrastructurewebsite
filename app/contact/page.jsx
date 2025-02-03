@@ -186,7 +186,7 @@ export default function Contact() {
                     <br />
                     Office No 603, Sector 15, opposite Belapur Court Station,
                     <br />
-                    Sector-15, Belapur,
+                    CBD Belapur,
                     <br />
                     Navi Mumbai, Maharashtra 400614
                   </p>
