@@ -188,7 +188,7 @@ export default function Contact() {
                     <br />
                     opposite Belapur Court Station, CBD Belapur,
                     <br />
-                    Navi Mumbai, Maharashtra 400614
+                    Navi Mumbai, Maharashtra 400614.
                   </p>
                 </div>
               </div>
