@@ -138,27 +138,58 @@ const CareerPage = () => {
 
   return (
     <div className='min-h-screen bg-gradient-to-b from-blue-50 to-white'>
-      <div className='h-[60vh] relative overflow-hidden'>
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className='absolute top-0 left-0 w-full h-full object-cover'
-          style={{
-            filter: "brightness(0.6)",
-            objectPosition: "center",
-          }}
-        >
-          <source src='/videos/career-2.mp4' type='video/mp4' />
-          Your browser does not support the video tag.
-        </video>
-        <div className='absolute inset-0 flex items-center justify-center'>
+      <div className='relative h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] xl:h-[80vh] w-full overflow-hidden'>
+        <div className="absolute inset-0">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            className='absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 ease-out'
+            style={{
+              filter: "brightness(0.6)",
+              objectPosition: "center",
+              willChange: 'transform',
+              transform: 'scale(1.01)', // Slight scale to prevent white edges during motion
+            }}
+          >
+            <source
+              src='/videos/career-2.mp4'
+              type='video/mp4'
+              media="all and (min-width: 768px)" // Only load high quality on desktop
+            />
+            <source
+              src='/videos/career-2-mobile.mp4'
+              type='video/mp4'
+              media="all and (max-width: 767px)" // Load lower quality on mobile
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div className='absolute inset-0 flex items-center justify-center px-4 sm:px-6 md:px-8'>
           <motion.h1
-            initial={{ opacity: 0, y: -50 }}
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            className='text-4xl md:text-5xl lg:text-6xl font-extrabold text-white text-center leading-tight px-4'
+            transition={{
+              duration: 0.7,
+              ease: [0.32, 0.72, 0, 1] // Custom easing for smoother animation
+            }}
+            className='
+        text-2xl
+        sm:text-3xl 
+        md:text-4xl 
+        lg:text-5xl 
+        xl:text-6xl 
+        font-extrabold 
+        text-white 
+        text-center 
+        leading-tight
+        max-w-[90vw]
+        sm:max-w-[80vw]
+        md:max-w-[70vw]
+        transform-gpu' // Use GPU acceleration
           >
             Join Our Team
           </motion.h1>
