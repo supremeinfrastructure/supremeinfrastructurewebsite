@@ -176,20 +176,7 @@ const CareerPage = () => {
               duration: 0.7,
               ease: [0.32, 0.72, 0, 1] // Custom easing for smoother animation
             }}
-            className='
-        text-2xl
-        sm:text-3xl 
-        md:text-4xl 
-        lg:text-5xl 
-        xl:text-6xl 
-        font-extrabold 
-        text-white 
-        text-center 
-        leading-tight
-        max-w-[90vw]
-        sm:max-w-[80vw]
-        md:max-w-[70vw]
-        transform-gpu' // Use GPU acceleration
+            className='text-2xlsm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white text-center leading-tightmax-w-[90vw]sm:max-w-[80vw]md:max-w-[70vw]transform-gpu' // Use GPU acceleration
           >
             Join Our Team
           </motion.h1>
