@@ -62,11 +62,11 @@ const buttonVariants = {
 
 const HeroSection = () => {
   const videoRef = useRef(null);
-  
+
   // Memoized static content
   const title = useMemo(() => "Supreme Infrastructure Company", []);
-  const description = useMemo(() => 
-    "We are a team of Talented, Innovative Designers, Engineers, and Horticulturists.", 
+  const description = useMemo(() =>
+    "We are a team of Talented, Innovative Designers, Engineers, and Horticulturists.",
     []
   );
 
@@ -85,7 +85,7 @@ const HeroSection = () => {
   useEffect(() => {
     playVideo();
     window.addEventListener('touchstart', playVideo);
-    
+
     return () => {
       window.removeEventListener('touchstart', playVideo);
     };
@@ -123,7 +123,7 @@ const HeroSection = () => {
           <source src="/videos/unwatermark_video-4.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </motion.video>
-        
+
         <NavbarDemo />
 
         <motion.div
@@ -132,9 +132,9 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0, rotate: 0 }}
           transition={{ duration: 0.5, type: 'spring', bounce: 0.4 }}
         >
-          <Image 
-            src="/images/home/logo.png" 
-            alt="Logo" 
+          <Image
+            src="/images/home/logo.png"
+            alt="Logo"
             width={128}
             height={128}
             className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
@@ -155,14 +155,14 @@ const HeroSection = () => {
                 <TypewriterEffect key={index} text={char} />
               ))}
             </motion.h2>
-            
+
             <motion.div
               className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-600 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-8 text-shadow"
               variants={descriptionVariants}
             >
               {description}
             </motion.div>
-            
+
             <motion.div variants={buttonVariants}>
               <Link href='/about/supremeInfrastructure'>
                 <motion.button
