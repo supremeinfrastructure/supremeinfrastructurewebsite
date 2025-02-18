@@ -60,7 +60,6 @@ export const guestprojects = [
             { image: "/images/projects/TATATAMILNADU/tataTamilnadu-35.jpg", alt: "tataTamilnadu-35" },
         ],
     },
-    /////
     {
         slug: "project-3",
         title: "IHCL–TAJ AMA LONAVALA",
