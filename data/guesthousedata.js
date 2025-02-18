@@ -156,7 +156,6 @@ export const guestprojects = [
         ],
     },
 ]
-
 export const getProjectBySlug = (slug) => {
     return guestprojects.find((project) => project.slug === slug);
 };
