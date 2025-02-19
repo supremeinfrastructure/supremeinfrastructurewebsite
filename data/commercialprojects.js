@@ -363,7 +363,8 @@ export const projects = [
     ],
     // Added video section
     galleryImages: [
-      { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-1" },
+      { image: "/images/projects/CARNAC/carnac-1.jpeg", alt: "carnac-1" },
+      { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
     ],
   }
 ];
