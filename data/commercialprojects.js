@@ -364,13 +364,13 @@ export const projects = [
     // Added video section
     videos: [
       {
-        url: "/images/projects/PENINSULA/peninsulaVideo-1.mp4",
-        thumbnail: "/images/projects/PENINSULA/peninsula-2.jpeg",
+        url: "/images/projects/CARNAC/peninsulaVideo-1.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
         title: "Office Overview"
       },
       {
-        url: "/images/projects/PENINSULA/peninsulaVideo-9.mp4",
-        thumbnail: "/images/projects/PENINSULA/peninsula-10.jpeg",
+        url: "/images/projects/CARNAC/peninsulaVideo-9.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-10.jpeg",
         title: "Cabin Overview"
       }
     ],
