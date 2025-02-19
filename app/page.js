@@ -8,7 +8,7 @@ import SupremeQuote from "@/components/SupremeQuote";
 export default function Home() {
   return (
     <>
-      {/* <HeroSection /> */}
+      <HeroSection />
       <SupremeQuote />
       <Portfolio />
       <GetInTouch />
