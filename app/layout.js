@@ -10,7 +10,6 @@ const kanit = Kanit({
   weight: ['500'],
   display: "swap"
 });
-
 export const metadata = {
   title: "Supreme Infrastructure Company",
   description: "supreme infrastructure company",
