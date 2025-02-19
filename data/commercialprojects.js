@@ -364,8 +364,20 @@ export const projects = [
     // Added video section
     galleryImages: [
       { image: "/images/projects/CARNAC/carnac-1.jpeg", alt: "carnac-1" },
+      { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
       { image: "/images/projects/CARNAC/carnac-3.jpeg", alt: "carnac-3" },
+      { image: "/images/projects/CARNAC/carnac-4.jpeg", alt: "carnac-4" },
+      { image: "/images/projects/CARNAC/carnac-5.jpeg", alt: "carnac-5" },
+      { image: "/images/projects/CARNAC/carnac-6.jpeg", alt: "carnac-6" },
+      { image: "/images/projects/CARNAC/carnac-7.jpeg", alt: "carnac-7" },
       { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
+      { image: "/images/projects/CARNAC/carnac-9.jpeg", alt: "carnac-9" },
+      { image: "/images/projects/CARNAC/carnac-10.jpeg", alt: "carnac-10" },
+      { image: "/images/projects/CARNAC/carnac-11.jpeg", alt: "carnac-11" },
+      { image: "/images/projects/CARNAC/carnac-12.jpeg", alt: "carnac-12" },
+      { image: "/images/projects/CARNAC/carnac-13.jpeg", alt: "carnac-13" },
+      { image: "/images/projects/CARNAC/carnac-14.jpeg", alt: "carnac-14" },
+      { image: "/images/projects/CARNAC/carnac-15.jpeg", alt: "carnac-15" },
     ],
   }
 ];
