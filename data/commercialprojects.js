@@ -362,6 +362,28 @@ export const projects = [
       { flat: "1500 sqft", carpet: "135 Days" },
     ],
     // Added video section
+    videos: [
+      {
+        url: "/images/projects/CARNAC/carnacVideo-1.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
+        title: "Office Overview"
+      },
+      {
+        url: "/images/projects/CARNAC/carnacVideo-2.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-10.jpeg",
+        title: "Cabin Overview"
+      },
+      {
+        url: "/images/projects/CARNAC/carnacVideo-3.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
+        title: "Office Overview"
+      },
+      {
+        url: "/images/projects/CARNAC/carnacVideo-4.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
+        title: "Office Overview"
+      },
+    ],
     galleryImages: [
       { image: "/images/projects/CARNAC/carnac-1.jpeg", alt: "carnac-1" },
       { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
