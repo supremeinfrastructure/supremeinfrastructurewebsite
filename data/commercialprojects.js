@@ -365,22 +365,22 @@ export const projects = [
     videos: [
       {
         url: "/images/projects/CARNAC/carnacVideo-1.mp4",
-        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
+        thumbnail: "/images/projects/CARNAC/carnac-1.jpeg",
         title: "Office Overview"
       },
       {
         url: "/images/projects/CARNAC/carnacVideo-2.mp4",
-        thumbnail: "/images/projects/CARNAC/peninsula-10.jpeg",
+        thumbnail: "/images/projects/CARNAC/carnac-2.jpeg",
         title: "Cabin Overview"
       },
       {
         url: "/images/projects/CARNAC/carnacVideo-3.mp4",
-        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
+        thumbnail: "/images/projects/CARNAC/carnac-3.jpeg",
         title: "Office Overview"
       },
       {
         url: "/images/projects/CARNAC/carnacVideo-4.mp4",
-        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
+        thumbnail: "/images/projects/CARNAC/carnac-4.jpeg",
         title: "Office Overview"
       },
     ],
