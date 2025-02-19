@@ -344,10 +344,10 @@ export const projects = [
     ],
   },
   {
-    slug: "project-11",
-    title: "COACT IMPRINTS",
-    image: "/images/projects/COACT/coact-3.jpg",
-    description: "coact imprints",
+    slug: "project-12",
+    title: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
+    image: "/images/projects/Carnac/carnac-8.jpeg",
+    description: "Carnac Burner Masjid",
     fullDescription:
       "The TATA Power Peninsula project aims to revitalize an 8000 sqft area over a 45-day period, creating an elegant and functional workspace that embodies the essence of TATA Power. This design initiative focuses on sophistication and comfort, ensuring a pleasant environment for employees and visitors alike.The TATA Power Peninsula project is set to create a refined and inviting environment that reflects the company’s values and culture. With a focus on high-quality finishes and thoughtful design, this project will serve as a benchmark for contemporary office spaces, enhancing both employee satisfaction and brand representation.",
     tagLine: "Project information",
@@ -363,14 +363,7 @@ export const projects = [
     ],
     // Added video section
     galleryImages: [
-      { image: "/images/projects/COACT/coact-1.jpg", alt: "coact-1" },
-      { image: "/images/projects/COACT/coact-3.jpg", alt: "coact-3" },
-      { image: "/images/projects/COACT/coact-5.jpg", alt: "coact-5" },
-      { image: "/images/projects/COACT/coact-10.jpg", alt: "coact-10" },
-      { image: "/images/projects/COACT/coact-11.jpg", alt: "coact-11" },
-      { image: "/images/projects/COACT/coact-13.jpg", alt: "coact-13" },
-      { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" }
-
+      { image: "/images/projects/Carnac/carnac-8.jpeg", alt: "carnac-1" },
     ],
   }
 ];
