@@ -343,56 +343,56 @@ export const projects = [
 
     ],
   },
-  // {
-  //   slug: "project-12",
-  //   title: "CARNAC",
-  //   image: "/images/projects/CARNAC/carnac-8.jpeg",
-  //   description: "Tata renewable energy office carnac burner masjid",
-  //   fullDescription:
-  //     "The Finance Headquarters of Tata Power Peninsula spans 8,000 square feet and is set for transformation over 45 days into a sophisticated, functional workspace that reflects Tata Power’s values. Key design elements include tastefully highlighted walls with elegant wallpaper, roller blinds on the windows for adjustable natural light, and a luxurious CFO cabin designed with attention to detail. Decorative fluted panels add a touch of modern elegance, while customized furniture enhances the comfort and professionalism of the space. This project combines high-quality finishes with thoughtful layouts, creating an inviting environment that fosters productivity and aligns with Tata Power’s prestigious brand.",
-  //   tagLine: "Project information",
-  //   highlights: [
-  //     { icon: "Wallpaper", description: "Highlisting the walls with wallpaper" },
-  //     { icon: "FlipHorizontal", description: "windows with roller blinds" },
-  //     { icon: "Component", description: "designed luxurious cfo cabin" },
-  //     { icon: "Fence", description: "Decorative fluted panels customized with brought" },
-  //     { icon: "Armchair", description: "furniture" },
-  //   ],
-  //   configuration: [
-  //     { flat: "8000 sqft", carpet: "45 days" },
-  //   ],
-  //   // Added video section
-  //   videos: [
-  //     {
-  //       url: "/images/projects/CARNAC/carnacVideo-1.mp4",
-  //       thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
-  //       title: "Office Overview"
-  //     },
-  //     {
-  //       url: "/images/projects/CARNAC/carnacVideo-2.mp4",
-  //       thumbnail: "/images/projects/CARNAC/peninsula-10.jpeg",
-  //       title: "Cabin Overview"
-  //     }
-  //   ],
-  //   galleryImages: [
-  //     { image: "/images/projects/CARNAC/carnac-1.jpeg", alt: "carnac-1" },
-  //     { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
-  //     { image: "/images/projects/CARNAC/carnac-3.jpeg", alt: "carnac-3" },
-  //     { image: "/images/projects/CARNAC/carnac-4.jpeg", alt: "carnac-4" },
-  //     { image: "/images/projects/CARNAC/carnac-5.jpeg", alt: "carnac-5" },
-  //     { image: "/images/projects/CARNAC/carnac-6.jpeg", alt: "carnac-6" },
-  //     { image: "/images/projects/CARNAC/carnac-7.jpeg", alt: "carnac-7" },
-  //     { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
-  //     { image: "/images/projects/CARNAC/carnac-9.jpeg", alt: "carnac-9" },
-  //     { image: "/images/projects/CARNAC/carnac-10.jpeg", alt: "carnac-10" },
-  //     { image: "/images/projects/CARNAC/carnac-11.jpeg", alt: "carnac-11" },
-  //     { image: "/images/projects/CARNAC/carnac-12.jpeg", alt: "carnac-12" },
-  //     { image: "/images/projects/CARNAC/carnac-13.jpeg", alt: "carnac-13" },
-  //     { image: "/images/projects/CARNAC/carnac-14.jpeg", alt: "carnac-14" },
-  //     { image: "/images/projects/CARNAC/carnac-15.jpeg", alt: "carnac-15" },
+  {
+    slug: "project-12",
+    title: "Tata renewable energy office carnac burner masjid",
+    image: "/images/projects/CARNAC/carnac-8.jpeg",
+    description: "Mumbai",
+    fullDescription:
+      "The Tata Renewable Energy Office at Carnac Bunder Masjid is designed for functionality, aesthetics, and sustainability. Featuring an artwork wall with a decorative decal sticker, it enhances visual appeal while reflecting the brand’s vision. A display area with an artifact section showcases achievements, while a groove-finished ceiling adds depth. The TV unit with a display section serves meetings and presentations. A ledge sitting area with table support creates an informal yet efficient workspace. This modern office seamlessly blends innovation and practicality, fostering productivity and engagement in a sophisticated, inspiring environment.",
+    tagLine: "Project information",
+    highlights: [
+      { icon: "Wallpaper", description: "Artwork wall with decorative decal sticker" },
+      { icon: "FlipHorizontal", description: "Display area with artifact section" },
+      { icon: "Component", description: "Ceiling with highlighted groove finish" },
+      { icon: "Fence", description: "Tv unit with Display section" },
+      { icon: "Armchair", description: "Ledge sitting with table support" },
+    ],
+    configuration: [
+      { flat: "8000 sqft", carpet: "45 days" },
+    ],
+    // Added video section
+    videos: [
+      {
+        url: "/images/projects/CARNAC/carnacVideo-3.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
+        title: "Office Overview"
+      },
+      {
+        url: "/images/projects/CARNAC/carnacVideo-2.mp4",
+        thumbnail: "/images/projects/CARNAC/peninsula-10.jpeg",
+        title: "Cabin Overview"
+      }
+    ],
+    galleryImages: [
+      { image: "/images/projects/CARNAC/carnac-1.jpeg", alt: "carnac-1" },
+      { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
+      { image: "/images/projects/CARNAC/carnac-3.jpeg", alt: "carnac-3" },
+      { image: "/images/projects/CARNAC/carnac-4.jpeg", alt: "carnac-4" },
+      { image: "/images/projects/CARNAC/carnac-5.jpeg", alt: "carnac-5" },
+      { image: "/images/projects/CARNAC/carnac-6.jpeg", alt: "carnac-6" },
+      { image: "/images/projects/CARNAC/carnac-7.jpeg", alt: "carnac-7" },
+      { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
+      { image: "/images/projects/CARNAC/carnac-9.jpeg", alt: "carnac-9" },
+      { image: "/images/projects/CARNAC/carnac-10.jpeg", alt: "carnac-10" },
+      { image: "/images/projects/CARNAC/carnac-11.jpeg", alt: "carnac-11" },
+      { image: "/images/projects/CARNAC/carnac-12.jpeg", alt: "carnac-12" },
+      { image: "/images/projects/CARNAC/carnac-13.jpeg", alt: "carnac-13" },
+      { image: "/images/projects/CARNAC/carnac-14.jpeg", alt: "carnac-14" },
+      { image: "/images/projects/CARNAC/carnac-15.jpeg", alt: "carnac-15" },
 
-  //   ],
-  // },
+    ],
+  },
 ];
 
 export const getProjectBySlug = (slug) => {
