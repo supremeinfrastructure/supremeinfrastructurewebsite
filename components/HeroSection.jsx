@@ -148,7 +148,7 @@ const HeroSection = () => {
         >
           <div className="bg-opacity-90 p-6 sm:p-8 md:p-10 lg:p-0 rounded-lg max-w-sm sm:max-w-md md:max-w-lg lg:max-w-4xl xl:max-w-6xl text-center">
             <motion.h2
-              className="font-montserrat text-transparent bg-clip-text text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold mb-6 text-shadow-lg"
+              className="font-montserrat text-transparent bg-clip-text text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 text-shadow-lg"
               variants={titleVariants}
             >
               {titleChars.map((char, index) => (
