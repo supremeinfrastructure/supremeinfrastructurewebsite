@@ -346,7 +346,7 @@ export const projects = [
     slug: "project-12",
     title: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
     image: "/images/projects/CARNAC/carnac-8.jpeg",
-    description: "MUMBAI",
+    description: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
     fullDescription:
       "The Tata Renewable Energy Office at Carnac Bunder Masjid is designed for functionality, aesthetics, and sustainability. Featuring an artwork wall with a decorative decal sticker, it enhances visual appeal while reflecting the brand’s vision. A display area with an artifact section showcases achievements, while a groove-finished ceiling adds depth. The TV unit with a display section serves meetings and presentations. A ledge sitting area with table support creates an informal yet efficient workspace. This modern office seamlessly blends innovation and practicality, fostering productivity and engagement in a sophisticated, inspiring environment.",
     tagLine: "Project information",
