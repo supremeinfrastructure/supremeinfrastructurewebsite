@@ -359,19 +359,19 @@ export const projects = [
       { icon: "Armchair", description: "Ledge sitting with table support" },
     ],
     configuration: [
-      { flat: "8000 sqft", carpet: "45 days" },
+      { flat: "1000 sqft", carpet: "60 days" },
     ],
     // Added video section
     videos: [
       {
-        url: "/images/projects/CARNAC/carnacVideo-3.mp4",
-        thumbnail: "/images/projects/CARNAC/peninsula-2.jpeg",
-        title: "Office Overview"
+        url: "/images/projects/CARNAC/carnacVideo-4.mp4",
+        thumbnail: "/images/projects/CARNAC/carnac-1.jpeg",
+        title: "Cabin Overview"
       },
       {
         url: "/images/projects/CARNAC/carnacVideo-2.mp4",
-        thumbnail: "/images/projects/CARNAC/peninsula-10.jpeg",
-        title: "Cabin Overview"
+        thumbnail: "/images/projects/CARNAC/carnac-15.jpeg",
+        title: "Office Overview"
       }
     ],
     galleryImages: [
