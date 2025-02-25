@@ -290,9 +290,9 @@ export const projects = [
   },
   {
     slug: "project-10",
-    title: "Construction of New Factory & Garden Landscaping at Allana,Khopoli",
+    title: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI",
     image: "/images/projects/ALLANA/allana-1.jpeg",
-    description: "TATA POWER FIRE TANK",
+    description: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI",
     fullDescription:
       "The Allana Factory and Garden Landscaping project in Khopoli is a comprehensive construction and landscaping initiative, covering 10,000 square feet and set for completion in 60 days. The G+4 story building boasts a striking glazed and ACP façade, providing a sleek, modern exterior that stands out. Surrounding the building, acres of carefully planned garden landscaping incorporate colorful plants and a variety of green shades, creating a vibrant, layered effect that complements the building’s architecture. Designed with aesthetics in mind, the landscaping brings visual harmony and a natural charm to the industrial setting, offering a balanced and inviting environment for employees and visitors alike.",
     tagLine: "Project information",
