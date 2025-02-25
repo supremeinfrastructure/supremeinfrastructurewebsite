@@ -159,7 +159,7 @@ export const projects = [
     slug: "project-6",
     title: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE",
     image: "/images/projects/TPSSLBANGOLARE/tpsslBanglore-14.png",
-    description: "admin and hr office tata power solar bangalore",
+    description: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE",
     fullDescription:
       "The new Admin and HR office for Tata Power Solar in Bangalore combines functionality with modern design elements to create an inspiring workspace. The 15,000-square-foot office features a sleek powder-coated open cell ceiling in the passage areas, giving the space a contemporary, open feel. Soft fabric lighting adds warmth, complementing the functional yet stylish open-close bookshelf design. Custom 3D lettering enhances branding throughout the space, while acoustic floats are strategically placed to ensure sound control and create a quiet, productive environment. This thoughtful layout, expected to be completed in 105 days, aims to foster a collaborative atmosphere in a visually appealing setting tailored to the needs of administrative and HR professionals.",
     tagLine: "DEVELOPMENT OF FINANCES OFFICE SPACE AT TPSSL, BANGALARE",
