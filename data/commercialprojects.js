@@ -314,81 +314,28 @@ export const projects = [
     ],
   },
   {
-    slug: "project-11",
-    title: "COACT IMPRINTS",
-    image: "/images/projects/COACT/coact-3.jpg",
-    description: "COACT IMPRINTS",
+    slug: "project-10",
+    title: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI",
+    image: "/images/projects/ALLANA/allana-1.jpeg",
+    description: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI",
     fullDescription:
-      "The TATA Power Peninsula project aims to revitalize an 8000 sqft area over a 45-day period, creating an elegant and functional workspace that embodies the essence of TATA Power. This design initiative focuses on sophistication and comfort, ensuring a pleasant environment for employees and visitors alike.The TATA Power Peninsula project is set to create a refined and inviting environment that reflects the company’s values and culture. With a focus on high-quality finishes and thoughtful design, this project will serve as a benchmark for contemporary office spaces, enhancing both employee satisfaction and brand representation.",
+      "The Allana Factory and Garden Landscaping project in Khopoli is a comprehensive construction and landscaping initiative, covering 10,000 square feet and set for completion in 60 days. The G+4 story building boasts a striking glazed and ACP façade, providing a sleek, modern exterior that stands out. Surrounding the building, acres of carefully planned garden landscaping incorporate colorful plants and a variety of green shades, creating a vibrant, layered effect that complements the building’s architecture. Designed with aesthetics in mind, the landscaping brings visual harmony and a natural charm to the industrial setting, offering a balanced and inviting environment for employees and visitors alike.",
     tagLine: "Project information",
     highlights: [
-      { icon: "Wallpaper", description: "20+ Seating at single floor." },
-      { icon: "FlipHorizontal", description: "8 seater open Conference room" },
-      { icon: "Component", description: "Main entry with huge branding" },
-      { icon: "Fence", description: "Colourful Interview room & meeting room" },
-      { icon: "Armchair", description: "Mezz flor dinning" },
+      { icon: "BrickWall", description: "G + 4 story building with glaze and acp facade" },
+      { icon: "Fence", description: "Acres of garden landscaping at building surrounding area " },
+      { icon: "Sprout", description: "Colorfull plants" },
+      { icon: "Leaf", description: "Different shade of greenrise" },
+      { icon: "LeafyGreen", description: "Aeshtatic way" },
     ],
     configuration: [
-      { flat: "1500 sqft", carpet: "135 Days" },
+      { flat: "10000 sqft", carpet: "60 days" },
     ],
     // Added video section
     galleryImages: [
-      { image: "/images/projects/COACT/coact-1.jpg", alt: "coact-1" },
-      { image: "/images/projects/COACT/coact-3.jpg", alt: "coact-3" },
-      { image: "/images/projects/COACT/coact-5.jpg", alt: "coact-5" },
-      { image: "/images/projects/COACT/coact-10.jpg", alt: "coact-10" },
-      { image: "/images/projects/COACT/coact-11.jpg", alt: "coact-11" },
-      { image: "/images/projects/COACT/coact-13.jpg", alt: "coact-13" },
-      { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" }
-    ],
-  },
-  {
-    slug: "project-12",
-    title: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
-    image: "/images/projects/CARNAC/carnac-1.jpg",
-    description: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
-    fullDescription:
-      "The Tata Renewable Energy Office at Carnac Bunder Masjid is designed for functionality, aesthetics, and sustainability. Featuring an artwork wall with a decorative decal sticker, it enhances visual appeal while reflecting the brand’s vision. A display area with an artifact section showcases achievements, while a groove-finished ceiling adds depth. The TV unit with a display section serves meetings and presentations. A ledge sitting area with table support creates an informal yet efficient workspace. This modern office seamlessly blends innovation and practicality, fostering productivity and engagement in a sophisticated, inspiring environment.",
-    tagLine: "Project information",
-    highlights: [
-      { icon: "Wallpaper", description: "Artwork wall with decorative decal sticker" },
-      { icon: "FlipHorizontal", description: "Display area with artifact section" },
-      { icon: "Component", description: "Ceiling with highlighted groove finish" },
-      { icon: "Fence", description: "Tv unit with Display section" },
-      { icon: "Armchair", description: "Ledge sitting with table support" },
-    ],
-    configuration: [
-      { flat: "1000 sqft", carpet: "60 days" },
-    ],
-    // Added video section
-    videos: [
-      {
-        url: "/images/projects/CARNAC/carnacVideo-4.mp4",
-        thumbnail: "/images/projects/CARNAC/carnac-1.jpeg",
-        title: "Cabin Overview"
-      },
-      {
-        url: "/images/projects/CARNAC/carnacVideo-2.mp4",
-        thumbnail: "/images/projects/CARNAC/carnac-15.jpeg",
-        title: "Office Overview"
-      }
-    ],
-    galleryImages: [
-      { image: "/images/projects/CARNAC/carnac-1.jpg", alt: "carnac-1" },
-      { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
-      { image: "/images/projects/CARNAC/carnac-3.jpeg", alt: "carnac-3" },
-      { image: "/images/projects/CARNAC/carnac-4.jpeg", alt: "carnac-4" },
-      { image: "/images/projects/CARNAC/carnac-5.jpeg", alt: "carnac-5" },
-      { image: "/images/projects/CARNAC/carnac-6.jpeg", alt: "carnac-6" },
-      { image: "/images/projects/CARNAC/carnac-7.jpeg", alt: "carnac-7" },
-      { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
-      { image: "/images/projects/CARNAC/carnac-9.jpeg", alt: "carnac-9" },
-      { image: "/images/projects/CARNAC/carnac-10.jpeg", alt: "carnac-10" },
-      { image: "/images/projects/CARNAC/carnac-11.jpeg", alt: "carnac-11" },
-      { image: "/images/projects/CARNAC/carnac-12.jpeg", alt: "carnac-12" },
-      { image: "/images/projects/CARNAC/carnac-13.jpeg", alt: "carnac-13" },
-      { image: "/images/projects/CARNAC/carnac-14.jpeg", alt: "carnac-14" },
-      { image: "/images/projects/CARNAC/carnac-15.jpeg", alt: "carnac-15" },
+      { image: "/images/projects/ALLANA/allana-5.jpeg", alt: "allana-5" },
+      { image: "/images/projects/ALLANA/allana-6.jpeg", alt: "allana-6" },
+      { image: "/images/projects/ALLANA/allana-7.jpeg", alt: "allana-7" },
     ],
   },
 ];
