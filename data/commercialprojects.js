@@ -360,6 +360,18 @@ export const projects = [
     configuration: [
       { flat: " 10000 sqft", carpet: "60 days" },
     ],
+    videos: [
+      {
+        url: "/images/projects/CARNACBURNER/carnacVideo-1.mp4",
+        thumbnail: "/images/projects/PENINSULA/peninsula-2.jpeg",
+        title: "Office Overview"
+      },
+      {
+        url: "/images/projects/CARNACBURNER/carnacVideo-3.mp4",
+        thumbnail: "/images/projects/PENINSULA/peninsula-10.jpeg",
+        title: "Cabin Overview"
+      }
+    ],
 
     galleryImages: [
 
