@@ -364,12 +364,12 @@ export const projects = [
     galleryImages: [
 
       { image: "/images/projects/CARNACBURNER/carnac-1.jpeg", alt: "carnacBurner-1" },
-      { image: "/images/projects/CARNACBURNER/carnac-2.jpeg", alt: "carnacBurner-2" },
-      { image: "/images/projects/CARNACBURNER/carnac-3.jpeg", alt: "carnacBurner-3" },
+      // { image: "/images/projects/CARNACBURNER/carnac-2.jpeg", alt: "carnacBurner-2" },
+      // { image: "/images/projects/CARNACBURNER/carnac-3.jpeg", alt: "carnacBurner-3" },
       { image: "/images/projects/CARNACBURNER/carnac-4.jpeg", alt: "carnacBurner-4" },
-      { image: "/images/projects/CARNACBURNER/carnac-5.jpeg", alt: "carnacBurner-5" },
+      // { image: "/images/projects/CARNACBURNER/carnac-5.jpeg", alt: "carnacBurner-5" },
       { image: "/images/projects/CARNACBURNER/carnac-6.jpeg", alt: "carnacBurner-6" },
-      { image: "/images/projects/CARNACBURNER/carnac-7.jpeg", alt: "carnacBurner-7" },
+      // { image: "/images/projects/CARNACBURNER/carnac-7.jpeg", alt: "carnacBurner-7" },
       { image: "/images/projects/CARNACBURNER/carnac-8.jpeg", alt: "carnacBurner-8" },
       { image: "/images/projects/CARNACBURNER/carnac-9.jpeg", alt: "carnacBurner-9" },
       { image: "/images/projects/CARNACBURNER/carnac-1.jpeg", alt: "carnacBurner-10" },
@@ -377,7 +377,7 @@ export const projects = [
       { image: "/images/projects/CARNACBURNER/carnac-12.jpeg", alt: "carnacBurner-12" },
       { image: "/images/projects/CARNACBURNER/carnac-13.jpeg", alt: "carnacBurner-13" },
       { image: "/images/projects/CARNACBURNER/carnac-14.jpeg", alt: "carnacBurner-14" },
-      { image: "/images/projects/CARNACBURNER/carnac-15.jpeg", alt: "carnacBurner-15" },
+      // { image: "/images/projects/CARNACBURNER/carnac-15.jpeg", alt: "carnacBurner-15" },
 
     ],
   },
