@@ -343,32 +343,52 @@ export const projects = [
     ],
   },
   {
-    slug: "project-11",
-    title: "COACT IMPRINTS",
-    image: "/images/projects/COACT/coact-3.jpg",
-    description: "COACT IMPRINTS",
+    slug: "project-12",
+    title: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
+    image: "/images/projects/CARNAC/carnac-8.jpeg",
+    description: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
     fullDescription:
-      "The TATA Power Peninsula project aims to revitalize an 8000 sqft area over a 45-day period, creating an elegant and functional workspace that embodies the essence of TATA Power. This design initiative focuses on sophistication and comfort, ensuring a pleasant environment for employees and visitors alike.The TATA Power Peninsula project is set to create a refined and inviting environment that reflects the company’s values and culture. With a focus on high-quality finishes and thoughtful design, this project will serve as a benchmark for contemporary office spaces, enhancing both employee satisfaction and brand representation.",
+      "The Tata Renewable Energy Office at Carnac Bunder Masjid is designed for functionality, aesthetics, and sustainability. Featuring an artwork wall with a decorative decal sticker, it enhances visual appeal while reflecting the brand’s vision. A display area with an artifact section showcases achievements, while a groove-finished ceiling adds depth. The TV unit with a display section serves meetings and presentations. A ledge sitting area with table support creates an informal yet efficient workspace. This modern office seamlessly blends innovation and practicality, fostering productivity and engagement in a sophisticated, inspiring environment.",
     tagLine: "Project information",
     highlights: [
-      { icon: "Wallpaper", description: "20+ Seating at single floor." },
-      { icon: "FlipHorizontal", description: "8 seater open Conference room" },
-      { icon: "Component", description: "Main entry with huge branding" },
-      { icon: "Fence", description: "Colourful Interview room & meeting room" },
-      { icon: "Armchair", description: "Mezz flor dinning" },
+      { icon: "Wallpaper", description: "Artwork wall with decorative decal sticker" },
+      { icon: "FlipHorizontal", description: "Display area with artifact section" },
+      { icon: "Component", description: "Ceiling with highlighted groove finish" },
+      { icon: "Fence", description: "Tv unit with Display section" },
+      { icon: "Armchair", description: "Ledge sitting with table support" },
     ],
     configuration: [
-      { flat: "1500 sqft", carpet: "135 Days" },
+      { flat: "1000 sqft", carpet: "60 days" },
     ],
     // Added video section
+    videos: [
+      {
+        url: "/images/projects/CARNAC/carnacVideo-4.mp4",
+        thumbnail: "/images/projects/CARNAC/carnac-1.jpeg",
+        title: "Cabin Overview"
+      },
+      {
+        url: "/images/projects/CARNAC/carnacVideo-2.mp4",
+        thumbnail: "/images/projects/CARNAC/carnac-15.jpeg",
+        title: "Office Overview"
+      }
+    ],
     galleryImages: [
-      { image: "/images/projects/COACT/coact-1.jpg", alt: "coact-1" },
-      { image: "/images/projects/COACT/coact-3.jpg", alt: "coact-3" },
-      { image: "/images/projects/COACT/coact-5.jpg", alt: "coact-5" },
-      { image: "/images/projects/COACT/coact-10.jpg", alt: "coact-10" },
-      { image: "/images/projects/COACT/coact-11.jpg", alt: "coact-11" },
-      { image: "/images/projects/COACT/coact-13.jpg", alt: "coact-13" },
-      { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" }
+      { image: "/images/projects/CARNAC/carnac-1.jpg", alt: "carnac-1" },
+      { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
+      { image: "/images/projects/CARNAC/carnac-3.jpeg", alt: "carnac-3" },
+      { image: "/images/projects/CARNAC/carnac-4.jpeg", alt: "carnac-4" },
+      { image: "/images/projects/CARNAC/carnac-5.jpeg", alt: "carnac-5" },
+      { image: "/images/projects/CARNAC/carnac-6.jpeg", alt: "carnac-6" },
+      { image: "/images/projects/CARNAC/carnac-7.jpeg", alt: "carnac-7" },
+      { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
+      { image: "/images/projects/CARNAC/carnac-9.jpeg", alt: "carnac-9" },
+      { image: "/images/projects/CARNAC/carnac-10.jpeg", alt: "carnac-10" },
+      { image: "/images/projects/CARNAC/carnac-11.jpeg", alt: "carnac-11" },
+      { image: "/images/projects/CARNAC/carnac-12.jpeg", alt: "carnac-12" },
+      { image: "/images/projects/CARNAC/carnac-13.jpeg", alt: "carnac-13" },
+      { image: "/images/projects/CARNAC/carnac-14.jpeg", alt: "carnac-14" },
+      { image: "/images/projects/CARNAC/carnac-15.jpeg", alt: "carnac-15" },
     ],
   },
 ];
