@@ -362,14 +362,14 @@ export const projects = [
     ],
     videos: [
       {
-        url: "/images/projects/CARNACBURNER/carnacVideo-1.mp4",
-        thumbnail: "/images/projects/PENINSULA/peninsula-2.jpeg",
+        url: "/images/projects/CARNACBURNER/carnacVideo-4.mp4",
+        thumbnail: "/images/projects/CARNACBURNER/carnac-1.jpeg",
         title: "Office Overview"
       },
       {
         url: "/images/projects/CARNACBURNER/carnacVideo-3.mp4",
-        thumbnail: "/images/projects/PENINSULA/peninsula-10.jpeg",
-        title: "Cabin Overview"
+        thumbnail: "/images/projects/CARNACBURNER/carnac-10.jpeg",
+        title: "Office Overview"
       }
     ],
 
