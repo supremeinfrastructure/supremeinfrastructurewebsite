@@ -317,7 +317,7 @@ export const projects = [
     slug: "project-11",
     title: "COACT IMPRINTS",
     image: "/images/projects/COACT/coact-3.jpg",
-    description: "coact imprints",
+    description: "COACT IMPRINTS",
     fullDescription:
       "The TATA Power Peninsula project aims to revitalize an 8000 sqft area over a 45-day period, creating an elegant and functional workspace that embodies the essence of TATA Power. This design initiative focuses on sophistication and comfort, ensuring a pleasant environment for employees and visitors alike.The TATA Power Peninsula project is set to create a refined and inviting environment that reflects the company’s values and culture. With a focus on high-quality finishes and thoughtful design, this project will serve as a benchmark for contemporary office spaces, enhancing both employee satisfaction and brand representation.",
     tagLine: "Project information",
