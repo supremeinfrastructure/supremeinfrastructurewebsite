@@ -340,7 +340,6 @@ export const projects = [
       { image: "/images/projects/COACT/coact-11.jpg", alt: "coact-11" },
       { image: "/images/projects/COACT/coact-13.jpg", alt: "coact-13" },
       { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" }
-
     ],
   },
   {
