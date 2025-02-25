@@ -384,11 +384,6 @@ export const projects = [
       { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
       { image: "/images/projects/CARNAC/carnac-9.jpeg", alt: "carnac-9" },
       { image: "/images/projects/CARNAC/carnac-10.jpeg", alt: "carnac-10" },
-      { image: "/images/projects/CARNAC/carnac-11.jpeg", alt: "carnac-11" },
-      { image: "/images/projects/CARNAC/carnac-12.jpeg", alt: "carnac-12" },
-      { image: "/images/projects/CARNAC/carnac-13.jpeg", alt: "carnac-13" },
-      { image: "/images/projects/CARNAC/carnac-14.jpeg", alt: "carnac-14" },
-      { image: "/images/projects/CARNAC/carnac-15.jpeg", alt: "carnac-15" },
     ],
   },
 ];
