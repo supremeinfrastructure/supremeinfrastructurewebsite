@@ -345,7 +345,7 @@ export const projects = [
   {
     slug: "project-12",
     title: "PROCURMENT OFFICE OF TATA POWER SOLAR",
-    image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-12.jpg",
+    image: "/images/projects/CARNACBURNER/carnac-1.jpeg",
     description: "PROCURMENT OFFICE OF TATA POWER SOLAR",
     fullDescription:
       "This high-impact design project spans approximately 14,000 square feet, transforming a warehouse and dumpyard into the Tata Power Solar Procurement Office—a modern, efficient, and visually stunning workspace. Completed in an impressive 99-day timeline, the project incorporates top-tier materials and finishes, creating an environment that reflects the brand's innovative energy solutions. The transformation of the space from industrial use to a sleek office environment demonstrates an exceptional commitment to sustainability and design excellence.This project stands as a model of effective design and functionality, where each element—whether structural, aesthetic, or environmental—works in harmony. The Tata Power Procurement Office combines cutting-edge sustainability practices with a refined visual experience, setting a new standard for commercial design in the renewable energy sector.",
