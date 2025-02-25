@@ -374,7 +374,7 @@ export const projects = [
       }
     ],
     galleryImages: [
-      { image: "/images/projects/CARNAC/carnac-1.jpeg", alt: "carnac-1" },
+      { image: "/images/projects/ATLANTAS/atlantas-1.jpeg", alt: "atlantas-1" },
       { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
       { image: "/images/projects/CARNAC/carnac-3.jpeg", alt: "carnac-3" },
       { image: "/images/projects/CARNAC/carnac-4.jpeg", alt: "carnac-4" },
