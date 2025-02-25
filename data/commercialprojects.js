@@ -342,6 +342,42 @@ export const projects = [
       { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" }
     ],
   },
+  {
+    slug: "project-12",
+    title: "PROCURMENT OFFICE OF TATA POWER SOLAR",
+    image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-12.jpg",
+    description: "PROCURMENT OFFICE OF TATA POWER SOLAR",
+    fullDescription:
+      "This high-impact design project spans approximately 14,000 square feet, transforming a warehouse and dumpyard into the Tata Power Solar Procurement Office—a modern, efficient, and visually stunning workspace. Completed in an impressive 99-day timeline, the project incorporates top-tier materials and finishes, creating an environment that reflects the brand's innovative energy solutions. The transformation of the space from industrial use to a sleek office environment demonstrates an exceptional commitment to sustainability and design excellence.This project stands as a model of effective design and functionality, where each element—whether structural, aesthetic, or environmental—works in harmony. The Tata Power Procurement Office combines cutting-edge sustainability practices with a refined visual experience, setting a new standard for commercial design in the renewable energy sector.",
+    tagLine: "Atlanats Crew Management",
+    highlights: [
+      { icon: "LogIn", description: "ENTERENCE WITH WOODEN PATTERNS" },
+      { icon: "LampCeilingIcon", description: "POWDER COATED CEILING" },
+      { icon: "Book", description: "BOOK SHELF" },
+      { icon: "FlipHorizontal2", description: "FASCADE GLASS" },
+      { icon: "PanelBottom", description: "ACAUSTIC WALL PANNELING" },
+    ],
+    configuration: [
+      { flat: "18500 sqft", carpet: "99 days" },
+    ],
+
+    galleryImages: [
+
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-5.jpg", alt: "tataBanglore-5" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-6.jpg", alt: "tataBanglore-6" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-8.jpg", alt: "tataBanglore-8" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-9.jpg", alt: "tataBanglore-9" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-11.jpg", alt: "tataBanglore-11" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-12.jpg", alt: "tataBanglore-12" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-13.jpg", alt: "tataBanglore-13" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-17.jpg", alt: "tataBanglore-17" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-18.jpg", alt: "tataBanglore-18" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-19.jpg", alt: "tataBanglore-19" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-22.jpg", alt: "tataBanglore-22" },
+      { image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-34.jpg", alt: "tataBanglore-34" },
+
+    ],
+  },
 ];
 
 export const getProjectBySlug = (slug) => {
