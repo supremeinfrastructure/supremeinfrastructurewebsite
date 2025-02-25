@@ -68,7 +68,7 @@ export const projects = [
     slug: "project-3",
     title: "CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY",
     image: "/images/projects/TATAPOWERCIVILTROMBAY/trombay-6.jpeg",
-    description: "civil and estate office of tata power trombay",
+    description: "CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY",
     fullDescription:
       "The Civil and Estate Office renovation for Tata Power Trombay transformed a 6,000 sq. ft. workspace into a modern, efficient environment in just 60 days. Key design elements included a welcoming waiting area, customized wallpaper reflecting the company’s brand identity, and energy-efficient profile lighting to create a bright, inviting atmosphere. Decorative decal stickers added a personalized touch, while soundproof partitions were strategically placed to ensure privacy and minimize noise distractions. Modular furniture was chosen for its flexibility and ergonomic benefits, allowing for adaptable workspaces. The project combined aesthetics with functionality to provide Tata Power employees and visitors with a comfortable, collaborative, and highly productive environment, aligning with the company's vision for a contemporary office space.",
     tagLine: "Atlanats Crew Management",
