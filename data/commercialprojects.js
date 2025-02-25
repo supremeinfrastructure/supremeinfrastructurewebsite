@@ -342,50 +342,6 @@ export const projects = [
       { image: "/images/projects/COACT/coact-14.jpg", alt: "coact-14" }
     ],
   },
-  {
-    slug: "project-12",
-    title: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
-    image: "/images/projects/CARNAC/carnac-8.jpeg",
-    description: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID",
-    fullDescription:
-      "The Tata Renewable Energy Office at Carnac Bunder Masjid is designed for functionality, aesthetics, and sustainability. Featuring an artwork wall with a decorative decal sticker, it enhances visual appeal while reflecting the brand’s vision. A display area with an artifact section showcases achievements, while a groove-finished ceiling adds depth. The TV unit with a display section serves meetings and presentations. A ledge sitting area with table support creates an informal yet efficient workspace. This modern office seamlessly blends innovation and practicality, fostering productivity and engagement in a sophisticated, inspiring environment.",
-    tagLine: "Project information",
-    highlights: [
-      { icon: "Wallpaper", description: "Artwork wall with decorative decal sticker" },
-      { icon: "FlipHorizontal", description: "Display area with artifact section" },
-      { icon: "Component", description: "Ceiling with highlighted groove finish" },
-      { icon: "Fence", description: "Tv unit with Display section" },
-      { icon: "Armchair", description: "Ledge sitting with table support" },
-    ],
-    configuration: [
-      { flat: "1000 sqft", carpet: "60 days" },
-    ],
-    // Added video section
-    videos: [
-      {
-        url: "/images/projects/CARNAC/carnacVideo-4.mp4",
-        thumbnail: "/images/projects/CARNAC/carnac-1.jpeg",
-        title: "Cabin Overview"
-      },
-      {
-        url: "/images/projects/CARNAC/carnacVideo-2.mp4",
-        thumbnail: "/images/projects/CARNAC/carnac-15.jpeg",
-        title: "Office Overview"
-      }
-    ],
-    galleryImages: [
-      { image: "/images/projects/CARNAC/carnac-1.jpg", alt: "carnac-1" },
-      { image: "/images/projects/CARNAC/carnac-2.jpeg", alt: "carnac-2" },
-      { image: "/images/projects/CARNAC/carnac-3.jpeg", alt: "carnac-3" },
-      { image: "/images/projects/CARNAC/carnac-4.jpeg", alt: "carnac-4" },
-      { image: "/images/projects/CARNAC/carnac-5.jpeg", alt: "carnac-5" },
-      { image: "/images/projects/CARNAC/carnac-6.jpeg", alt: "carnac-6" },
-      { image: "/images/projects/CARNAC/carnac-7.jpeg", alt: "carnac-7" },
-      { image: "/images/projects/CARNAC/carnac-8.jpeg", alt: "carnac-8" },
-      { image: "/images/projects/CARNAC/carnac-9.jpeg", alt: "carnac-9" },
-      { image: "/images/projects/CARNAC/carnac-10.jpeg", alt: "carnac-10" },
-    ],
-  },
 ];
 
 export const getProjectBySlug = (slug) => {
