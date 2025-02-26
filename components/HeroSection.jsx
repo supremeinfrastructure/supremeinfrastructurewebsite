@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useRef, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { NavbarDemo } from './Navbar';
 import Link from 'next/link';
@@ -62,6 +62,9 @@ const buttonVariants = {
 
 const HeroSection = () => {
   const videoRef = useRef(null);
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const [fallbackImageVisible, setFallbackImageVisible] = useState(true);
 
   // Memoized static content
   const title = useMemo(() => "Supreme Infrastructure Company", []);
@@ -73,21 +76,70 @@ const HeroSection = () => {
   // Memoized title characters
   const titleChars = useMemo(() => title.split(''), [title]);
 
-  // Optimized video play handler
-  const playVideo = useCallback(() => {
-    if (videoRef.current && videoRef.current.paused) {
-      videoRef.current.play().catch(error => {
-        console.error("Video play failed:", error);
-      });
-    }
+  // Video source with a lower resolution option for mobile
+  const videoSources = useMemo(() => [
+    { src: "/videos/unwatermark_video-4.mp4", type: "video/mp4" }
+  ], []);
+
+  // Handle video loaded event
+  const handleVideoLoaded = useCallback(() => {
+    setIsVideoLoaded(true);
+    setTimeout(() => setFallbackImageVisible(false), 300); // Fade out fallback image after video loads
   }, []);
 
+  // Handle video play error
+  const handleVideoError = useCallback((error) => {
+    console.error("Video error:", error);
+    // Keep fallback image visible in case of error
+    setFallbackImageVisible(true);
+  }, []);
+
+  // Optimized video play handler with error handling
+  const playVideo = useCallback(() => {
+    if (videoRef.current && !isVideoPlaying) {
+      videoRef.current.play()
+        .then(() => {
+          setIsVideoPlaying(true);
+        })
+        .catch(error => {
+          console.error("Video play failed:", error);
+          // Try playing without sound as a fallback (autoplay policy workaround)
+          if (videoRef.current) {
+            videoRef.current.muted = true;
+            videoRef.current.play()
+              .then(() => {
+                setIsVideoPlaying(true);
+              })
+              .catch(handleVideoError);
+          }
+        });
+    }
+  }, [isVideoPlaying, handleVideoError]);
+
+  // Initialize video playback
   useEffect(() => {
+    // Add event listeners for different user interactions
+    const handleUserInteraction = () => {
+      playVideo();
+    };
+
+    // Preload the video
+    if (videoRef.current) {
+      videoRef.current.load();
+    }
+
+    // Try to play as soon as possible
     playVideo();
-    window.addEventListener('touchstart', playVideo);
+
+    // Add event listeners for user interaction
+    window.addEventListener('touchstart', handleUserInteraction, { once: true });
+    window.addEventListener('click', handleUserInteraction, { once: true });
+    window.addEventListener('scroll', handleUserInteraction, { once: true });
 
     return () => {
-      window.removeEventListener('touchstart', playVideo);
+      window.removeEventListener('touchstart', handleUserInteraction);
+      window.removeEventListener('click', handleUserInteraction);
+      window.removeEventListener('scroll', handleUserInteraction);
     };
   }, [playVideo]);
 
@@ -105,22 +157,49 @@ const HeroSection = () => {
         animate="visible"
         variants={containerVariants}
       >
+        {/* Fallback image that shows until video loads */}
+        {fallbackImageVisible && (
+          <motion.div
+            className="absolute top-0 left-0 w-full h-full bg-gray-900"
+            initial={{ opacity: 1 }}
+            animate={{ opacity: isVideoLoaded ? 0 : 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Image 
+                src="/images/home/logo.png" 
+                alt="Loading"
+                width={200} 
+                height={200}
+                className="animate-pulse" 
+                priority
+              />
+            </div>
+          </motion.div>
+        )}
+
+        {/* Video background */}
         <motion.video
           ref={videoRef}
           autoPlay
-          loop
-          muted
           playsInline
+          muted
+          loop
           className="absolute top-0 left-0 w-full h-full object-cover"
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: isVideoLoaded ? 1 : 0, scale: isVideoLoaded ? 1 : 1.1 }}
           transition={{ duration: 1 }}
           style={{
             filter: 'brightness(0.7) contrast(1.1)',
             WebkitFilter: 'brightness(0.7) contrast(1.1)'
           }}
+          onLoadedData={handleVideoLoaded}
+          onError={handleVideoError}
+          preload="auto"
         >
-          <source src="/videos/unwatermark_video-4.mp4" type="video/mp4" />
+          {videoSources.map((source, index) => (
+            <source key={index} src={source.src} type={source.type} />
+          ))}
           Your browser does not support the video tag.
         </motion.video>
 
@@ -143,12 +222,12 @@ const HeroSection = () => {
         </motion.div>
 
         <motion.div
-          className="absolute inset-0 flex items-center justify-center"
+          className="absolute inset-0 flex items-center justify-center px-4 sm:px-6 md:px-8"
           variants={containerVariants}
         >
-          <div className="bg-opacity-90 p-6 sm:p-8 md:p-10 lg:p-0 rounded-lg max-w-sm sm:max-w-md md:max-w-lg lg:max-w-4xl xl:max-w-6xl text-center">
+          <div className="bg-opacity-90 p-6 sm:p-8 md:p-10 lg:p-12 rounded-lg max-w-sm sm:max-w-md md:max-w-lg lg:max-w-4xl xl:max-w-6xl text-center">
             <motion.h2
-              className="font-montserrat text-transparent bg-clip-text text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 text-shadow-lg"
+              className="font-montserrat text-transparent bg-clip-text text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 text-shadow-lg"
               variants={titleVariants}
             >
               {titleChars.map((char, index) => (
@@ -157,7 +236,7 @@ const HeroSection = () => {
             </motion.h2>
 
             <motion.div
-              className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-600 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-8 text-shadow"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-600 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl mb-6 sm:mb-8 text-shadow"
               variants={descriptionVariants}
             >
               {description}
@@ -166,7 +245,7 @@ const HeroSection = () => {
             <motion.div variants={buttonVariants}>
               <Link href='/about/supremeInfrastructure'>
                 <motion.button
-                  className="px-6 sm:px-6 py-2 bg-gradient-to-r from-amber-700 to-yellow-600 text-white font-normal rounded-full hover:bg-orange-600 transition-colors duration-300 text-sm sm:text-base md:text-lg lg:text-xl shadow-lg"
+                  className="px-4 sm:px-6 py-2 bg-gradient-to-r from-amber-700 to-yellow-600 text-white font-normal rounded-full hover:bg-orange-600 transition-colors duration-300 text-xs sm:text-sm md:text-base lg:text-lg shadow-lg"
                   whileHover={buttonHoverAnimation}
                   whileTap={{ scale: 0.95 }}
                 >
