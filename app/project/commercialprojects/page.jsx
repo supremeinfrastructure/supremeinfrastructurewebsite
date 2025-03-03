@@ -99,7 +99,7 @@ const CommercialProject = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Search Box */}
-        <div className="flex justify-center mt-6 mb-6">
+        <div className="flex justify-center mt-12 mb-6">
           <input
             type="text"
             placeholder="Search projects..."
