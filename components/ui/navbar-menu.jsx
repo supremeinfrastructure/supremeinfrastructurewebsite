@@ -51,13 +51,14 @@ export const Menu = ({ setActive, children }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
+    /// navbar get transparent and white color from here
     <nav
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => {
         setIsHovered(false);
         setActive(null);
       }}
-      className={`relative rounded-full border border-transparent ${isHovered ? 'bg-gradient-to-r from-gray-300 to-gray-200' : 'bg-transparent'
+      className={`relative rounded-full border border-transparent bg-gradient-to-r from-gray-200 to-gray-200 ${isHovered ? 'bg-gradient-to-r from-gray-300 to-gray-200' : 'bg-transparent'
         } transition-colors duration-300 flex justify-center md:text-xl space-x-16 px-8 py-6 mt-6 ${isHovered ? 'shadow-3xl' : ''
         }`}
     >
