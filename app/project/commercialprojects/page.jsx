@@ -154,7 +154,7 @@ const CommercialProject = () => {
               <input
                 type="text"
                 placeholder="Search projects by project name or city name . . . . . ."
-                className="w-full p-3 pl-10 border border-amber-500/30 rounded-lg shadow focus:outline-none focus:border-amber-500 transition-colors duration-200"
+                className="w-full p-3 pl-10 border border-amber-500/30 rounded-3xl shadow focus:outline-none focus:border-amber-500 transition-colors duration-200"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
