@@ -30,9 +30,9 @@ export const projects = [
   },
   {
     slug: "project-2",
-    title: "PROCURMENT OFFICE OF TATA POWER SOLAR BANGALORE",
+    title: "PROCURMENT OFFICE OF TATA POWER SOLAR BENGALURU",
     image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-12.jpg",
-    description: "PROCURMENT OFFICE OF TATA POWER SOLAR",
+    description: "PROCURMENT OFFICE OF TATA POWER SOLAR BANGALORE",
     fullDescription:
       "This high-impact design project spans approximately 14,000 square feet, transforming a warehouse and dumpyard into the Tata Power Solar Procurement Office—a modern, efficient, and visually stunning workspace. Completed in an impressive 99-day timeline, the project incorporates top-tier materials and finishes, creating an environment that reflects the brand's innovative energy solutions. The transformation of the space from industrial use to a sleek office environment demonstrates an exceptional commitment to sustainability and design excellence.This project stands as a model of effective design and functionality, where each element—whether structural, aesthetic, or environmental—works in harmony. The Tata Power Procurement Office combines cutting-edge sustainability practices with a refined visual experience, setting a new standard for commercial design in the renewable energy sector.",
     tagLine: "Atlanats Crew Management",
@@ -94,7 +94,7 @@ export const projects = [
   },
   {
     slug: "project-4",
-    title: "TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BANGALORE",
+    title: "TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BENGALURU",
     image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-19.jpg",
     description: "TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA , BANGOLARE",
     fullDescription:
@@ -157,7 +157,7 @@ export const projects = [
   },
   {
     slug: "project-6",
-    title: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT, BANGALORE",
+    title: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT, BENGALURU",
     image: "/images/projects/TPSSLBANGOLARE/tpsslBanglore-14.png",
     description: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE",
     fullDescription:
@@ -394,7 +394,7 @@ export const projects = [
   },
   {
     slug: "project-13",
-    title: "THE CORPORATE PARK",
+    title: "THE CORPORATE PARK , NAVI MUMBAI",
     image: "/images/projects/TCP/tcp-2.jpeg",
     description: "THE CORPORATE PARK ,NAVI MUMBAI",
     fullDescription:
