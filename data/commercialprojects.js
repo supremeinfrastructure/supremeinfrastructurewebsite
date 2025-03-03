@@ -394,7 +394,7 @@ export const projects = [
   },
   {
     slug: "project-13",
-    title: "TCP",
+    title: "THE CORPORATE PARK",
     image: "/images/projects/TCP/tcp-2.jpeg",
     description: "THE CORPORATE PARK ,VASHI",
     fullDescription:
