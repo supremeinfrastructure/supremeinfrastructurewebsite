@@ -1,5 +1,5 @@
-'use client'
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { titleVariants } from '../../../utils/animation';
 import { projects } from '../../../data/commercialprojects';
@@ -37,7 +37,7 @@ const ProjectCard = ({ project }) => (
           priority={false}
           className="object-cover transition-transform duration-300 group-hover:scale-105"
           placeholder="blur"
-          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx0fHRseHRsfHx0dHx8dHx8fHx0dHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSk..."
         />
       </div>
       <div className="p-4 sm:p-6 flex-grow flex flex-col justify-between">
@@ -49,13 +49,9 @@ const ProjectCard = ({ project }) => (
             {project.description}
           </p>
         </div>
-        <div
-          onClick={(e) => e.preventDefault()}
-          className="mt-auto block"
-        >
+        <div onClick={(e) => e.preventDefault()} className="mt-auto block">
           <span className="w-full py-2.5 px-4 bg-gradient-to-r from-amber-600 to-amber-700 text-white rounded-lg hover:from-amber-700 hover:to-amber-800 transition-all duration-300 text-xs sm:text-sm md:text-base inline-block text-center font-medium shadow-sm hover:shadow-md active:scale-98">
-            Read More
-            <span className="ml-2">→</span>
+            Read More<span className="ml-2">→</span>
           </span>
         </div>
       </div>
@@ -68,7 +64,7 @@ const HeroSection = () => (
     <div className="absolute inset-0">
       <Image
         src="/images/projects/commercialBackgroundWallpaper.jpeg"
-        alt="ResidentialProjectsBackground"
+        alt="Commercial Projects Background"
         fill
         priority
         className="object-cover"
@@ -91,26 +87,37 @@ const HeroSection = () => (
 );
 
 const CommercialProject = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredProjects = projects.filter((project) =>
+    project.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="min-h-screen bg-gray-50">
       <HeroSection />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="py-8 lg:py-16">
-          <motion.div
-            initial="offscreen"
-            whileInView="onscreen"
-            viewport={{ once: true }}
-            variants={titleVariants}
-            className="pt-4 pb-2 sm:pt-6 sm:pb-4"
-          >
-            {/* Additional title or content can go here */}
-          </motion.div>
+        {/* Search Box */}
+        <div className="flex justify-center mt-6 mb-6">
+          <input
+            type="text"
+            placeholder="Search projects..."
+            className="w-full max-w-lg p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-amber-600"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
 
+        <div className="py-8 lg:py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 md:gap-10 py-4 sm:py-6 md:py-8">
-            {projects.map((project) => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
+            {filteredProjects.length > 0 ? (
+              filteredProjects.map((project) => (
+                <ProjectCard key={project.id} project={project} />
+              ))
+            ) : (
+              <p className="text-gray-600 text-center col-span-full">No results found</p>
+            )}
           </div>
         </div>
       </div>
