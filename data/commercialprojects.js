@@ -30,7 +30,7 @@ export const projects = [
   },
   {
     slug: "project-2",
-    title: "PROCURMENT OFFICE OF TATA POWER SOLAR",
+    title: "PROCURMENT OFFICE OF TATA POWER SOLAR BANGALORE",
     image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-12.jpg",
     description: "PROCURMENT OFFICE OF TATA POWER SOLAR",
     fullDescription:
@@ -66,7 +66,7 @@ export const projects = [
   },
   {
     slug: "project-3",
-    title: "CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY",
+    title: "CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY MUMBAI",
     image: "/images/projects/TATAPOWERCIVILTROMBAY/trombay-6.jpeg",
     description: "CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY",
     fullDescription:
@@ -94,7 +94,7 @@ export const projects = [
   },
   {
     slug: "project-4",
-    title: "TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BANGOLORE",
+    title: "TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BANGALORE",
     image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-19.jpg",
     description: "TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA , BANGOLARE",
     fullDescription:
@@ -122,7 +122,7 @@ export const projects = [
   },
   {
     slug: "project-5",
-    title: "SPORTS COMPLEX OLYMPICS SIZE SWIMMING POOL WITH PAVILLION AT TATA SPORTS TROMBAY",
+    title: "SPORTS COMPLEX OLYMPICS SIZE SWIMMING POOL WITH PAVILLION AT TATA SPORTS TROMBAY, MUMBAI",
     image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-31.jpg",
     description: "TATA SPORT COMPLEX OLYMPIC SIZE SWIMMING POOL & PAVILION WITH WASHROOM FACILITIES",
     fullDescription:
@@ -157,7 +157,7 @@ export const projects = [
   },
   {
     slug: "project-6",
-    title: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE",
+    title: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT, BANGALORE",
     image: "/images/projects/TPSSLBANGOLARE/tpsslBanglore-14.png",
     description: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE",
     fullDescription:
@@ -188,7 +188,7 @@ export const projects = [
   },
   {
     slug: "project-7",
-    title: "SUPREME INFRASTRUCTURE HEAD OFFICE AT MAYURESH PLANET BELAPUR",
+    title: "SUPREME INFRASTRUCTURE HEAD OFFICE AT MAYURESH PLANET BELAPUR ,NAVI MUMBAI",
     image: "/images/projects/MAYURESHPLANET/mayuresh-8.jpg",
     description: "DEVELOPMENT OF SUPREME INFRASTRUCTURE COMPANY OFFICE",
     fullDescription:
@@ -222,7 +222,7 @@ export const projects = [
   },
   {
     slug: "project-8",
-    title: "FINANCE HEADQUARTER OF TATA POWER PENINSULA",
+    title: "FINANCE HEADQUARTER OF TATA POWER PENINSULA ,MUMBAI",
     image: "/images/projects/PENINSULA/peninsula-3.jpeg",
     description: "FINANCE HEADQUARTER OF TATA POWER PENINSULA",
     fullDescription:
@@ -264,7 +264,7 @@ export const projects = [
   },
   {
     slug: "project-9",
-    title: "KARANJADE BOUNDARY WALL, FOUNDATIONS 220KV,GIS STATION, TOSHIBA",
+    title: "KARANJADE BOUNDARY WALL, FOUNDATIONS 220KV,GIS STATION, TOSHIBA , NAVI MUMBAI",
     image: "/images/projects/TOSHIBAKARANJADE/toshiba-2.jpg",
     description: "TATA POWER FIRE TANK",
     fullDescription:
@@ -290,7 +290,7 @@ export const projects = [
   },
   {
     slug: "project-10",
-    title: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI",
+    title: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI , NAVI MUMBAI",
     image: "/images/projects/ALLANA/allana-1.jpeg",
     description: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI",
     fullDescription:
@@ -315,7 +315,7 @@ export const projects = [
   },
   {
     slug: "project-11",
-    title: "COACT IMPRINTS",
+    title: "COACT IMPRINTS , NAVI MUMBAI",
     image: "/images/projects/COACT/coact-3.jpg",
     description: "COACT IMPRINTS",
     fullDescription:
@@ -344,7 +344,7 @@ export const projects = [
   },
   {
     slug: "project-12",
-    title: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID ",
+    title: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID , MUMBAI ",
     image: "/images/projects/CARNACBURNER/carnac-9.jpeg",
     description: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID ",
     fullDescription:
@@ -396,7 +396,7 @@ export const projects = [
     slug: "project-13",
     title: "THE CORPORATE PARK",
     image: "/images/projects/TCP/tcp-2.jpeg",
-    description: "THE CORPORATE PARK ,VASHI",
+    description: "THE CORPORATE PARK ,NAVI MUMBAI",
     fullDescription:
       "The modern office space is designed with a perfect blend of aesthetics and functionality. The artwork wall with a decorative decal sticker enhances the ambiance, creating a visually appealing atmosphere. A dedicated display area with an artifact section adds sophistication and showcases achievements. The ceiling with a highlighted groove finish brings depth and style to the space. The TV unit with a display section provides an efficient setup for presentations and meetings. Additionally, the ledge sitting with table support offers a comfortable yet productive work environment, seamlessly combining innovation and practicality for an inspiring workplace experience.",
     highlights: [
