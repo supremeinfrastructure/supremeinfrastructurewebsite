@@ -344,7 +344,7 @@ export const projects = [
   },
   {
     slug: "project-12",
-    title: "TATA RENEWABLE ENERGY OFFICE CARNAC BUNDER 2B, MUMBAI ",
+    title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI ",
     image: "/images/projects/CARNACBURNER/carnac-9.jpeg",
     description: "TATA RENEWABLE ENERGY OFFICE CARNAC BURNER MASJID ",
     fullDescription:
