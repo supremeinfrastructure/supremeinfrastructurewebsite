@@ -400,11 +400,11 @@ export const projects = [
     fullDescription:
       "The modern office space is designed with a perfect blend of aesthetics and functionality. The artwork wall with a decorative decal sticker enhances the ambiance, creating a visually appealing atmosphere. A dedicated display area with an artifact section adds sophistication and showcases achievements. The ceiling with a highlighted groove finish brings depth and style to the space. The TV unit with a display section provides an efficient setup for presentations and meetings. Additionally, the ledge sitting with table support offers a comfortable yet productive work environment, seamlessly combining innovation and practicality for an inspiring workplace experience.",
     highlights: [
-      { icon: "LogIn", description: "Artwork wall with decorative decal sticker" },
-      { icon: "LampCeilingIcon", description: "Display area with artifact section" },
-      { icon: "Book", description: "Ceiling with highlighted groove finish" },
-      { icon: "FlipHorizontal2", description: "Tv unit with Display section" },
-      { icon: "PanelBottom", description: "Ledge sitting with table support" },
+      { icon: "LogIn", description: "Modern & Contemporary Design" },
+      { icon: "LampCeilingIcon", description: "Custom Wall Accents & Branding" },
+      { icon: "Book", description: "Efficient Space Utilization" },
+      { icon: "FlipHorizontal2", description: "Ambient & Task Lighting" },
+      { icon: "PanelBottom", description: "High-Quality Materials & Finishes" },
     ],
     configuration: [
       { flat: " 10000 sqft", carpet: "60 days" },
