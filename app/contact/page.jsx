@@ -182,8 +182,8 @@ export default function Contact() {
                 <div>
                   <p className='font-semibold'>Address:</p>
                   <p className='text-sm md:text-base'>
-                    Mayuresh Planet, 603, plot no -42,43, <br />
-                    opposite Navi Mumbai Civil & Criminal Court<br />
+                    Mayuresh Planet, 603, Supreme Infrastructure Company, plot no -42,43, <br />
+                    Opposite Navi Mumbai Civil & Criminal Court<br />
                     At C B D Belapur, Sector 15, CBD Belapur, <br />
                     Navi Mumbai, Maharashtra 400614.
                   </p>
