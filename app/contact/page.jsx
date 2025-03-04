@@ -275,7 +275,7 @@ export default function Contact() {
                   )}
                 </div>
               </div>
-              
+
               <div>
                 <input
                   type='tel'
