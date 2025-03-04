@@ -3,7 +3,7 @@ import { useState } from "react";;
 import {
   Fence, FlipHorizontal, BetweenVerticalStart, Lightbulb, Armchair, Component, Wallpaper, Home, Activity, Banknote, FileCheck, CheckSquare, Dumbbell, Utensils, House, GraduationCap,
   LampCeiling, Library, Scale3D, Layers2, Waves, ShowerHead, Lamp, InspectionPanel, Pickaxe, LampCeilingIcon, Columns2, Palette, Timer, Sticker, AudioLines, LogIn, Book, FlipHorizontal2,
-  PanelBottom, History, Sprout, Coffee, HandCoins, Users, Presentation, Leaf, BrickWall,LeafyGreen,Brush ,Box ,Diamond
+  PanelBottom, History, Sprout, Coffee, HandCoins, Users, Presentation, Leaf, BrickWall,LeafyGreen,Brush ,Box ,Diamond,Landmark,Paintbrush,ScanLine,MonitorPlay,
 } from "lucide-react";
 import { projects } from "../../../../data/commercialprojects";
 import Image from "next/image";
@@ -84,6 +84,10 @@ export default function ProjectPage() {
     Brush :Brush ,
     Box :Box ,
     Diamond:Diamond,
+    Paintbrush:Paintbrush,
+    Landmark:Landmark,
+    ScanLine:ScanLine,
+    MonitorPlay:MonitorPlay,
   };
 
   return (
