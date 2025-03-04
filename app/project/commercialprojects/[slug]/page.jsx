@@ -131,6 +131,10 @@ export default function ProjectPage() {
                     <div key={index} className='relative aspect-video w-full'>
                       <video
                         className='w-full h-full rounded-lg object-cover'
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
                         controls
                         poster={video.thumbnail}
                       >
