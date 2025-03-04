@@ -407,7 +407,7 @@ export const projects = [
       { icon: "Diamond", description: "High-Quality Materials & Finishes" },
     ],
     configuration: [
-      { flat: " 10000 sqft", carpet: "60 days" },
+      { flat: " 2000 sqft", carpet: "60 days" },
     ],
     videos: [
       {
