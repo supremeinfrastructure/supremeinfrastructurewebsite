@@ -3,7 +3,7 @@ import { useState } from "react";;
 import {
   Fence, FlipHorizontal, BetweenVerticalStart, Lightbulb, Armchair, Component, Wallpaper, Home, Activity, Banknote, FileCheck, CheckSquare, Dumbbell, Utensils, House, GraduationCap,
   LampCeiling, Library, Scale3D, Layers2, Waves, ShowerHead, Lamp, InspectionPanel, Pickaxe, LampCeilingIcon, Columns2, Palette, Timer, Sticker, AudioLines, LogIn, Book, FlipHorizontal2,
-  PanelBottom, History, Sprout, Coffee, HandCoins, Users, Presentation, Leaf, BrickWall,LeafyGreen,Brush ,Box ,Diamond,Landmark,Paintbrush,ScanLine,MonitorPlay,
+  PanelBottom, History, Sprout, Coffee, HandCoins, Users, Presentation, Leaf, BrickWall, LeafyGreen, Brush, Box, Diamond, Landmark, Paintbrush, ScanLine, MonitorPlay,
 } from "lucide-react";
 import { projects } from "../../../../data/commercialprojects";
 import Image from "next/image";
@@ -81,13 +81,13 @@ export default function ProjectPage() {
     Leaf: Leaf,
     BrickWall: BrickWall,
     LeafyGreen: LeafyGreen,
-    Brush :Brush ,
-    Box :Box ,
-    Diamond:Diamond,
-    Paintbrush:Paintbrush,
-    Landmark:Landmark,
-    ScanLine:ScanLine,
-    MonitorPlay:MonitorPlay,
+    Brush: Brush,
+    Box: Box,
+    Diamond: Diamond,
+    Paintbrush: Paintbrush,
+    Landmark: Landmark,
+    ScanLine: ScanLine,
+    MonitorPlay: MonitorPlay,
   };
 
   return (
@@ -134,9 +134,12 @@ export default function ProjectPage() {
               <div className='mb-12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                   {project.videos.map((video, index) => (
-                    <div key={index} className='relative aspect-video w-full'>
+                    <div
+                      key={index}
+                      className='relative aspect-video w-full rounded-lg overflow-hidden'
+                    >
                       <video
-                        className='w-full h-full rounded-lg object-cover'
+                        className='w-full h-full object-cover'
                         autoPlay
                         loop
                         muted
@@ -162,7 +165,7 @@ export default function ProjectPage() {
                 {project.galleryImages.map((galleryImage, index) => (
                   <div
                     key={index}
-                    className='relative overflow-hidden aspect-square w-full cursor-pointer'
+                    className='relative aspect-video w-full cursor-pointer rounded-lg overflow-hidden'
                     onClick={() => openFullView(galleryImage.image)}
                   >
                     <Image
@@ -170,7 +173,7 @@ export default function ProjectPage() {
                       alt={galleryImage.alt}
                       fill
                       sizes='(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw'
-                      className='object-contain transition duration-300 ease-in-out hover:scale-105'
+                      className='object-cover transition duration-300 ease-in-out hover:scale-105'
                     />
                   </div>
                 ))}
