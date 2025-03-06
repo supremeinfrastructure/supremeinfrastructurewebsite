@@ -9,29 +9,29 @@ export default function Home() {
       {/* Hero Section */}
       <motion.section
         className="relative h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/about/architectural2.jpg')" }}
+        style={{ backgroundImage: "url('/images/about/i.png')", filter: "blur(0px)" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <div className="container mx-auto h-full flex flex-col justify-center text-gray-900">
+        <div className="container mx-auto h-full flex flex-col justify-center text-white">
           <motion.h2
-            className="text-4xl md:text-6xl font-bold text-center"
+            className="text-4xl md:text-6xl font-bold text-center mb-96"
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >Architectural Designs
-            <span className='text-amber-500'> Specialists</span>
+            <span className='text-white'> Specialists</span>
           </motion.h2>
-          <motion.p
+          {/* <motion.p
             className="mt-4 text-lg text-center"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            We guide  <span className='text-amber-500'> the team</span>
-          </motion.p>
+            We guide  <span className='text-white'> the team</span>
+          </motion.p> */}
         </div>
       </motion.section>
 
