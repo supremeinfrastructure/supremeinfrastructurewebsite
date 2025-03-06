@@ -4,6 +4,14 @@ import React from 'react'
 import { FaMapMarkerAlt, FaPhone, FaWhatsapp, FaEnvelope, FaGlobe, FaInstagram, FaTwitter, FaLinkedin, FaFacebook, FaInfoCircle, FaProjectDiagram, FaImages, FaAddressBook } from 'react-icons/fa'
 
 const Footer = () => {
+    // Social media links with separate URLs for each platform
+    const socialLinks = [
+        { icon: FaInstagram, href: '/instagram', ariaLabel: 'Follow us on Instagram' },
+        { icon: FaTwitter, href: '/twitter', ariaLabel: 'Follow us on Twitter' },
+        { icon: FaLinkedin, href: '/linkedin', ariaLabel: 'Connect with us on LinkedIn' },
+        { icon: FaFacebook, href: '/facebook', ariaLabel: 'Like us on Facebook' }
+    ];
+
     return (
         <footer className="bg-gradient-to-r from-neutral-800 to-neutral-800 text-amber-500">
             <div className="container mx-auto px-4 py-8 sm:py-12 md:py-16">
@@ -64,10 +72,15 @@ const Footer = () => {
                     {/* Connect With Us */}
                     <div className="space-y-4">
                         <h2 className="text-xl sm:text-xl uppercase border-b-2 border-gray-500 pb-2 mb-4 text-start">Connect With Us</h2>
-                        <div className="flex md:mx-4 space-x-4">
-                            {[FaInstagram, FaTwitter, FaLinkedin, FaFacebook].map((Icon, index) => (
-                                <Link key={index} href="/" className="text-white-300 hover:text-yellow transition duration-300 transform hover:-translate-y-1 hover:scale-110">
-                                    <Icon size={24} />
+                        <div className="flex flex-wrap gap-4 md:gap-6">
+                            {socialLinks.map((item, index) => (
+                                <Link 
+                                    key={index} 
+                                    href={item.href}
+                                    aria-label={item.ariaLabel}
+                                    className="text-white-300 hover:text-yellow transition duration-300 transform hover:-translate-y-1 hover:scale-110 p-2 rounded-full hover:bg-neutral-700"
+                                >
+                                    <item.icon size={24} />
                                 </Link>
                             ))}
                         </div>
