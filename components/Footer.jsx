@@ -8,7 +8,7 @@ const Footer = () => {
     const socialLinks = [
         { icon: FaInstagram, href: 'https://www.instagram.com/supremeinfrastructure.co/', ariaLabel: 'Follow us on Instagram' },
         { icon: FaTwitter, href: 'https://x.com/supremeinfra_co', ariaLabel: 'Follow us on Twitter' },
-        { icon: FaLinkedin, href: 'https://www.linkedin.com/company/105202921/admin/dashboard/', ariaLabel: 'Connect with us on LinkedIn' },
+        { icon: FaLinkedin, href: '', ariaLabel: 'Connect with us on LinkedIn' },
         { icon: FaFacebook, href: 'https://www.facebook.com/supremeinfrastructurecompany', ariaLabel: 'Like us on Facebook' }
     ];
 
