@@ -53,7 +53,9 @@ const portfolioItems = [
 
       /// THE CORPORATE PARK
       '/images/projects/TCP/tcp-1.jpeg',
+      '/images/projects/TCP/tcp-3.jpeg',
       '/images/projects/TCP/tcp-4.jpeg',
+
 
 
     ]
