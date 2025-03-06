@@ -245,7 +245,7 @@ const HeroSection = () => {
             <motion.div variants={buttonVariants}>
               <Link href='/about/supremeInfrastructure'>
                 <motion.button
-                  className="px-4 sm:px-6 py-2 bg-gradient-to-r from-amber-700 to-yellow-600 text-white font-normal rounded-full hover:bg-orange-600 transition-colors duration-300 text-xs sm:text-sm md:text-base lg:text-lg shadow-lg"
+                  className="px-4 sm:px-6 py-2 bg-gradient-to-r from-amber-700 to-amber-600 text-white font-normal rounded-full hover:bg-orange-600 transition-colors duration-300 text-xs sm:text-sm md:text-base lg:text-lg shadow-lg"
                   whileHover={buttonHoverAnimation}
                   whileTap={{ scale: 0.95 }}
                 >
