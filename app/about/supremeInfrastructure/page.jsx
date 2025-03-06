@@ -25,7 +25,7 @@ const AboutUsPage = () => {
             name: "Lakshminarayan Pillai",
             position: "Director",
             image: "/images/directors/laksh.jpg",
-            bio: "More than 20 years of Industrial experience of handling all kinds of projects in the field of Construction, Architectural, Landscape Designing and Trunkey projects.",
+            bio: "More than 20 years of Industrial experience of handling all kinds of projects in the field of Construction, Architectural, Landscape Designing and Turnkey projects.",
         },
         {
             name: "Ruchita H. Patil",
