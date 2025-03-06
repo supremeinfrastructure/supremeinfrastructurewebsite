@@ -48,7 +48,7 @@ const AboutUsPage = () => {
             <main className="container mx-auto w-full px-4 py-16">
                 {/* About Us Section */}
                 <section className="mb-20">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-gray-800">About Supreme Infrastructure</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-gray-800">About Supreme Infrastructure Company</h2>
                     <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto text-center">
                         Supreme Infrastructure is a leading Civil Engineering and construction company with over 10 years of experience.
                         We specialize in delivering High-quality Infrastructure projects, Innovative Architectural Designs, and
