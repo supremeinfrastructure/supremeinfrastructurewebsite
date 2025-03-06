@@ -6,9 +6,9 @@ import { FaMapMarkerAlt, FaPhone, FaWhatsapp, FaEnvelope, FaGlobe, FaInstagram, 
 const Footer = () => {
     // Social media links with separate URLs for each platform
     const socialLinks = [
-        { icon: FaInstagram, href: '/instagram', ariaLabel: 'Follow us on Instagram' },
+        { icon: FaInstagram, href: 'https://www.instagram.com/supremeinfrastructure.co/', ariaLabel: 'Follow us on Instagram' },
         { icon: FaTwitter, href: '/twitter', ariaLabel: 'Follow us on Twitter' },
-        { icon: FaLinkedin, href: '/linkedin', ariaLabel: 'Connect with us on LinkedIn' },
+        { icon: FaLinkedin, href: 'https://www.linkedin.com/company/105202921/admin/dashboard/', ariaLabel: 'Connect with us on LinkedIn' },
         { icon: FaFacebook, href: '/facebook', ariaLabel: 'Like us on Facebook' }
     ];
 
