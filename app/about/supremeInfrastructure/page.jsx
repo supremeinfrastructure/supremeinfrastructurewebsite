@@ -22,7 +22,7 @@ const AboutUsPage = () => {
 
     const directors = [
         {
-            name: "Lakshminarayan Pillai",
+            name: "Lakshminarayanan Pillai",
             position: "Director",
             image: "/images/directors/laksh.jpg",
             bio: "More than 20 years of Industrial experience of handling all kinds of projects in the field of Construction, Architectural, Landscape Designing and Turnkey projects.",
