@@ -1,15 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaMapMarkerAlt,
-  FaPhone,
-  FaEnvelope,
-  FaPaperPlane,
-} from "react-icons/fa";
+import { FaFacebookF,FaTwitter,FaInstagram,FaLinkedinIn,FaMapMarkerAlt,FaPhone,FaEnvelope,FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function Contact() {
