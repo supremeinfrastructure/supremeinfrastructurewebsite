@@ -170,21 +170,6 @@ export default function Contact() {
         </motion.div>
       </motion.div>
 
-      {/* Curved Divider */}
-      {/* <div className="relative h-16 md:h-24 bg-amber-50">
-        <svg
-          className="absolute -top-1 left-0 w-full h-16 md:h-24 text-amber-50 fill-current"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-        >
-          <path
-            fill="#FFFFFF"
-            fillOpacity="1"
-            d="M0,96L80,112C160,128,320,160,480,160C640,160,800,128,960,122.7C1120,117,1280,139,1360,149.3L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-          ></path>
-        </svg>
-      </div> */}
-
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8 md:py-16">
         <motion.div
