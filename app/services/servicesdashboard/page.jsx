@@ -47,8 +47,8 @@ const portfolioItems = [
 
 
       /// TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI
-      '/images/projects/CARNACBUNDER/carnac-13.jpeg',
-      '/images/projects/CARNACBUNDER/carnac-14.jpeg',
+      '/images/projects/CARNACBUNDER2B/carnac-13.jpeg',
+      '/images/projects/CARNACBUNDER2B/carnac-14.jpeg',
 
 
       /// THE CORPORATE PARK

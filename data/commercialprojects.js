@@ -345,7 +345,7 @@ export const projects = [
   {
     slug: "project-12",
     title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI ",
-    image: "/images/projects/CARNACBUNDER/carnac-9.jpeg",
+    image: "/images/projects/CARNACBUNDER2B/carnac-9.jpeg",
     description: "TATA RENEWABLE ENERGY OFFICE CARNAC BUNDER MASJID 2B",
     fullDescription:
       "The modern office space is designed with a perfect blend of aesthetics and functionality. The artwork wall with a decorative decal sticker enhances the ambiance, creating a visually appealing atmosphere. A dedicated display area with an artifact section adds sophistication and showcases achievements. The ceiling with a highlighted groove finish brings depth and style to the space. The TV unit with a display section provides an efficient setup for presentations and meetings. Additionally, the ledge sitting with table support offers a comfortable yet productive work environment, seamlessly combining innovation and practicality for an inspiring workplace experience.",
@@ -361,34 +361,34 @@ export const projects = [
     ],
     videos: [
       {
-        url: "/images/projects/CARNACBUNDER/carnacVideo-4.mp4",
-        thumbnail: "/images/projects/CARNACBUNDER/carnac-1.jpeg",
+        url: "/images/projects/CARNACBUNDER2B/carnacVideo-4.mp4",
+        thumbnail: "/images/projects/CARNACBUNDER2B/carnac-1.jpeg",
         title: "Office Overview"
       },
       {
-        url: "/images/projects/CARNACBUNDER/carnacVideo-3.mp4",
-        thumbnail: "/images/projects/CARNACBUNDER/carnac-10.jpeg",
+        url: "/images/projects/CARNACBUNDER2B/carnacVideo-3.mp4",
+        thumbnail: "/images/projects/CARNACBUNDER2B/carnac-10.jpeg",
         title: "Office Overview"
       }
     ],
 
     galleryImages: [
 
-      { image: "/images/projects/CARNACBUNDER/carnac-1.jpeg", alt: "CARNACBUNDER-1" },
-      // { image: "/images/projects/CARNACBUNDER/carnac-2.jpeg", alt: "CARNACBUNDER-2" },
-      // { image: "/images/projects/CARNACBUNDER/carnac-3.jpeg", alt: "CARNACBUNDER-3" },
-      { image: "/images/projects/CARNACBUNDER/carnac-4.jpeg", alt: "CARNACBUNDER-4" },
-      // { image: "/images/projects/CARNACBUNDER/carnac-5.jpeg", alt: "CARNACBUNDER-5" },
-      { image: "/images/projects/CARNACBUNDER/carnac-6.jpeg", alt: "CARNACBUNDER-6" },
-      // { image: "/images/projects/CARNACBUNDER/carnac-7.jpeg", alt: "CARNACBUNDER-7" },
-      { image: "/images/projects/CARNACBUNDER/carnac-8.jpeg", alt: "CARNACBUNDER-8" },
-      { image: "/images/projects/CARNACBUNDER/carnac-9.jpeg", alt: "CARNACBUNDER-9" },
-      { image: "/images/projects/CARNACBUNDER/carnac-1.jpeg", alt: "CARNACBUNDER-10" },
-      { image: "/images/projects/CARNACBUNDER/carnac-11.jpeg", alt: "CARNACBUNDER-11" },
-      { image: "/images/projects/CARNACBUNDER/carnac-12.jpeg", alt: "CARNACBUNDER-12" },
-      { image: "/images/projects/CARNACBUNDER/carnac-13.jpeg", alt: "CARNACBUNDER-13" },
-      { image: "/images/projects/CARNACBUNDER/carnac-14.jpeg", alt: "CARNACBUNDER-14" },
-      // { image: "/images/projects/CARNACBUNDER/carnac-15.jpeg", alt: "CARNACBUNDER-15" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-1.jpeg", alt: "CARNACBUNDER2B-1" },
+      // { image: "/images/projects/CARNACBUNDER2B/carnac-2.jpeg", alt: "CARNACBUNDER2B-2" },
+      // { image: "/images/projects/CARNACBUNDER2B/carnac-3.jpeg", alt: "CARNACBUNDER2B-3" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-4.jpeg", alt: "CARNACBUNDER2B-4" },
+      // { image: "/images/projects/CARNACBUNDER2B/carnac-5.jpeg", alt: "CARNACBUNDER2B-5" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-6.jpeg", alt: "CARNACBUNDER2B-6" },
+      // { image: "/images/projects/CARNACBUNDER2B/carnac-7.jpeg", alt: "CARNACBUNDER2B-7" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-8.jpeg", alt: "CARNACBUNDER2B-8" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-9.jpeg", alt: "CARNACBUNDER2B-9" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-1.jpeg", alt: "CARNACBUNDER2B-10" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-11.jpeg", alt: "CARNACBUNDER2B-11" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-12.jpeg", alt: "CARNACBUNDER2B-12" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-13.jpeg", alt: "CARNACBUNDER2B-13" },
+      { image: "/images/projects/CARNACBUNDER2B/carnac-14.jpeg", alt: "CARNACBUNDER2B-14" },
+      // { image: "/images/projects/CARNACBUNDER2B/carnac-15.jpeg", alt: "CARNACBUNDER2B-15" },
 
     ],
   },
