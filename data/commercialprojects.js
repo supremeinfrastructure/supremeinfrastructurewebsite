@@ -394,7 +394,7 @@ export const projects = [
   },
   {
     slug: "project-13",
-    title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI ",
+    title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 5B, MUMBAI ",
     image: "/images/projects/CARNACBUNDER5B/carnac-5.jpeg",
     description: "5B",
     fullDescription:
