@@ -346,7 +346,7 @@ export const projects = [
     slug: "project-12",
     title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI ",
     image: "/images/projects/CARNACBUNDER2B/carnac-9.jpeg",
-    description: "TATA RENEWABLE ENERGY OFFICE CARNAC BUNDER MASJID 2B",
+    description: "2B",
     fullDescription:
       "The modern office space is designed with a perfect blend of aesthetics and functionality. The artwork wall with a decorative decal sticker enhances the ambiance, creating a visually appealing atmosphere. A dedicated display area with an artifact section adds sophistication and showcases achievements. The ceiling with a highlighted groove finish brings depth and style to the space. The TV unit with a display section provides an efficient setup for presentations and meetings. Additionally, the ledge sitting with table support offers a comfortable yet productive work environment, seamlessly combining innovation and practicality for an inspiring workplace experience.",
     highlights: [
@@ -394,6 +394,36 @@ export const projects = [
   },
   {
     slug: "project-13",
+    title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI ",
+    image: "/images/projects/CARNACBUNDER5B/carnac-3.jpeg",
+    description: "5B",
+    fullDescription:
+      "The modern office space is designed with a perfect blend of aesthetics and functionality. The artwork wall with a decorative decal sticker enhances the ambiance, creating a visually appealing atmosphere. A dedicated display area with an artifact section adds sophistication and showcases achievements. The ceiling with a highlighted groove finish brings depth and style to the space. The TV unit with a display section provides an efficient setup for presentations and meetings. Additionally, the ledge sitting with table support offers a comfortable yet productive work environment, seamlessly combining innovation and practicality for an inspiring workplace experience.",
+    highlights: [
+      { icon: "Paintbrush", description: "Artwork wall with decorative decal sticker" },
+      { icon: "Landmark", description: "Display area with artifact section" },
+      { icon: "ScanLine", description: "Ceiling with highlighted groove finish" },
+      { icon: "MonitorPlay", description: "Tv unit with Display section" },
+      { icon: "Armchair", description: "Ledge sitting with table support" },
+    ],
+    configuration: [
+      { flat: " 10000 sqft", carpet: "60 days" },
+    ],
+    galleryImages: [
+
+      { image: "/images/projects/CARNACBUNDER5B/carnac-1.jpeg", alt: "CARNACBUNDER5B-1" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-2.jpeg", alt: "CARNACBUNDER5B-2" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-3.jpeg", alt: "CARNACBUNDER5B-3" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-4.jpeg", alt: "CARNACBUNDER5B-4" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-5.jpeg", alt: "CARNACBUNDER5B-5" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-6.jpeg", alt: "CARNACBUNDER5B-6" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-7.jpeg", alt: "CARNACBUNDER5B-7" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-8.jpeg", alt: "CARNACBUNDER5B-8" },
+      { image: "/images/projects/CARNACBUNDER5B/carnac-9.jpeg", alt: "CARNACBUNDER5B-9" },
+    ],
+  },
+  {
+    slug: "project-14",
     title: "THE CORPORATE PARK , NAVI MUMBAI",
     image: "/images/projects/TCP/tcp-2.jpeg",
     description: "THE CORPORATE PARK ,NAVI MUMBAI",
