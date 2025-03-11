@@ -395,7 +395,7 @@ export const projects = [
   {
     slug: "project-13",
     title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 5B, MUMBAI ",
-    image: "/images/projects/CARNACBUNDER5B/carnac-5.jpeg", 
+    image: "/images/projects/CARNACBUNDER5B/carnac-5.jpeg",
     description: "5B",
     fullDescription:
       "The modern office space is designed with a perfect blend of aesthetics and functionality. The artwork wall with a decorative decal sticker enhances the ambiance, creating a visually appealing atmosphere. A dedicated display area with an artifact section adds sophistication and showcases achievements. The ceiling with a highlighted groove finish brings depth and style to the space. The TV unit with a display section provides an efficient setup for presentations and meetings. Additionally, the ledge sitting with table support offers a comfortable yet productive work environment, seamlessly combining innovation and practicality for an inspiring workplace experience.",
