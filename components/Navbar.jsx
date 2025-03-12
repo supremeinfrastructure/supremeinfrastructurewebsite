@@ -47,7 +47,7 @@ function Navbar({ className }) {
 
             {/* Mobile Slider Menu  we can change the slder colour from here */}
             <div
-                className={`fixed top-0 left-0 h-full w-4/5 max-w-sm bg-gradient-to-br from-white to-white-100 dark:from-white-100 dark:to-white-800 shadow-2xl transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"
+                className={`fixed top-0 left-0 h-full w-4/5 max-w-sm bg-gradient-to-br from-white to-white-100 dark:from-gray-50 dark:to-gray-50 shadow-2xl transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"
                     } transition-all duration-300 ease-in-out lg:hidden z-40`}
             >
                 <div className="p-4 flex justify-between items-center mx-4">
