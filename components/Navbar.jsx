@@ -45,9 +45,9 @@ function Navbar({ className }) {
                 </button>
             </div>
 
-            {/* Mobile Slider Menu */}
+            {/* Mobile Slider Menu  we can change the slder colour from here */}
             <div
-                className={`fixed top-0 left-0 h-full w-4/5 max-w-sm bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 shadow-2xl transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"
+                className={`fixed top-0 left-0 h-full w-4/5 max-w-sm bg-gradient-to-br from-white to-white-100 dark:from-white-100 dark:to-white-800 shadow-2xl transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"
                     } transition-all duration-300 ease-in-out lg:hidden z-40`}
             >
                 <div className="p-4 flex justify-between items-center mx-4">
@@ -175,7 +175,7 @@ const MobileMenuItem = React.memo(({ href, onClick, children }) => {
     return (
         <Link
             href={href}
-            className="block py-2 text-lg font-medium text-gray-800 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-200"
+            className="block py-2 text-lg font-medium text-gray-800 dark:text-black-200 hover:text-amber-500 dark:hover:text-amber-400 transition-colors duration-200"
             onClick={onClick}
         >
             {children}
@@ -188,7 +188,7 @@ const MobileMenuDropdown = React.memo(({ title, isOpen, onClick, children }) => 
         <div>
             <button
                 onClick={onClick}
-                className="flex items-center justify-between w-full py-2 text-lg font-medium text-gray-800 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 transition-colors duration-200"
+                className="flex items-center justify-between w-full py-2 text-lg font-medium text-black dark:text-black-200 hover:text-amber-500 dark:hover:text-amber-500 transition-colors duration-200"
             >
                 {title}
                 <ChevronDown className={`w-5 h-5 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`} />
