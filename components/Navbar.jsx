@@ -51,7 +51,12 @@ function Navbar({ className }) {
                     } transition-all duration-300 ease-in-out lg:hidden z-40`}
             >
                 <div className="p-4 flex justify-between items-center mx-4">
-                    <h2 className="text-xl font-bold text-gray-900 dark:text-white">Menu</h2>
+                    {/* Logo for Mobile */}
+                    <div className="w-10 h-10">
+                        <img src="/images/home/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                    </div>
+
+                    {/* Close Button */}
                     <button
                         onClick={closeMenu}
                         className="p-2 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-full shadow-lg focus:outline-none hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
@@ -72,6 +77,7 @@ function Navbar({ className }) {
                         </svg>
                     </button>
                 </div>
+
                 <div className="mt-8 flex flex-col space-y-4 px-8">
                     <MobileMenuItem href="/" onClick={closeMenu}>
                         Home
