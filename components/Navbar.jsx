@@ -52,8 +52,8 @@ function Navbar({ className }) {
             >
                 <div className="p-4 flex justify-between items-center mx-4">
                     {/* Logo for Mobile */}
-                    <div className="w-10 h-10">
-                        <img src="/images/home/logo.png" alt="Logo" className="w-full h-full object-contain" />
+                    <div className="w-10 h-20">
+                        <img src="/images/home/urlLogo.png" alt="Logo" className="w-full h-full object-contain" />
                     </div>
 
                     {/* Close Button */}
