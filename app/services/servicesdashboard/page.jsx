@@ -76,10 +76,23 @@ const portfolioItems = [
   },
   {
     name: "Architectural Design",
-    images: ['/services/architectural-design/architectural-1.JPG',
-      '/services/architectural-design/architectural-2.JPG',
-      '/services/architectural-design/architectural-3.JPG',
+    images: [
+      /// atlantas
+      '/images/projects/ATLANTAS/atlantas-7.jpg',
 
+      /// coact
+      '/images/projects/COACT/coact-1.jpg',
+      '/images/projects/COACT/coact-11.jpg',
+      '/images/projects/COACT/coact-14.jpg',
+
+      /// Raheja
+      '/images/projects/RAHEJA/raheja-5.jpeg',
+
+      /// Raheja
+      '/images/projects/TATAPOWERMULSHIIB/mulshi-1.jpg',
+
+      //TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA BANGOLARE
+      '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-1.jpg',
     ]
   },
   {
