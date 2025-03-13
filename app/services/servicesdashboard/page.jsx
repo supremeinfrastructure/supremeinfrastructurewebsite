@@ -143,8 +143,6 @@ const portfolioItems = [
 
       // TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-6.jpg',
-
-      
     ]
   },
 ];
