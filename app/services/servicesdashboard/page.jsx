@@ -103,6 +103,10 @@ const portfolioItems = [
       // TATA TAMILNADU
       '/images/projects/TATATAMILNADU/tataTamilnadu-16.jpg',
 
+      // TPSSLBANGOLARE
+      '/images/projects/TPSSLBANGOLARE/tpsslBanglore-2.jpg',
+      '/images/projects/TPSSLBANGOLARE/tpsslBanglore-4.jpg',
+
     ]
   },
   {
