@@ -97,7 +97,12 @@ const portfolioItems = [
       // TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-5.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-19.jpg',
-      '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-22.jpg'
+      '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-22.jpg',
+
+
+      // TATA TAMILNADU
+      '/images/projects/TATATAMILNADU/tataTamilnadu-15.jpg',
+
     ]
   },
   {
