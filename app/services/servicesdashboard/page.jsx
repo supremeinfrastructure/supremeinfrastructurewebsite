@@ -92,7 +92,7 @@ const portfolioItems = [
       '/images/projects/TATAPOWERMULSHIIB/mulshi-1.jpg',
 
       //TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA BANGOLARE
-      '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-1.jpg',
+      '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-4.jpg',
     ]
   },
   {
