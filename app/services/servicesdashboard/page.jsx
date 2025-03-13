@@ -101,7 +101,7 @@ const portfolioItems = [
 
 
       // TATA TAMILNADU
-      '/images/projects/TATATAMILNADU/tataTamilnadu-15.jpg',
+      '/images/projects/TATATAMILNADU/tataTamilnadu-16.jpg',
 
     ]
   },
