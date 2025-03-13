@@ -101,14 +101,6 @@ const portfolioItems = [
     ]
   },
   {
-    name: "Cable Trench",
-    images: []
-  },
-  {
-    name: "Industrial Building",
-    images: []
-  },
-  {
     name: "Horticulture Design",
     images: [
       '/services/horticulture-design/horticulture-3.JPG',
