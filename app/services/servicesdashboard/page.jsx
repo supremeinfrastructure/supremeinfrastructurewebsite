@@ -203,7 +203,7 @@ export default function Home() {
           ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
         `}
       >
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-start text-black lg:my-12 mt-14 md:mx-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-start text-black lg:my-12 mt-14 md:mx-4 m-16">
           Portfolio
         </h2>
         <ul className="space-y-2">
