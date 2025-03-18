@@ -86,7 +86,7 @@ export default function Home() {
       >
         <div className="container mx-auto grid md:grid-cols-2 gap-8">
           <motion.img
-            src="/services/architectural-design/architectural-1.JPG"
+            src="/services/architectural-design/architectural-4.png"
             alt="Description 1"
             className="w-full h-auto object-cover"
             initial={{ scale: 0.8, opacity: 0 }}
@@ -95,7 +95,7 @@ export default function Home() {
             viewport={{ once: true }}
           />
           <motion.img
-            src="/services/architectural-design/architectural-3.JPG"
+            src="/services/architectural-design/architectural-5.png"
             alt="Description 2"
             className="w-full h-auto object-cover"
             initial={{ scale: 0.8, opacity: 0 }}
