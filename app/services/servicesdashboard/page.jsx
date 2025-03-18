@@ -7,33 +7,33 @@ const portfolioItems = [
   {
     name: "Interior Design",
     images: [
-      /// ATLANTAS
+      /// ATLANTAS ///////////////
       '/images/projects/ATLANTAS/atlantas-7.jpg',
       '/images/projects/ATLANTAS/atlantas-18.jpg',
       '/images/projects/ATLANTAS/atlantas-5.jpg',
 
-      /// PROCURMENT OFFICE OF TATA POWER SOLAR
+      /// PROCURMENT OFFICE OF TATA POWER SOLAR ////////////////
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-5.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-6.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-22.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-34.jpg',
 
-      /// CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY
+      /// CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY  /////////////////////////
       '/images/projects/TATAPOWERCIVILTROMBAY/trombay-7.jpeg',
 
-      /// TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BANGOLARE
+      /// TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BANGOLARE  /////////////////////////
       '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-3.jpg',
       '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-9.jpg',
       '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-19.jpg',
       '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-22.jpg',
 
-      ///  ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE
+      ///  ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE  ///////////////////////////////
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-4.jpg',
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-7.jpg',
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-11.jpg',
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-17.jpg',
 
-      /// SUPREME INFRASTRUCTURE HEAD OFFICE AT MAYURESH PLANET BELAPUR
+      /// SUPREME INFRASTRUCTURE HEAD OFFICE AT MAYURESH PLANET BELAPUR ////////////////////////
       '/images/projects/MAYURESHPLANET/mayuresh-1.jpg',
       '/images/projects/MAYURESHPLANET/mayuresh-3.jpg',
       '/images/projects/MAYURESHPLANET/mayuresh-6.jpg',
@@ -46,27 +46,27 @@ const portfolioItems = [
       '/images/projects/COACT/coact-14.jpg',
 
 
-      /// TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI
+      /// TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI  ////////////////////
       '/images/projects/CARNACBUNDER2B/carnac-13.jpeg',
       '/images/projects/CARNACBUNDER2B/carnac-14.jpeg',
 
 
-      /// THE CORPORATE PARK
+      /// THE CORPORATE PARK  ////////////////////
       '/images/projects/TCP/tcp-1.jpeg',
       '/images/projects/TCP/tcp-3.jpeg',
       '/images/projects/TCP/tcp-4.jpeg',
 
 
 
-      ///  CARNAC 5B 
+      ///  CARNAC 5B  //////////////////// 
       '/images/projects/CARNACBUNDER5B/carnac-1.jpeg',
       '/images/projects/CARNACBUNDER5B/carnac-2.jpeg',
       '/images/projects/CARNACBUNDER5B/carnac-3.jpeg',
-      // '/images/projects/CARNACBUNDER5B/carnac-4.jpeg',
+      // '/images/projects/CARNACBUNDER5B/carnac-4.jpeg',  ////////////////////
       '/images/projects/CARNACBUNDER5B/carnac-5.jpeg',
-      // '/images/projects/CARNACBUNDER5B/carnac-6.jpeg',
+      // '/images/projects/CARNACBUNDER5B/carnac-6.jpeg',  ////////////////////
       '/images/projects/CARNACBUNDER5B/carnac-7.jpeg',
-      // '/images/projects/CARNACBUNDER5B/carnac-8.jpeg',
+      // '/images/projects/CARNACBUNDER5B/carnac-8.jpeg',  ////////////////////
       '/images/projects/CARNACBUNDER5B/carnac-9.jpeg',
     ]
   },
@@ -77,33 +77,33 @@ const portfolioItems = [
   {
     name: "Architectural Design",
     images: [
-      /// atlantas
+      ////////////////////   atlantas  ////////////////////////////////
       '/images/projects/ATLANTAS/atlantas-7.jpg',
 
-      /// coact
+      ////////////////////   coact  ////////////////////////////////
       '/images/projects/COACT/coact-1.jpg',
       '/images/projects/COACT/coact-11.jpg',
       '/images/projects/COACT/coact-14.jpg',
 
-      /// Raheja
+      ////////////////////   Raheja  ////////////////////////////////
       '/images/projects/RAHEJA/raheja-5.jpeg',
 
-      /// Raheja
+      ////////////////////   Raheja  ////////////////////////////////
       '/images/projects/TATAPOWERMULSHIIB/mulshi-1.jpg',
 
-      //TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA BANGOLARE
+      ///////////////////  TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA BANGOLARE  ////////////////////////////////
       '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-4.jpg',
 
-      // TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE
+      ///////////////////   TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE  ////////////////////////////////
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-5.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-19.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-22.jpg',
 
 
-      // TATA TAMILNADU
+      ///////////////////   TATA TAMILNADU  ////////////////////////////////
       '/images/projects/TATATAMILNADU/tataTamilnadu-16.jpg',
 
-      // TPSSLBANGOLARE
+      /////////////////// TPSSLBANGOLARE   /////////////////////////////////
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-2.jpg',
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-4.jpg',
 
@@ -141,7 +141,7 @@ const portfolioItems = [
       '/services/building-design/building-3.JPG',
       '/services/building-design/building-4.JPG',
 
-      // TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE
+      /////////////////// TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE   ///////////////////////////
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-6.jpg',
     ]
   },
