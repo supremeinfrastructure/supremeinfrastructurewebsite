@@ -55,10 +55,6 @@ export default function Home() {
           </motion.div>
           <motion.div
             className="bg-gradient-to-r from-amber-600 to-amber-600 text-white p-6"
-          // initial={{ x: 50, opacity: 0 }}
-          // whileInView={{ x: 0, opacity: 1 }}
-          // transition={{ duration: 0.8, delay: 0.4 }}
-          // viewport={{ once: true }}
           >
             <h4 className="text-xl font-bold text-center">Ready to talk about your project?</h4>
             <p className="mt-2 text-center">Contact Our Team</p>
