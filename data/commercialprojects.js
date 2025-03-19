@@ -320,7 +320,7 @@ export const projects = [
     description: "COACT IMPRINTS",
     fullDescription:
       "COACT IMPRINTS, Navi Mumbai – A Vibrant & Functional Workspace Transformation Our latest renovation at COACT IMPRINTS, Navi Mumbai, redefines modern workspaces with functionality and aesthetics. Designed for efficiency and collaboration, this 1500 sq. ft. space features 20+ seating on a single floor, an 8-seater open conference room, and a bold, branded main entry. The vibrant interview and meeting rooms enhance creativity, while the mezzanine floor dining area adds a touch of comfort. Every element is crafted to inspire productivity, making it a dynamic hub for innovation. Completed in 135 days, this project seamlessly blends color, design, and utility for a truly engaging workspace.",
-    tagLine: "Project information",
+    tagLine: "Project information" ,
     highlights: [
       { icon: "Wallpaper", description: "20+ Seating at single floor." },
       { icon: "FlipHorizontal", description: "8 seater open Conference room" },
