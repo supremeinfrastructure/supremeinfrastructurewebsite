@@ -373,14 +373,9 @@ export const projects = [
     ],
 
     galleryImages: [
-
       { image: "/images/projects/CARNACBUNDER2B/carnac-1.jpeg", alt: "CARNACBUNDER2B-1" },
-      // { image: "/images/projects/CARNACBUNDER2B/carnac-2.jpeg", alt: "CARNACBUNDER2B-2" },
-      // { image: "/images/projects/CARNACBUNDER2B/carnac-3.jpeg", alt: "CARNACBUNDER2B-3" },
       { image: "/images/projects/CARNACBUNDER2B/carnac-4.jpeg", alt: "CARNACBUNDER2B-4" },
-      // { image: "/images/projects/CARNACBUNDER2B/carnac-5.jpeg", alt: "CARNACBUNDER2B-5" },
       { image: "/images/projects/CARNACBUNDER2B/carnac-6.jpeg", alt: "CARNACBUNDER2B-6" },
-      // { image: "/images/projects/CARNACBUNDER2B/carnac-7.jpeg", alt: "CARNACBUNDER2B-7" },
       { image: "/images/projects/CARNACBUNDER2B/carnac-8.jpeg", alt: "CARNACBUNDER2B-8" },
       { image: "/images/projects/CARNACBUNDER2B/carnac-9.jpeg", alt: "CARNACBUNDER2B-9" },
       { image: "/images/projects/CARNACBUNDER2B/carnac-1.jpeg", alt: "CARNACBUNDER2B-10" },
@@ -388,8 +383,6 @@ export const projects = [
       { image: "/images/projects/CARNACBUNDER2B/carnac-12.jpeg", alt: "CARNACBUNDER2B-12" },
       { image: "/images/projects/CARNACBUNDER2B/carnac-13.jpeg", alt: "CARNACBUNDER2B-13" },
       { image: "/images/projects/CARNACBUNDER2B/carnac-14.jpeg", alt: "CARNACBUNDER2B-14" },
-      // { image: "/images/projects/CARNACBUNDER2B/carnac-15.jpeg", alt: "CARNACBUNDER2B-15" },
-
     ],
   },
   {
