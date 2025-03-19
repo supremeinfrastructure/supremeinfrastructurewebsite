@@ -40,7 +40,7 @@ const portfolioItems = [
       '/images/projects/MAYURESHPLANET/mayuresh-7.jpg',
 
 
-      /// COACT
+      /// COACT ////////////////////////////////////////////
       '/images/projects/COACT/coact-1.jpg',
       '/images/projects/COACT/coact-11.jpg',
       '/images/projects/COACT/coact-14.jpg',
