@@ -319,7 +319,7 @@ export const projects = [
     image: "/images/projects/COACT/coact-3.jpg",
     description: "COACT IMPRINTS",
     fullDescription:
-      "The TATA Power Peninsula project aims to revitalize an 8000 sqft area over a 45-day period, creating an elegant and functional workspace that embodies the essence of TATA Power. This design initiative focuses on sophistication and comfort, ensuring a pleasant environment for employees and visitors alike.The TATA Power Peninsula project is set to create a refined and inviting environment that reflects the company’s values and culture. With a focus on high-quality finishes and thoughtful design, this project will serve as a benchmark for contemporary office spaces, enhancing both employee satisfaction and brand representation.",
+      "COACT IMPRINTS, Navi Mumbai – A Vibrant & Functional Workspace Transformation Our latest renovation at COACT IMPRINTS, Navi Mumbai, redefines modern workspaces with functionality and aesthetics. Designed for efficiency and collaboration, this 1500 sq. ft. space features 20+ seating on a single floor, an 8-seater open conference room, and a bold, branded main entry. The vibrant interview and meeting rooms enhance creativity, while the mezzanine floor dining area adds a touch of comfort. Every element is crafted to inspire productivity, making it a dynamic hub for innovation. Completed in 135 days, this project seamlessly blends color, design, and utility for a truly engaging workspace.",
     tagLine: "Project information",
     highlights: [
       { icon: "Wallpaper", description: "20+ Seating at single floor." },
