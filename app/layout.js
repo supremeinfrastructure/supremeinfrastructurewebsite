@@ -1,12 +1,12 @@
-import { Kanit } from "next/font/google";
+import { Rubik } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { NavbarDemo } from "@/components/Navbar";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-const kanit = Kanit({
+const rubik = Rubik({
   weight: '500',
-  subsets: ["thai"],
+  subsets: ["hebrew"],
   weight: ['500'],
   display: "swap"
 });
@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={kanit.className}>
+      <body className={rubik.className}>
         <NavbarDemo />
         {children}
         <SpeedInsights/>
