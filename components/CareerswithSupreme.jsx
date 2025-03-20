@@ -47,7 +47,7 @@ const CareerswithSupreme = () => {
                         That's where you come in.
                     </p>
                     <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 md:justify-center">
-                        <Link href="/contact" className="bg-gradient-to-r from-amber-700 to-yellow-600 text-white px-6 py-3 rounded-md  hover:bg-red-600 transition duration-300 text-center">
+                        <Link href="/contact" className="bg-gradient-to-r from-amber-700 to-yellow-700 text-white px-6 py-3 rounded-md  hover:bg-red-600 transition duration-300 text-center">
                             JOIN SUPREME
                         </Link>
                         <Link href="/contact/career" className="bg-gray-800 text-white px-6 py-3 rounded-md  hover:bg-gray-900 transition duration-300 flex items-center justify-center">
