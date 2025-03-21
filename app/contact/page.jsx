@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { FaFacebookF,FaTwitter,FaInstagram,FaLinkedinIn,FaMapMarkerAlt,FaPhone,FaEnvelope,FaPaperPlane } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaPhone, FaEnvelope, FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function Contact() {
@@ -116,7 +116,7 @@ export default function Contact() {
       }
     }
   };
-  
+
   const statusMessage = () => {
     if (submitStatus.loading) {
       return <p className="text-amber-700 flex items-center gap-2"><span className="animate-spin">⟳</span> Sending message...</p>;
@@ -129,7 +129,7 @@ export default function Contact() {
     }
     return null;
   };
-  
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-gray-100">
       {/* Hero Section */}
@@ -190,7 +190,7 @@ export default function Contact() {
             <h2 className="text-2xl font-bold mb-6 text-amber-800">
               <span className="border-b-4 border-amber-500 pb-2">Contact Info</span>
             </h2>
-            
+
             <div className="space-y-8">
               <div className="flex items-start space-x-4 group">
                 <div className="bg-amber-100 p-3 rounded-full text-amber-700 group-hover:bg-amber-700 group-hover:text-white transition-all duration-300">
@@ -206,7 +206,7 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4 group">
                 <div className="bg-amber-100 p-3 rounded-full text-amber-700 group-hover:bg-amber-700 group-hover:text-white transition-all duration-300">
                   <FaPhone className="text-xl" />
@@ -218,7 +218,7 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4 group">
                 <div className="bg-amber-100 p-3 rounded-full text-amber-700 group-hover:bg-amber-700 group-hover:text-white transition-all duration-300">
                   <FaEnvelope className="text-xl" />
@@ -231,7 +231,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            
+
             <div className="mt-12">
               <h3 className="text-lg font-semibold mb-4 text-amber-800">
                 <span className="border-b-2 border-amber-500 pb-1">Follow Us</span>
@@ -247,8 +247,8 @@ export default function Contact() {
                     key={index}
                     href="#"
                     className="bg-white p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200"
-                    whileHover={{ 
-                      scale: 1.1, 
+                    whileHover={{
+                      scale: 1.1,
                       backgroundColor: item.color,
                       color: "white"
                     }}
@@ -272,7 +272,7 @@ export default function Contact() {
             <h2 className="text-2xl font-bold mb-6 text-amber-800">
               <span className="border-b-4 border-amber-500 pb-2">Send Us a Message</span>
             </h2>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="relative">
@@ -283,9 +283,8 @@ export default function Contact() {
                     value={formData.fullName}
                     onChange={handleChange}
                     required
-                    className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${
-                      errors.fullName ? "border-red-500" : "border-gray-200 focus:border-amber-500"
-                    } outline-none transition duration-300`}
+                    className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${errors.fullName ? "border-red-500" : "border-gray-200 focus:border-amber-500"
+                      } outline-none transition duration-300`}
                   />
                   <div className="absolute top-1/2 left-3 -translate-y-1/2 text-amber-700">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -298,7 +297,7 @@ export default function Contact() {
                     </p>
                   )}
                 </div>
-                
+
                 <div className="relative">
                   <input
                     type="email"
@@ -307,9 +306,8 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${
-                      errors.email ? "border-red-500" : "border-gray-200 focus:border-amber-500"
-                    } outline-none transition duration-300`}
+                    className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${errors.email ? "border-red-500" : "border-gray-200 focus:border-amber-500"
+                      } outline-none transition duration-300`}
                   />
                   <div className="absolute top-1/2 left-3 -translate-y-1/2 text-amber-700">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -331,9 +329,8 @@ export default function Contact() {
                   value={formData.contactNumber}
                   onChange={handleChange}
                   required
-                  className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${
-                    errors.contactNumber ? "border-red-500" : "border-gray-200 focus:border-amber-500"
-                  } outline-none transition duration-300`}
+                  className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${errors.contactNumber ? "border-red-500" : "border-gray-200 focus:border-amber-500"
+                    } outline-none transition duration-300`}
                 />
                 <div className="absolute top-1/2 left-3 -translate-y-1/2 text-amber-700">
                   <FaPhone className="h-4 w-4" />
@@ -344,7 +341,7 @@ export default function Contact() {
                   </p>
                 )}
               </div>
-              
+
               <div className="relative">
                 <textarea
                   name="message"
@@ -352,9 +349,8 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${
-                    errors.message ? "border-red-500" : "border-gray-200 focus:border-amber-500"
-                  } outline-none transition duration-300`}
+                  className={`w-full p-4 pl-12 border-2 rounded-lg bg-gray-50 focus:bg-white ${errors.message ? "border-red-500" : "border-gray-200 focus:border-amber-500"
+                    } outline-none transition duration-300`}
                   rows={4}
                 />
                 <div className="absolute top-6 left-3 text-amber-700">
@@ -366,11 +362,11 @@ export default function Contact() {
                   <p className="text-red-500 text-sm mt-1 ml-2">{errors.message}</p>
                 )}
               </div>
-              
+
               <div className="text-sm font-medium">
                 {statusMessage()}
               </div>
-              
+
               <motion.button
                 type="submit"
                 className="w-full bg-gradient-to-r from-amber-600 to-amber-800 text-white py-4 px-8 rounded-lg hover:from-amber-700 hover:to-amber-900 transition duration-300 text-lg font-medium shadow-md hover:shadow-lg disabled:opacity-70 flex items-center justify-center gap-2"
@@ -408,7 +404,7 @@ export default function Contact() {
               Located in the heart of CBD Belapur, our office is easily accessible and ready to welcome you.
             </p>
           </div>
-          
+
           <div className="w-full overflow-hidden rounded-xl shadow-xl bg-white p-2">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.1054919148572!2d73.03228064559504!3d19.006737810288765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c146766a3db7%3A0x762c073d563eb77a!2sSupreme%20Infrastructure%20Company!5e1!3m2!1sen!2sin!4v1734178610573!5m2!1sen!2sin"
@@ -423,17 +419,17 @@ export default function Contact() {
           </div>
         </motion.div>
       </div>
-      
+
       {/* Footer Divider */}
       <div className="relative h-16 mt-16">
-        <svg 
-          className="absolute bottom-0 left-0 w-full" 
-          xmlns="http://www.w3.org/2000/svg" 
+        <svg
+          className="absolute bottom-0 left-0 w-full"
+          xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
         >
-          <path 
-            fill="#d97706" 
-            fillOpacity="0.8" 
+          <path
+            fill="#d97706"
+            fillOpacity="0.8"
             d="M0,224L60,213.3C120,203,240,181,360,186.7C480,192,600,224,720,224C840,224,960,192,1080,176C1200,160,1320,160,1380,160L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           ></path>
         </svg>
