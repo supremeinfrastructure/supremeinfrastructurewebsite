@@ -131,7 +131,7 @@ export default function Contact() {
   };
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 to-gray-100">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0 }}
