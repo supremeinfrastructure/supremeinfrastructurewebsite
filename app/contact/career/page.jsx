@@ -245,9 +245,9 @@ const CareerPage = () => {
           </div>
 
           <div className='w-full lg:w-1/2'>
-            <div className=' rounded-lg overflow-hidden'>
-              <div className='bg-gradient-to-r from-amber-600 to-amber-600 p-6'>
-                <h2 className='text-4xl text-center text-white tracking-wide'>
+            <div className='overflow-hidden'>
+              <div className='bg-gradient-to-r p-6'>
+                <h2 className='text-4xl text-center text-black tracking-wide'>
                   Career Application
                 </h2>
               </div>
