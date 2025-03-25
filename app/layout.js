@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import { NavbarDemo } from "@/components/Navbar";
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 
 const rubik = Rubik({
   weight: '500',
@@ -25,8 +26,9 @@ export default function RootLayout({ children }) {
       <body className={rubik.className}>
         <NavbarDemo />
         {children}
-        <SpeedInsights/>
         <Footer />
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
