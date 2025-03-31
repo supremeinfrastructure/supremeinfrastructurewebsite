@@ -145,7 +145,7 @@ const portfolioItems = [
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-6.jpg',
 
 
-      /////////  TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BENGALURU    /////////
+      /////////       TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BENGALURU       /////////
       '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-19.jpg',
     ]
   },
