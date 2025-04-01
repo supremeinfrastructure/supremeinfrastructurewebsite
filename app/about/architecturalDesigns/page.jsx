@@ -58,7 +58,7 @@ export default function Home() {
           >
             <h4 className="text-xl font-bold text-center">Ready to talk about your project?</h4>
             <p className="mt-2 text-center">Contact Our Team</p>
-            <p className="mt-1 text-center">Phone: +91 - 86570 04324</p>
+            <p className="mt-1 text-center">Phone: +91 - 8591269664</p>
             <p className="mt-1 text-center">Email: contact@supremeinfrastructure.in</p>
           </motion.div>
         </div>
