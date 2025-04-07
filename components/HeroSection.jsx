@@ -60,11 +60,35 @@ const buttonVariants = {
   }
 };
 
+// Updated card animation - fade in from center
+const cardVariants = {
+  hidden: { opacity: 0, scale: 0.9 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 25,
+      duration: 0.3
+    }
+  },
+  exit: {
+    opacity: 0,
+    scale: 0.9,
+    transition: {
+      duration: 0.2
+    }
+  }
+};
+
 const HeroSection = () => {
   const videoRef = useRef(null);
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [fallbackImageVisible, setFallbackImageVisible] = useState(true);
+  const [currentCard, setCurrentCard] = useState(1); // Track which card is showing
+  const [showCard, setShowCard] = useState(false);
 
   // Memoized static content
   const title = useMemo(() => "Supreme Infrastructure Company", []);
@@ -72,6 +96,31 @@ const HeroSection = () => {
     "We are a team of Talented, Innovative Designers, Engineers, and Horticulturists.",
     []
   );
+
+  // First card content
+  const card1Title = useMemo(() => "Costal Road Mumbai ( South )", []);
+  const card1Description = useMemo(() =>
+    "ONGOING PROJECT",
+    []
+  );
+
+  // Second card content
+  const card2Title = useMemo(() => "Costal Road Mumbai ( South )", []);
+  const card2Description = useMemo(() =>
+    "Inaugurated By Hon'ble Chief Minister Devendra Fadnavis, Deputy Chief Minister Eknath Shinde, Minister of Tourism Mangal Prabhat Lodha and other esteemed Government Officials.",
+    []
+  );
+
+  // Function to immediately switch to the second card
+  const handleCloseCard = useCallback(() => {
+    if (currentCard === 1) {
+      // Switch to second card immediately
+      setCurrentCard(2);
+    } else {
+      // Close second card with no follow-up
+      setShowCard(false);
+    }
+  }, [currentCard]);
 
   // Memoized title characters
   const titleChars = useMemo(() => title.split(''), [title]);
@@ -85,6 +134,9 @@ const HeroSection = () => {
   const handleVideoLoaded = useCallback(() => {
     setIsVideoLoaded(true);
     setTimeout(() => setFallbackImageVisible(false), 300); // Fade out fallback image after video loads
+
+    // Show the sliding card after a delay
+    setTimeout(() => setShowCard(true), 800);
   }, []);
 
   // Handle video play error
@@ -92,6 +144,9 @@ const HeroSection = () => {
     console.error("Video error:", error);
     // Keep fallback image visible in case of error
     setFallbackImageVisible(true);
+
+    // Still show the card even if video fails
+    setTimeout(() => setShowCard(true), 800);
   }, []);
 
   // Optimized video play handler with error handling
@@ -149,6 +204,13 @@ const HeroSection = () => {
     boxShadow: "0px 0px 15px rgba(255,255,255,0.5)"
   }), []);
 
+  // Get current card content based on state
+  const currentCardTitle = currentCard === 1 ? card1Title : card2Title;
+  const currentCardDescription = currentCard === 1 ? card1Description : card2Description;
+  const currentCardImage = currentCard === 1
+    ? "/images/projects/COSTALROAD/costal-road.jpg"
+    : "/images/projects/COSTALROAD/costal-road3.jpg";
+
   return (
     <AnimatePresence>
       <motion.div
@@ -166,12 +228,12 @@ const HeroSection = () => {
             transition={{ duration: 0.5 }}
           >
             <div className="absolute inset-0 flex items-center justify-center">
-              <Image 
-                src="/images/home/logo.png" 
+              <Image
+                src="/images/home/logo.png"
                 alt="Loading"
-                width={200} 
+                width={200}
                 height={200}
-                className="animate-pulse" 
+                className="animate-pulse"
                 priority
               />
             </div>
@@ -255,6 +317,72 @@ const HeroSection = () => {
             </motion.div>
           </div>
         </motion.div>
+
+        {/* Card centered on screen for both mobile and desktop */}
+        {/* <AnimatePresence mode="wait">
+          {showCard && (
+            <motion.div
+              key={`card-${currentCard}`}
+              className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-20 p-4"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+            >
+         
+              <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" onClick={handleCloseCard}></div>
+              
+
+              <motion.div
+                className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl z-30"
+                variants={cardVariants}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+              >
+                <div className="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden mx-auto border">
+                 
+                  <button
+                    onClick={handleCloseCard}
+                    className="absolute top-2 right-2 z-10 bg-black/30 hover:bg-black/50 rounded-full p-1 transition-colors duration-200"
+                    aria-label="Close"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </button>
+
+                  <div className="relative w-full h-48 sm:h-56 md:h-64 overflow-hidden">
+                    <Image
+                      src={currentCardImage}
+                      alt="Project Image"
+                      width={600}
+                      height={300}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent py-2 px-4">
+                      <h3 className="text-white font-semibold text-lg md:text-xl">{currentCardTitle}</h3>
+                    </div>
+                  </div>
+                  <div className="p-4 md:p-6">
+                    <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardDescription}</p>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence> */}
       </motion.div>
     </AnimatePresence>
   );
