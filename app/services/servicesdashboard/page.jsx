@@ -195,6 +195,7 @@ export default function Home() {
       }
     };
   }, []);
+  
 
   // Coming Soon Component
   const ComingSoon = () => (
