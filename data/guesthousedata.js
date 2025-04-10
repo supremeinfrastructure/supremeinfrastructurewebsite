@@ -64,7 +64,7 @@ export const guestprojects = [
         slug: "project-3",
         title: "IHCL–TAJ AMA LONAVALA",
         image: "/images/projects/IHCL/ihcl-10.jpg",
-        description: "TATA POWER SOLAR MULSHI",
+        description: "IHCL–TAJ AMA LONAVALA",
         fullDescription:
             "A distinctive branded offering by IHCL, amã Stays & Trails comprise untouched experiential escapes ranging from charming residences to mesmerizing trails in unique locations amã Stays & Trails Sluice House, Lonavala is a heritage bungalow spread over 27000 square  feet, with four cosy bedrooms with en suite bathrooms, two independent living spaces, a  dining room and charming veranda to bask in magical mornings or spend lazy afternoons.  The verdant lawns and gardens outside with a marble fountain are perfect to indulge in nature  therapy, or host an intimate evening soiree, or a barbecue dinner. The refreshing hues, mini malist design, eclectic artworks and bright, airy spaces of the bungalow, located only a few  miles drive from Mumbai and Pune, are a haven to unwind, rejuvenate and enjoy the simple  pleasures of life. Sluice House, Lonavala is furnished with contemporary comforts like  air-conditioning, Wifi, television and a tea & coffee maker.",
         tagLine: "Project information",
@@ -92,7 +92,7 @@ export const guestprojects = [
         slug: "project-4",
         title: "TATA POWER SENIOR CLUB TROMBAY",
         image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-1.jpeg",
-        description: "TATA POWER SOLAR MULSHI",
+        description: "TATA POWER SENIOR CLUB TROMBAY",
         fullDescription:
             "Colonial bungalow design have their charm. Most colonial bungalow design have high ceilings to keep the interiors cool during summers.Colonial bungalow designs have arched floor-to-ceiling windows or doors that bring in ample natural light and ensure cross-ventilation.The other design characteristics of these bungalows are the pathway leading to the front porch, intricate grillwork, stunning pillars, decorative parapets, and detailed floral-patterned flooring. The central bungalow plan consists of a porch, veranda, and drawing and dining rooms with service areas in the rear portion. The colonial bungalow design with garden has a high compound wall and a landscaped garden on both sides of the bungalow.",
         tagLine: "Project information",
@@ -121,7 +121,7 @@ export const guestprojects = [
         slug: "project-5",
         title: "BEACH MUD HOUSE",
         image: "/images/projects/MUDHOUSE/house-4.png",
-        description: "TATA POWER SOLAR MULSHI",
+        description: "BEACH MUD HOUSE",
         // fullDescription:
         //     "Mulshi IB, situated about 40 km from Pune, is a storage dam for Bhira hydro power station of Tata Power Company Limited. The Bungalow is located near dam and dam constructed across the rivers Mula & Nila near village Mulshi during the years 1921-26 is a gravity dam constructed in rubble masonry.We have renovated the Mulshi IB with new design and concepts IN Year 2018-19. By keeping Bungalow’s vintage look in mind we have design this beautiful stone structure from scarp.This is Tata power’s oldest property among all. Bungalow home plans share a common style with Craftsman, Rustic and Cottage home designs. A great porch for your rocker, typically one level and over-hanging eaves are some of the classic features.The designing & decorating of structure is an important process as it is what makes a structure feel like a home. Basically Mulshi IB design is on that main aspect where guest will feel like their own house and will enjoy a bit time of their busy life",
         tagLine: "Project information",
