@@ -16,6 +16,7 @@ import ProjectNotFound from "@/components/ProjectNotFoundCommercial";
 
 const getProjectBySlug = (slug) => {
   return projects.find((project) => project.slug === slug);
+  
 };
 
 export default function ProjectPage() {
