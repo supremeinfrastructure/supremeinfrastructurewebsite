@@ -213,6 +213,7 @@ export default function ProjectPage() {
                 fill={true}
                 style={{ objectFit: "contain" }}
                 className="transition-all duration-500"
+                loading='eager'
               />
               <button
                 className='absolute top-4 right-4 text-white text-4xl 

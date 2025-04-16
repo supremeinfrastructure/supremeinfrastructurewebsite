@@ -165,6 +165,7 @@ export default function ProjectPage() {
                 src={fullViewImage}
                 alt='Full view'
                 fill={true}
+                loading='eager'
                 style={{ objectFit: "contain" }}
               />
               <button
