@@ -16,7 +16,7 @@
 
 // const getProjectBySlug = (slug) => {
 //   return projects.find((project) => project.slug === slug);
-  
+
 // };
 
 // export default function ProjectPage() {
