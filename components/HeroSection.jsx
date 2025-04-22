@@ -383,6 +383,7 @@ const HeroSection = () => {
             </motion.div>
           )}
         </AnimatePresence> */}
+        
       </motion.div>
     </AnimatePresence>
   );
