@@ -6,6 +6,7 @@ import Portfolio from "@/components/Portfolio";
 import SupremeQuote from "@/components/SupremeQuote";
 
 
+
 export default function Home() {
   return (
     <>
