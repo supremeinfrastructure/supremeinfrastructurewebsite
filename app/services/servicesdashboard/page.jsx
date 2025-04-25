@@ -144,7 +144,7 @@ const portfolioItems = [
     images: [
       '/services/building-design/building-2.JPG',
       '/services/building-design/building-3.JPG',
-      '/services/building-design/building-4.JPG',
+      '/services/building-design/building-4.png',
 
       /////////////////// TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE   ///////////////////////////
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-6.jpg',
