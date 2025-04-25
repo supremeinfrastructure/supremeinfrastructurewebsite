@@ -143,7 +143,7 @@ const portfolioItems = [
     name: "Building Design",
     images: [
       '/services/building-design/building-2.JPG',
-      '/services/building-design/building-3.JPG',
+      '/services/building-design/building-3.png',
       '/services/building-design/building-4.png',
 
       /////////////////// TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE   ///////////////////////////
@@ -200,7 +200,7 @@ export default function Home() {
       }
     };
   }, []);
-  
+
 
   // Coming Soon Component
   const ComingSoon = () => (
