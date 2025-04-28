@@ -379,6 +379,7 @@ const HeroSection = () => {
                     <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardDescription}</p>
                   </div>
                 </div>
+                
               </motion.div>
             </motion.div>
           )}
