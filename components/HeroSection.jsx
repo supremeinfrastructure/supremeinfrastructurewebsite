@@ -318,8 +318,8 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
-        {/* Card centered on screen for both mobile and desktop */}
-        {/* <AnimatePresence mode="wait">
+       
+         <AnimatePresence mode="wait">
           {showCard && (
             <motion.div
               key={`card-${currentCard}`}
@@ -383,7 +383,7 @@ const HeroSection = () => {
               </motion.div>
             </motion.div>
           )}
-        </AnimatePresence> */}
+        </AnimatePresence> 
         
       </motion.div>
     </AnimatePresence>
