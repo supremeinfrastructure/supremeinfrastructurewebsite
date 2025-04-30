@@ -209,7 +209,7 @@ const HeroSection = () => {
   const currentCardDescription = currentCard === 1 ? card1Description : card2Description;
   const currentCardImage = currentCard === 1
     ? "/images/projects/COSTALROAD/costal-road.jpg"
-    : "/images/projects/COSTALROAD/costal-road3.jpg";
+    : "/images/projects/COSTALROAD/costal-road3.JPG";
 
   return (
     <AnimatePresence>
