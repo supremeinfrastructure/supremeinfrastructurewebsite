@@ -155,35 +155,46 @@ export const guestprojects = [
 
         ],
     },
-    {
-        slug: "project-6",
-        title: "TATA POWER COMPANY,DONGARWADI",
-        image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-1.jpeg",
-        description: "TATA POWER SENIOR CLUB TROMBAY",
-        fullDescription:
-            "Colonial bungalow design have their charm. Most colonial bungalow design have high ceilings to keep the interiors cool during summers.Colonial bungalow designs have arched floor-to-ceiling windows or doors that bring in ample natural light and ensure cross-ventilation.The other design characteristics of these bungalows are the pathway leading to the front porch, intricate grillwork, stunning pillars, decorative parapets, and detailed floral-patterned flooring. The central bungalow plan consists of a porch, veranda, and drawing and dining rooms with service areas in the rear portion. The colonial bungalow design with garden has a high compound wall and a landscaped garden on both sides of the bungalow.",
-        tagLine: "Project information",
-        reraNumber: "P52000011751",
-        highlights: [
-            { icon: "History", description: "Track Lights" },
-            { icon: "House", description: "Modular Kitchen" },
-            { icon: "Banknote", description: "Moulding on wall design" },
-            { icon: "Sprout", description: "Concept phase of Moon" },
-            { icon: "Timer", description: "Arch design in Entrance" },
-        ],
-        configuration: [
-            { flat: " 3500 sqft", carpet: "21 Days" },
-        ],
-
-        galleryImages: [
-            { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-6.jpg", alt: "tata-6" },
-            { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-7.jpg", alt: "tata-7" },
-            { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-8.jpg", alt: "tata-8" },
-            { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-10.jpg", alt: "tata-10" },
-            { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-11.jpg", alt: "tata-11" },
-            { image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-12.jpg", alt: "tata-12" },
-        ],
-    },
+    // {
+    //     slug: "project-6",
+    //     title: "TATA POWER COMPANY,DONGARWADI",
+    //     image: "/images/projects/DONGARWADI/dongarwadi-9.JPG",
+    //     description: "TATA POWER SENIOR CLUB TROMBAY",
+    //     fullDescription:
+    //         "Colonial bungalow design have their charm. Most colonial bungalow design have high ceilings to keep the interiors cool during summers.Colonial bungalow designs have arched floor-to-ceiling windows or doors that bring in ample natural light and ensure cross-ventilation.The other design characteristics of these bungalows are the pathway leading to the front porch, intricate grillwork, stunning pillars, decorative parapets, and detailed floral-patterned flooring. The central bungalow plan consists of a porch, veranda, and drawing and dining rooms with service areas in the rear portion. The colonial bungalow design with garden has a high compound wall and a landscaped garden on both sides of the bungalow.",
+    //     tagLine: "Project information",
+    //     reraNumber: "P52000011751",
+    //     highlights: [
+    //         { icon: "History", description: "Track Lights" },
+    //         { icon: "House", description: "Modular Kitchen" },
+    //         { icon: "Banknote", description: "Moulding on wall design" },
+    //         { icon: "Sprout", description: "Concept phase of Moon" },
+    //         { icon: "Timer", description: "Arch design in Entrance" },
+    //     ],
+    //     configuration: [
+    //         { flat: " 3500 sqft", carpet: "21 Days" },
+    //     ],
+    //     videos: [
+    //         {
+    //             url: "/images/projects/DONGARWADI/dongarwadiVideo.mp4",
+    //             thumbnail: "/images/projects/TCP/tcp-2.jpeg",
+    //             title: "Office Overview"
+    //         },
+    //     ],
+    //     galleryImages: [
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-1.jpeg", alt: "tata-1" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-2.jpeg", alt: "tata-2" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-3.jpeg", alt: "tata-3" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-4.jpeg", alt: "tata-4" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-5.jpeg", alt: "tata-5" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-6.jpeg", alt: "tata-6" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-7.jpeg", alt: "tata-7" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-8.jpeg", alt: "tata-8" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-10.JPG", alt: "tata-10" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-11.jpeg", alt: "tata-11" },
+    //         { image: "/images/projects/DONGARWADI/dongarwadi-12.jpeg", alt: "tata-12" },
+    //     ],
+    // },
 ]
 export const getProjectBySlug = (slug) => {
     return guestprojects.find((project) => project.slug === slug);
