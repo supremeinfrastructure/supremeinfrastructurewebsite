@@ -161,18 +161,18 @@ export const guestprojects = [
     //     image: "/images/projects/DONGARWADI/dongarwadi-9.JPG",
     //     description: "TATA POWER SENIOR CLUB TROMBAY",
     //     fullDescription:
-    //         "Colonial bungalow design have their charm. Most colonial bungalow design have high ceilings to keep the interiors cool during summers.Colonial bungalow designs have arched floor-to-ceiling windows or doors that bring in ample natural light and ensure cross-ventilation.The other design characteristics of these bungalows are the pathway leading to the front porch, intricate grillwork, stunning pillars, decorative parapets, and detailed floral-patterned flooring. The central bungalow plan consists of a porch, veranda, and drawing and dining rooms with service areas in the rear portion. The colonial bungalow design with garden has a high compound wall and a landscaped garden on both sides of the bungalow.",
+    //         "Located in the serene village of Dongarwadi, Patnus, approximately 100 km from Mumbai, the Tata Power Company’s Inspection Bungalow has undergone a complete interior and exterior transformation during the 2024–2025 renovation phase. This beautifully restored guest house now features two elegantly designed bedrooms, a spacious hall, and a fully equipped modular kitchen. The interiors have been thoughtfully enhanced with contemporary elements such as a modern moulding wall design and sophisticated track lighting, bringing both functionality and aesthetic appeal to the space. The kitchen showcases a sleek modular layout with top-tier fittings, designed for both efficiency and style. The entrance introduces a unique architectural highlight – the Moon Arch Concept, adding a graceful and artistic touch to the entryway.The surrounding garden complements the interiors, offering a tranquil green space perfect for relaxation, with ambient lighting that enhances its charm during evenings.This renovation preserves the bungalow’s legacy while aligning it with modern design principles, ensuring comfort, style, and utility for visiting professionals and guests.",
     //     tagLine: "Project information",
     //     reraNumber: "P52000011751",
     //     highlights: [
-    //         { icon: "History", description: "Track Lights" },
-    //         { icon: "House", description: "Modular Kitchen" },
-    //         { icon: "Banknote", description: "Moulding on wall design" },
-    //         { icon: "Sprout", description: "Concept phase of Moon" },
-    //         { icon: "Timer", description: "Arch design in Entrance" },
+    //         { icon: "LampCeiling", description: "Track Lights" },
+    //         { icon: "CookingPot", description: "Modular Kitchen" },
+    //         { icon: "BrickWall", description: "Moulding on wall design" },
+    //         { icon: "Moon", description: "Concept phase of Moon" },
+    //         { icon: "DoorOpen", description: "Arch design in Entrance" },
     //     ],
     //     configuration: [
-    //         { flat: " 3500 sqft", carpet: "21 Days" },
+    //         { flat: "5500 sqft", carpet: "90 Days" },
     //     ],
     //     videos: [
     //         {

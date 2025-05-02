@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { History, House, Banknote, Sprout, Timer, Wallpaper, GraduationCap, Utensils, Dumbbell, } from 'lucide-react';
+import { History, House, Banknote, Sprout, Timer, Wallpaper, GraduationCap, Utensils, Dumbbell, LampCeiling,CookingPot, BrickWall,Moon ,DoorOpen} from 'lucide-react';
 import { guestprojects } from "../../../../data/guesthousedata";
 import Image from "next/image";
 import { useParams } from "next/navigation";
@@ -38,8 +38,11 @@ export default function ProjectPage() {
     GraduationCap: GraduationCap,
     Utensils: Utensils,
     Dumbbell: Dumbbell,
-
-
+    LampCeiling : LampCeiling,
+    CookingPot:CookingPot,
+    BrickWall:BrickWall,
+    Moon:Moon,
+    DoorOpen:DoorOpen
   };
 
   return (

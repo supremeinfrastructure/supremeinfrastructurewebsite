@@ -98,9 +98,9 @@ const HeroSection = () => {
   );
 
   // First card content
-  const card1Title = useMemo(() => "Costal Road Mumbai ( South )", []);
+  const card1Title = useMemo(() => "TATA POWER COMPANY,DONGARWADI GUEST HOUSE", []);
   const card1Description = useMemo(() =>
-    "ONGOING PROJECT",
+    "RECENTLY COMPLETED PROJECT",
     []
   );
 
@@ -208,8 +208,8 @@ const HeroSection = () => {
   const currentCardTitle = currentCard === 1 ? card1Title : card2Title;
   const currentCardDescription = currentCard === 1 ? card1Description : card2Description;
   const currentCardImage = currentCard === 1
-    ? "/images/projects/COSTALROAD/costal-road.jpg"
-    : "/images/projects/COSTALROAD/costal-road3.JPG";
+    ? "/images/projects/DONGARWADI/dongarwadi-9.JPG"
+    : "/images/projects/COSTALROAD/costal-road.jpg";
 
   return (
     <AnimatePresence>
