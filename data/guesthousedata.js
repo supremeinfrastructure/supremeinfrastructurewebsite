@@ -3,7 +3,7 @@ export const guestprojects = [
         slug: "project-1",
         title: "TATA POWER MULSHI IB",
         image: "/images/projects/TATAPOWERMULSHIIB/mulshi-2.jpg",
-        description: "TATA POWER SOLAR MULSHI",
+        description: "Mulshi,Pune",
         fullDescription:
             "Mulshi IB, situated about 40 km from Pune, is a storage dam for Bhira hydro power station of Tata Power Company Limited. The Bungalow is located near dam and dam constructed across the rivers Mula & Nila near village Mulshi during the years 1921-26 is a gravity dam constructed in rubble masonry.We have renovated the Mulshi IB with new design and concepts IN Year 2018-19. By keeping Bungalow’s vintage look in mind we have design this beautiful stone structure from scarp.This is Tata power’s oldest property among all. Bungalow home plans share a common style with Craftsman, Rustic and Cottage home designs. A great porch for your rocker, typically one level and over-hanging eaves are some of the classic features.The designing & decorating of structure is an important process as it is what makes a structure feel like a home. Basically Mulshi IB design is on that main aspect where guest will feel like their own house and will enjoy a bit time of their busy life",
         tagLine: "Project information",
@@ -32,7 +32,7 @@ export const guestprojects = [
         slug: "project-2",
         title: "4 GW GUEST HOUSE TATA POWER SOLAR AT TAMILNADU",
         image: "/images/projects/TATATAMILNADU/tataTamilnadu-24.jpg",
-        description: "TATA TAMILNADU GUEST HOUSE",
+        description: "Tamilnadu",
         fullDescription:
             "The Tata Tamil Nadu Guest House, covering 15,000 square feet, has been designed as a luxurious and functional space for guests, completed over a 210-day project timeline. The guest house combines comfort with elegant design, featuring premium amenities to cater to both relaxation and productivity, making it a versatile facility for guests, trainees, and staff.The Tata Tamil Nadu Guest House stands as a luxurious and versatile space, designed with attention to detail in every room and facility. From the refined guest rooms to the practical training center and modern gym, the guest house is a perfect blend of comfort and functionality, offering guests a premium experience tailored to both relaxation and productivity.",
         tagLine: "DEVELOPMENT OF FINANCES OFFICE SPACE AT TPSSL, BANGOLARE",
@@ -62,7 +62,7 @@ export const guestprojects = [
     },
     {
         slug: "project-3",
-        title: "IHCL–TAJ AMA LONAVALA",
+        title: "Lonavla",
         image: "/images/projects/IHCL/ihcl-10.jpg",
         description: "IHCL–TAJ AMA LONAVALA",
         fullDescription:
@@ -90,7 +90,7 @@ export const guestprojects = [
     },
     {
         slug: "project-4",
-        title: "TATA POWER SENIOR CLUB TROMBAY",
+        title: "Trombay,Mumbai",
         image: "/images/projects/TATAPOWERSENIORCLUBTROMBAY/trombay-1.jpeg",
         description: "TATA POWER SENIOR CLUB TROMBAY",
         fullDescription:
@@ -119,7 +119,7 @@ export const guestprojects = [
     },
     {
         slug: "project-5",
-        title: "BEACH MUD HOUSE",
+        title: "Mudh Beach,mumbai",
         image: "/images/projects/MUDHOUSE/house-4.png",
         description: "BEACH MUD HOUSE",
         // fullDescription:
@@ -159,7 +159,7 @@ export const guestprojects = [
         slug: "project-6",
         title: "TATA POWER COMPANY,GUEST HOUSE",
         image: "/images/projects/DONGARWADI/dongarwadi-9.JPG",
-        description: "TATA POWER SENIOR CLUB TROMBAY",
+        description: "Dongarwadi , Pune",
         fullDescription:
             "Located in the serene village of Dongarwadi, Patnus, approximately 100 km from Mumbai, the Tata Power Company’s Inspection Bungalow has undergone a complete interior and exterior transformation during the 2024–2025 renovation phase. This beautifully restored guest house now features two elegantly designed bedrooms, a spacious hall, and a fully equipped modular kitchen. The interiors have been thoughtfully enhanced with contemporary elements such as a modern moulding wall design and sophisticated track lighting, bringing both functionality and aesthetic appeal to the space. The kitchen showcases a sleek modular layout with top-tier fittings, designed for both efficiency and style. The entrance introduces a unique architectural highlight – the Moon Arch Concept, adding a graceful and artistic touch to the entryway.The surrounding garden complements the interiors, offering a tranquil green space perfect for relaxation, with ambient lighting that enhances its charm during evenings.This renovation preserves the bungalow’s legacy while aligning it with modern design principles, ensuring comfort, style, and utility for visiting professionals and guests.",
         tagLine: "Project information",
