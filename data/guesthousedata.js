@@ -178,7 +178,7 @@ export const guestprojects = [
             {
                 url: "/images/projects/DONGARWADI/dongarwadiVideo.mp4",
                 thumbnail: "/images/projects/TCP/tcp-2.jpeg",
-                title: "Walk Around"
+                title: "Walk Around Tour"
             },
         ],
         galleryImages: [
