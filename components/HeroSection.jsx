@@ -318,8 +318,8 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
-       
-         <AnimatePresence mode="wait">
+
+        <AnimatePresence mode="wait">
           {showCard && (
             <motion.div
               key={`card-${currentCard}`}
@@ -329,9 +329,9 @@ const HeroSection = () => {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-         
+
               <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" onClick={handleCloseCard}></div>
-              
+
 
               <motion.div
                 className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl z-30"
@@ -341,7 +341,7 @@ const HeroSection = () => {
                 exit="exit"
               >
                 <div className="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden mx-auto border">
-                 
+
                   <button
                     onClick={handleCloseCard}
                     className="absolute top-2 right-2 z-10 bg-black/30 hover:bg-black/50 rounded-full p-1 transition-colors duration-200"
@@ -377,14 +377,15 @@ const HeroSection = () => {
                   </div>
                   <div className="p-4 md:p-6">
                     <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardDescription}</p>
+                    <Link href="/project/guesthouse/project-5"><h6>View Project</h6></Link>
                   </div>
                 </div>
-                
+
               </motion.div>
             </motion.div>
           )}
-        </AnimatePresence> 
-        
+        </AnimatePresence>
+
       </motion.div>
     </AnimatePresence>
   );
