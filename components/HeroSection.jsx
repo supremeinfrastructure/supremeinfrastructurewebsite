@@ -378,7 +378,7 @@ const HeroSection = () => {
                   <div className="p-4 md:p-6">
                     <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardDescription}</p>
                     <div className='bg-amber-600 rounded-lg md:w-32'>
-                      <Link href="/project/guesthouse/project-5"><h6 className='p-2 text-white ml-1'>View Project</h6></Link>
+                      <Link href="/project/guesthouse/project-6"><h6 className='p-2 text-white ml-1'>View Project</h6></Link>
                     </div>
                   </div>
                 </div>
