@@ -208,8 +208,8 @@ const HeroSection = () => {
   const currentCardTitle = currentCard === 1 ? card1Title : card2Title;
   const currentCardDescription = currentCard === 1 ? card1Description : card2Description;
   const currentCardImage = currentCard === 1
-    ? "/images/projects/DONGARWADI/dongarwadi-9.JPG"
-    : "/images/projects/COSTALROAD/costal-road.jpg";
+    ? "/images/projects/COSTALROAD/costal-road.JPG"
+    : "/images/projects/COSTALROAD/costal-road3.jpg";
 
   return (
     <AnimatePresence>
@@ -377,9 +377,9 @@ const HeroSection = () => {
                   </div>
                   <div className="p-4 md:p-6">
                     <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardDescription}</p>
-                    <div className='bg-amber-600 rounded-lg md:w-32'>
+                    {/* <div className='bg-amber-600 rounded-lg md:w-32'>
                       <Link href="/project/guesthouse/project-6"><h6 className='p-2 text-white ml-1'>View Project</h6></Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
