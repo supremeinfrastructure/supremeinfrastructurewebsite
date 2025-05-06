@@ -98,9 +98,9 @@ const HeroSection = () => {
   );
 
   // First card content
-  const card1Title = useMemo(() => "TATA POWER COMPANY,DONGARWADI GUEST HOUSE", []);
+  const card1Title = useMemo(() => "Costal Road Mumbai", []);
   const card1Description = useMemo(() =>
-    "RECENTLY COMPLETED PROJECT",
+    "ONGOING PROJECT",
     []
   );
 
