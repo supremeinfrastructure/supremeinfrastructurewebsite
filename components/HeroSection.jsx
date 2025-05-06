@@ -208,8 +208,8 @@ const HeroSection = () => {
   const currentCardTitle = currentCard === 1 ? card1Title : card2Title;
   const currentCardDescription = currentCard === 1 ? card1Description : card2Description;
   const currentCardImage = currentCard === 1
-    ? "/images/projects/COSTALROAD/costal-road.JPG"
-    : "/images/projects/COSTALROAD/costal-road3.jpg";
+    ? "/images/projects/COSTALROAD/costal-road.jpg"
+    : "/images/projects/COSTALROAD/costal-road3.JPG";
 
   return (
     <AnimatePresence>
