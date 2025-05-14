@@ -93,6 +93,9 @@ export const projects = [
     },
 ];
 
+
+
+
 export const getProjectBySlug = (slug) => {
     return projects.find((project) => project.slug === slug);
 };
