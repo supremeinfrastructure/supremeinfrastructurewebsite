@@ -20,6 +20,7 @@ export const metadata = {
     { rel: "icon", url: "/favicon.ico", type: "image/x-icon" }, // Default ICO format
   ],
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
