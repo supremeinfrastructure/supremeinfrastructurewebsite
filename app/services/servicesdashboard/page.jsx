@@ -156,6 +156,7 @@ const portfolioItems = [
   },
 ];
 
+
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState(portfolioItems[0]);
   const [fullViewImage, setFullViewImage] = useState(null);
