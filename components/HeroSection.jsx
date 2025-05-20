@@ -5,23 +5,7 @@ import { NavbarDemo } from './Navbar';
 import Link from 'next/link';
 import Image from 'next/image';
 
-// Memoized TypewriterEffect component
-const TypewriterEffect = React.memo(({ text }) => {
-  return (
-    <motion.span
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }}
-      className="font-poppins"
-    >
-      {text}
-    </motion.span>
-  );
-});
-
-TypewriterEffect.displayName = 'TypewriterEffect';
-
-// Animation variants moved outside component to prevent recreation
+// Animation variants defined outside component to prevent recreation
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -60,7 +44,6 @@ const buttonVariants = {
   }
 };
 
-// Updated card animation - fade in from center
 const cardVariants = {
   hidden: { opacity: 0, scale: 0.9 },
   visible: {
@@ -82,114 +65,113 @@ const cardVariants = {
   }
 };
 
+// Optimize TypewriterEffect with React.memo to prevent unnecessary re-renders
+const TypewriterEffect = React.memo(({ text }) => (
+  <motion.span
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.3 }}
+    className="font-poppins"
+  >
+    {text}
+  </motion.span>
+));
+
+TypewriterEffect.displayName = 'TypewriterEffect';
+
+// Content constants moved outside component
+const TITLE = "Supreme Infrastructure Company";
+const DESCRIPTION = "We are a team of Talented, Innovative Designers, Engineers, and Horticulturists.";
+const CARD_CONTENT = [
+  {
+    title: "Costal Road Mumbai",
+    description: "ONGOING PROJECT",
+    image: "/images/projects/COSTALROAD/costal-road.jpg"
+  },
+  {
+    title: "Costal Road Mumbai ( South )",
+    description: "Inaugurated By Hon'ble Chief Minister Devendra Fadnavis, Deputy Chief Minister Eknath Shinde, Minister of Tourism Mangal Prabhat Lodha and other esteemed Government Officials.",
+    image: "/images/projects/COSTALROAD/costal-road3.JPG"
+  }
+];
+
+// Constant video sources
+const VIDEO_SOURCES = [
+  { src: "/videos/unwatermark_video-4.mp4", type: "video/mp4" }
+];
+
+// Button hover animation constant
+const BUTTON_HOVER_ANIMATION = {
+  scale: 1.05,
+  boxShadow: "0px 0px 15px rgba(255,255,255,0.5)"
+};
+
 const HeroSection = () => {
   const videoRef = useRef(null);
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [fallbackImageVisible, setFallbackImageVisible] = useState(true);
-  const [currentCard, setCurrentCard] = useState(1); // Track which card is showing
+  const [currentCard, setCurrentCard] = useState(0); // Use 0-based index for array access
   const [showCard, setShowCard] = useState(false);
 
-  // Memoized static content
-  const title = useMemo(() => "Supreme Infrastructure Company", []);
-  const description = useMemo(() =>
-    "We are a team of Talented, Innovative Designers, Engineers, and Horticulturists.",
-    []
-  );
-
-  // First card content
-  const card1Title = useMemo(() => "Costal Road Mumbai", []);
-  const card1Description = useMemo(() =>
-    "ONGOING PROJECT",
-    []
-  );
-
-  // Second card content
-  const card2Title = useMemo(() => "Costal Road Mumbai ( South )", []);
-  const card2Description = useMemo(() =>
-    "Inaugurated By Hon'ble Chief Minister Devendra Fadnavis, Deputy Chief Minister Eknath Shinde, Minister of Tourism Mangal Prabhat Lodha and other esteemed Government Officials.",
-    []
-  );
-
-  // Function to immediately switch to the second card
-  const handleCloseCard = useCallback(() => {
-    if (currentCard === 1) {
-      // Switch to second card immediately
-      setCurrentCard(2);
-    } else {
-      // Close second card with no follow-up
-      setShowCard(false);
-    }
-  }, [currentCard]);
-
   // Memoized title characters
-  const titleChars = useMemo(() => title.split(''), [title]);
-
-  // Video source with a lower resolution option for mobile
-  const videoSources = useMemo(() => [
-    { src: "/videos/unwatermark_video-4.mp4", type: "video/mp4" }
-  ], []);
+  const titleChars = useMemo(() => TITLE.split(''), []);
 
   // Handle video loaded event
   const handleVideoLoaded = useCallback(() => {
     setIsVideoLoaded(true);
-    setTimeout(() => setFallbackImageVisible(false), 300); // Fade out fallback image after video loads
-
-    // Show the sliding card after a delay
+    setTimeout(() => setFallbackImageVisible(false), 300);
     setTimeout(() => setShowCard(true), 800);
   }, []);
 
   // Handle video play error
-  const handleVideoError = useCallback((error) => {
-    console.error("Video error:", error);
-    // Keep fallback image visible in case of error
+  const handleVideoError = useCallback(() => {
+    console.error("Video error occurred");
     setFallbackImageVisible(true);
-
-    // Still show the card even if video fails
     setTimeout(() => setShowCard(true), 800);
   }, []);
 
   // Optimized video play handler with error handling
   const playVideo = useCallback(() => {
-    if (videoRef.current && !isVideoPlaying) {
-      videoRef.current.play()
-        .then(() => {
-          setIsVideoPlaying(true);
-        })
-        .catch(error => {
-          console.error("Video play failed:", error);
-          // Try playing without sound as a fallback (autoplay policy workaround)
-          if (videoRef.current) {
-            videoRef.current.muted = true;
-            videoRef.current.play()
-              .then(() => {
-                setIsVideoPlaying(true);
-              })
-              .catch(handleVideoError);
-          }
-        });
-    }
+    if (!videoRef.current || isVideoPlaying) return;
+
+    videoRef.current.play()
+      .then(() => setIsVideoPlaying(true))
+      .catch(error => {
+        console.error("Video play failed:", error);
+        // Try playing without sound as a fallback
+        if (videoRef.current) {
+          videoRef.current.muted = true;
+          videoRef.current.play()
+            .then(() => setIsVideoPlaying(true))
+            .catch(handleVideoError);
+        }
+      });
   }, [isVideoPlaying, handleVideoError]);
 
-  // Initialize video playback
-  useEffect(() => {
-    // Add event listeners for different user interactions
-    const handleUserInteraction = () => {
-      playVideo();
-    };
+  // Function to switch cards or close modal
+  const handleCloseCard = useCallback(() => {
+    if (currentCard === 0) {
+      setCurrentCard(1);
+    } else {
+      setShowCard(false);
+    }
+  }, [currentCard]);
 
-    // Preload the video
+  // Initialize video playback with optimized event listeners
+  useEffect(() => {
+    const handleUserInteraction = () => playVideo();
+
     if (videoRef.current) {
       videoRef.current.load();
+      // Attempt initial play
+      playVideo();
     }
 
-    // Try to play as soon as possible
-    playVideo();
-
-    // Add event listeners for user interaction
-    window.addEventListener('touchstart', handleUserInteraction, { once: true });
+    // Use passive event listeners for better performance
+    window.addEventListener('touchstart', handleUserInteraction, { once: true, passive: true });
     window.addEventListener('click', handleUserInteraction, { once: true });
-    window.addEventListener('scroll', handleUserInteraction, { once: true });
+    window.addEventListener('scroll', handleUserInteraction, { once: true, passive: true });
 
     return () => {
       window.removeEventListener('touchstart', handleUserInteraction);
@@ -198,18 +180,8 @@ const HeroSection = () => {
     };
   }, [playVideo]);
 
-  // Memoized button hover animation
-  const buttonHoverAnimation = useMemo(() => ({
-    scale: 1.05,
-    boxShadow: "0px 0px 15px rgba(255,255,255,0.5)"
-  }), []);
-
   // Get current card content based on state
-  const currentCardTitle = currentCard === 1 ? card1Title : card2Title;
-  const currentCardDescription = currentCard === 1 ? card1Description : card2Description;
-  const currentCardImage = currentCard === 1
-    ? "/images/projects/COSTALROAD/costal-road.jpg"
-    : "/images/projects/COSTALROAD/costal-road3.JPG";
+  const currentCardData = CARD_CONTENT[currentCard];
 
   return (
     <AnimatePresence>
@@ -240,7 +212,7 @@ const HeroSection = () => {
           </motion.div>
         )}
 
-        {/* Video background */}
+        {/* Video background with improved loading attributes */}
         <motion.video
           ref={videoRef}
           autoPlay
@@ -253,13 +225,13 @@ const HeroSection = () => {
           transition={{ duration: 1 }}
           style={{
             filter: 'brightness(0.7) contrast(1.1)',
-            WebkitFilter: 'brightness(0.7) contrast(1.1)'
           }}
           onLoadedData={handleVideoLoaded}
           onError={handleVideoError}
           preload="auto"
+          loading="eager"
         >
-          {videoSources.map((source, index) => (
+          {VIDEO_SOURCES.map((source, index) => (
             <source key={index} src={source.src} type={source.type} />
           ))}
           Your browser does not support the video tag.
@@ -267,6 +239,7 @@ const HeroSection = () => {
 
         <NavbarDemo />
 
+        {/* Logo with optimized image loading */}
         <motion.div
           className="absolute top-4 left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-4 lg:left-10 z-10 md:mx-24"
           initial={{ opacity: 0, y: -50, rotate: -10 }}
@@ -280,9 +253,11 @@ const HeroSection = () => {
             height={128}
             className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32"
             priority
+            loading="eager"
           />
         </motion.div>
 
+        {/* Main content */}
         <motion.div
           className="absolute inset-0 flex items-center justify-center px-4 sm:px-6 md:px-8"
           variants={containerVariants}
@@ -301,14 +276,14 @@ const HeroSection = () => {
               className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-600 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl mb-6 sm:mb-8 text-shadow"
               variants={descriptionVariants}
             >
-              {description}
+              {DESCRIPTION}
             </motion.div>
 
             <motion.div variants={buttonVariants}>
               <Link href='/about/supremeInfrastructure'>
                 <motion.button
                   className="px-4 sm:px-6 py-2 bg-gradient-to-r from-amber-600 to-amber-600 text-white font-normal rounded-full hover:bg-orange-600 transition-colors duration-300 text-xs sm:text-sm md:text-base lg:text-lg shadow-lg"
-                  whileHover={buttonHoverAnimation}
+                  whileHover={BUTTON_HOVER_ANIMATION}
                   whileTap={{ scale: 0.95 }}
                 >
                   Learn More
@@ -318,7 +293,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
-
+        {/* Card modal with optimized rendering */}
         <AnimatePresence mode="wait">
           {showCard && (
             <motion.div
@@ -329,10 +304,13 @@ const HeroSection = () => {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
+              {/* Backdrop */}
+              <div
+                className="absolute inset-0 bg-black/20 backdrop-blur-sm"
+                onClick={handleCloseCard}
+              />
 
-              <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" onClick={handleCloseCard}></div>
-
-
+              {/* Card content */}
               <motion.div
                 className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl z-30"
                 variants={cardVariants}
@@ -341,7 +319,7 @@ const HeroSection = () => {
                 exit="exit"
               >
                 <div className="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden mx-auto border">
-
+                  {/* Close button */}
                   <button
                     onClick={handleCloseCard}
                     className="absolute top-2 right-2 z-10 bg-black/30 hover:bg-black/50 rounded-full p-1 transition-colors duration-200"
@@ -363,34 +341,34 @@ const HeroSection = () => {
                     </svg>
                   </button>
 
+                  {/* Image with optimized loading */}
                   <div className="relative w-full h-48 sm:h-56 md:h-64 overflow-hidden">
                     <Image
-                      src={currentCardImage}
+                      src={currentCardData.image}
                       alt="Project Image"
                       width={600}
                       height={300}
                       className="w-full h-full object-cover"
+                      loading="eager"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent py-2 px-4">
-                      <h3 className="text-white font-semibold text-lg md:text-xl">{currentCardTitle}</h3>
+                      <h3 className="text-white font-semibold text-lg md:text-xl">{currentCardData.title}</h3>
                     </div>
                   </div>
+
+                  {/* Card description */}
                   <div className="p-4 md:p-6">
-                    <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardDescription}</p>
-                    {/* <div className='bg-amber-600 rounded-lg md:w-32'>
-                      <Link href="/project/guesthouse/project-6"><h6 className='p-2 text-white ml-1'>View Project</h6></Link>
-                    </div> */}
+                    <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardData.description}</p>
                   </div>
                 </div>
-
               </motion.div>
             </motion.div>
           )}
         </AnimatePresence>
-
       </motion.div>
     </AnimatePresence>
   );
 };
 
+// Export memoized component to prevent unnecessary re-renders
 export default React.memo(HeroSection);
