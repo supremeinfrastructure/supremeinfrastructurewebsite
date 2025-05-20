@@ -19,7 +19,7 @@ export async function POST(request) {
         <p><strong>Message:</strong> ${message}</p>
       `,
     });
-    
+
 
     return NextResponse.json(data);
   } catch (error) {
