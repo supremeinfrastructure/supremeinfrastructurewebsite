@@ -121,7 +121,7 @@ export const guestprojects = [
     
     {
         slug: "project-5",
-        title: "Mudh Beach,mumbai",
+        title: "Madh House,Madh Island mumbai",
         image: "/images/projects/MUDHOUSE/house-4.png",
         description: "BEACH MUD HOUSE",
         // fullDescription:
