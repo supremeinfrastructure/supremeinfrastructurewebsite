@@ -22,7 +22,7 @@ const fadeInUpVariant = {
 const cardHoverVariant = {
   scale: 1.02,
   y: -2,
-  transition: { 
+  transition: {
     duration: 0.2,
     ease: "easeOut"
   }
@@ -30,8 +30,8 @@ const cardHoverVariant = {
 
 // Memoized ProjectCard component
 const ProjectCard = memo(({ project }) => (
-  <Link 
-    href={`/project/residencialprojects/${project.slug}`} 
+  <Link
+    href={`/project/residencialprojects/${project.slug}`}
     className="block group"
     aria-label={`View ${project.title} project details`}
   >
@@ -58,7 +58,7 @@ const ProjectCard = memo(({ project }) => (
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
-      
+
       <div className="p-4 sm:p-6 flex-grow flex flex-col justify-between">
         <div className="flex-grow">
           <h3 className="text-base sm:text-lg md:text-xl font-bold mb-3 line-clamp-2 text-gray-900 group-hover:text-amber-700 transition-colors duration-300">
@@ -68,14 +68,14 @@ const ProjectCard = memo(({ project }) => (
             {project.description}
           </p>
         </div>
-        
+
         <div className="mt-auto">
           <span className="inline-flex items-center justify-center w-full py-3 px-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-lg hover:from-amber-600 hover:to-amber-700 transition-all duration-300 text-xs sm:text-sm md:text-base font-semibold shadow-sm hover:shadow-md active:scale-95 group-hover:shadow-lg">
             View Project
-            <svg 
-              className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
-              fill="none" 
-              stroke="currentColor" 
+            <svg
+              className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
             >
@@ -109,7 +109,7 @@ const HeroSection = memo(() => (
       {/* Enhanced gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-amber-900/30" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-      
+
       {/* Animated particles overlay */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
@@ -117,7 +117,7 @@ const HeroSection = memo(() => (
         <div className="absolute top-1/2 right-1/4 w-1.5 h-1.5 bg-amber-300 rounded-full animate-pulse animation-delay-2000" />
       </div>
     </div>
-    
+
     {/* Content */}
     <div className="relative min-h-[250px] sm:min-h-[350px] md:min-h-[450px] lg:min-h-[550px] flex items-center justify-center px-4">
       <div className="text-center max-w-5xl mx-auto">
@@ -214,7 +214,7 @@ const ResidencialProject = () => {
   // Memoized filtered projects
   const filteredProjects = useMemo(() => {
     if (!debouncedSearchTerm) return projects;
-    
+
     return projects.filter((project) =>
       project.title.toLowerCase().includes(debouncedSearchTerm.toLowerCase()) ||
       project.description.toLowerCase().includes(debouncedSearchTerm.toLowerCase())
@@ -302,7 +302,7 @@ const ResidencialProject = () => {
             {/* Search Suggestions */}
             <AnimatePresence>
               {noResults && (
-                <SearchSuggestions 
+                <SearchSuggestions
                   suggestions={suggestions}
                   searchTerm={debouncedSearchTerm}
                   onSuggestionClick={handleSuggestionClick}
@@ -320,7 +320,7 @@ const ResidencialProject = () => {
             className="text-center mb-8"
           >
             <p className="text-gray-600 text-lg">
-              {filteredProjects.length > 0 
+              {filteredProjects.length > 0
                 ? `Found ${filteredProjects.length} project${filteredProjects.length !== 1 ? 's' : ''}`
                 : 'No projects found'
               }
@@ -349,8 +349,8 @@ const ResidencialProject = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
-                    transition={{ 
-                      duration: 0.4, 
+                    transition={{
+                      duration: 0.4,
                       delay: index * 0.1,
                       ease: "easeOut"
                     }}
