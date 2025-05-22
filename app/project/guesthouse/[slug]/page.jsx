@@ -1,49 +1,142 @@
 "use client";
-import { useState } from "react";
-import { History, House, Banknote, Sprout, Timer, Wallpaper, GraduationCap, Utensils, Dumbbell, LampCeiling,CookingPot, BrickWall,Moon ,DoorOpen} from 'lucide-react';
+import React, { useState, useCallback, useMemo, useEffect } from "react";
+import { 
+  History, House, Banknote, Sprout, Timer, Wallpaper, 
+  GraduationCap, Utensils, Dumbbell, LampCeiling, CookingPot, 
+  BrickWall, Moon, DoorOpen
+} from 'lucide-react';
 import { guestprojects } from "../../../../data/guesthousedata";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import ProjectNotFound from "@/components/ProjectNotFoundGuestHouse";
 
+// Memoized icon mapping to prevent recreation on every render
+const highlightsIcon = {
+  History,
+  House,
+  Banknote,
+  Sprout,
+  Timer,
+  Wallpaper,
+  GraduationCap,
+  Utensils,
+  Dumbbell,
+  LampCeiling,
+  CookingPot,
+  BrickWall,
+  Moon,
+  DoorOpen
+};
+
+// Memoized function to get project by slug
 const getProjectBySlug = (slug) => {
   return guestprojects.find((project) => project.slug === slug);
 };
 
+// Memoized Video Component
+const VideoPlayer = React.memo(({ video, index }) => (
+  <div className='relative aspect-video w-full rounded-lg overflow-hidden'>
+    <video
+      className='w-full h-full object-cover'
+      loop
+      muted
+      playsInline
+      controls
+      poster={video.thumbnail}
+      preload="metadata"
+    >
+      <source src={video.url} type='video/mp4' />
+      Your browser does not support the video tag.
+    </video>
+    {video.title && (
+      <p className='mt-2 text-center text-gray-700'>{video.title}</p>
+    )}
+  </div>
+));
+
+// Memoized Gallery Image Component
+const GalleryImage = React.memo(({ galleryImage, index, onImageClick }) => (
+  <div
+    className='relative aspect-video w-full cursor-pointer rounded-lg overflow-hidden'
+    onClick={() => onImageClick(galleryImage.image)}
+  >
+    <Image
+      src={galleryImage.image}
+      alt={galleryImage.alt || `Gallery image ${index + 1}`}
+      fill
+      loading="lazy"
+      sizes='(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw'
+      className='object-cover transition duration-300 ease-in-out hover:scale-105'
+    />
+  </div>
+));
+
+// Memoized Highlight Item Component  
+const HighlightItem = React.memo(({ item, index }) => {
+  const IconComponent = highlightsIcon[item.icon];
+  
+  return (
+    <div
+      className="lg:my-8 flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+    >
+      {IconComponent && <IconComponent className="w-8 h-8 mb-4 text-cyan-600" />}
+      <p className="text-sm font-medium text-gray-900">{item.description}</p>
+    </div>
+  );
+});
+
+// Memoized Configuration Row Component
+const ConfigurationRow = React.memo(({ config, index }) => (
+  <tr className="border-b border-gray-200 hover:bg-gray-100">
+    <td className="py-3 px-4 md:text-center">{config.flat}</td>
+    <td className="py-3 px-4 md:text-center">{config.carpet}</td>
+    <td className="py-3 px-4 md:text-center">
+      <Link href="/contact" className="bg-gradient-to-r from-amber-700 to-yellow-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
+        Get Quote
+      </Link>
+    </td>
+  </tr>
+));
+
 export default function ProjectPage() {
   const { slug } = useParams();
-  const project = getProjectBySlug(slug);
   const [fullViewImage, setFullViewImage] = useState(null);
+
+  // Memoize project to prevent unnecessary recalculations
+  const project = useMemo(() => getProjectBySlug(slug), [slug]);
+
+  // Memoized callbacks
+  const openFullView = useCallback((image) => {
+    setFullViewImage(image);
+  }, []);
+
+  const closeFullView = useCallback(() => {
+    setFullViewImage(null);
+  }, []);
+
+  // Handle escape key for modal
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === 'Escape' && fullViewImage) {
+        closeFullView();
+      }
+    };
+
+    if (fullViewImage) {
+      document.addEventListener('keydown', handleEscape);
+      document.body.style.overflow = 'hidden';
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+      document.body.style.overflow = 'unset';
+    };
+  }, [fullViewImage, closeFullView]);
 
   if (!project) {
     return <ProjectNotFound />;
   }
-
-  const openFullView = (image) => {
-    setFullViewImage(image);
-  };
-
-  const closeFullView = () => {
-    setFullViewImage(null);
-  };
-
-  const highlightsIcon = {
-    History: History,
-    House: House,
-    Banknote: Banknote,
-    Sprout: Sprout,
-    Timer: Timer,
-    Wallpaper: Wallpaper,
-    GraduationCap: GraduationCap,
-    Utensils: Utensils,
-    Dumbbell: Dumbbell,
-    LampCeiling : LampCeiling,
-    CookingPot:CookingPot,
-    BrickWall:BrickWall,
-    Moon:Moon,
-    DoorOpen:DoorOpen
-  };
 
   return (
     <div className="bg-gradient-to-b from-white-100 to-white min-h-screen md:mt-36">
@@ -69,6 +162,8 @@ export default function ProjectPage() {
                   width={600}
                   height={400}
                   className='w-full h-auto object-cover rounded-lg'
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
                 />
               </div>
             </div>
@@ -82,25 +177,11 @@ export default function ProjectPage() {
             <div className='w-36 h-1 bg-gradient-to-r bg-amber-700 hover:bg-amber-700 mx-auto mb-8'></div>
 
             {/* Videos */}
-            {project.videos?.length > 0 && (
+            {project.videos && project.videos.length > 0 && (
               <div className='mb-12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                   {project.videos.map((video, index) => (
-                    <div key={index} className='relative aspect-video w-full rounded-lg overflow-hidden'>
-                      <video
-                        className='w-full h-full object-cover'
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        controls
-                        poster={video.thumbnail}
-                      >
-                        <source src={video.url} type='video/mp4' />
-                        Your browser does not support the video tag.
-                      </video>
-                      <p className='mt-2 text-center text-gray-700'>{video.title}</p>
-                    </div>
+                    <VideoPlayer key={index} video={video} index={index} />
                   ))}
                 </div>
               </div>
@@ -110,26 +191,17 @@ export default function ProjectPage() {
             {project.galleryImages && (
               <div className='grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 md:mt-16 w-full'>
                 {project.galleryImages.map((galleryImage, index) => (
-                  <div
+                  <GalleryImage 
                     key={index}
-                    className='relative aspect-video w-full cursor-pointer rounded-lg overflow-hidden'
-                    onClick={() => openFullView(galleryImage.image)}
-                  >
-                    <Image
-                      src={galleryImage.image}
-                      alt={galleryImage.alt}
-                      fill
-                      loading="lazy"
-                      sizes='(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw'
-                      className='object-cover transition duration-300 ease-in-out hover:scale-105'
-                    />
-                  </div>
+                    galleryImage={galleryImage}
+                    index={index}
+                    onImageClick={openFullView}
+                  />
                 ))}
               </div>
             )}
           </section>
         )}
-
 
         {project.highlights && (
           <div className="bg-gray-200 py-12 px-4 sm:px-6 lg:px-8 w-full">
@@ -138,18 +210,9 @@ export default function ProjectPage() {
             </h2>
             <div className="w-36 h-1 bg-gradient-to-r bg-amber-700 hover:bg-amber-700 mx-auto mb-8"></div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 w-full">
-              {project.highlights.map((item, index) => {
-                const IconComponent = highlightsIcon[item.icon];
-                return (
-                  <div
-                    key={index}
-                    className="lg:my-8 flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
-                  >
-                    {IconComponent && <IconComponent className="w-8 h-8 mb-4 text-cyan-600" />}
-                    <p className="text-sm font-medium text-gray-900">{item.description}</p>
-                  </div>
-                );
-              })}
+              {project.highlights.map((item, index) => (
+                <HighlightItem key={index} item={item} index={index} />
+              ))}
             </div>
           </div>
         )}
@@ -171,16 +234,8 @@ export default function ProjectPage() {
                 </tr>
               </thead>
               <tbody>
-                {project.configuration.map((config, index) => (
-                  <tr key={index} className="border-b border-gray-200 hover:bg-gray-100">
-                    <td className="py-3 px-4 md:text-center">{config.flat}</td>
-                    <td className="py-3 px-4 md:text-center">{config.carpet}</td>
-                    <td className="py-3 px-4 md:text-center">
-                      <Link href="/contact" className="bg-gradient-to-r from-amber-700 to-yellow-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
-                        Get Quote
-                      </Link>
-                    </td>
-                  </tr>
+                {project.configuration && project.configuration.map((config, index) => (
+                  <ConfigurationRow key={index} config={config} index={index} />
                 ))}
               </tbody>
             </table>
@@ -200,6 +255,7 @@ export default function ProjectPage() {
                 fill={true}
                 loading='eager'
                 style={{ objectFit: "contain" }}
+                sizes="100vw"
               />
               <button
                 className='absolute top-4 right-4 text-white text-4xl hover:text-red-600 transition-colors md:text-6xl'
