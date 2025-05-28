@@ -74,8 +74,8 @@ const Footer = () => {
                         <h2 className="text-xl sm:text-xl uppercase border-b-2 border-gray-500 pb-2 mb-4 text-start">Connect With Us</h2>
                         <div className="flex flex-wrap gap-4 md:gap-6">
                             {socialLinks.map((item, index) => (
-                                <Link 
-                                    key={index} 
+                                <Link
+                                    key={index}
                                     href={item.href}
                                     aria-label={item.ariaLabel}
                                     className="text-white-300 hover:text-yellow transition duration-300 transform hover:-translate-y-1 hover:scale-110 p-2 rounded-full hover:bg-neutral-700"
