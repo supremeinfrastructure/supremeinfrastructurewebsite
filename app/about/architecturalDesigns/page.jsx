@@ -14,7 +14,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div className="absolute inset-0  bg-opacity-40"></div>
         <div className="container mx-auto h-full flex flex-col justify-center text-white">
           <motion.h2
             className="text-4xl md:text-6xl font-bold text-center mb-96"
