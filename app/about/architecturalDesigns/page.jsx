@@ -54,7 +54,7 @@ export default function Home() {
             <p className="text-gray-700 text-center md:my-6">We're Supreme's Interior Construction Specialists, and you can call us ICS. We're focused on specializations like transformation of commercial spaces, tenant improvements, and more.</p>
           </motion.div>
           <motion.div
-            className="bg-gradient-to-r from-amber-600 to-amber-600 text-white p-6"
+            className="bg-gradient-to-r from-amber-600 to-amber-600 text-white p-6 rounded-xl"
           >
             <h4 className="text-xl font-bold text-center">Ready to talk about your project?</h4>
             <p className="mt-2 text-center">Contact Our Team</p>
@@ -114,7 +114,7 @@ export default function Home() {
             <div className="mt-4 flex space-x-4 justify-center">
               <motion.a
                 href="/contact"
-                className="bg-gradient-to-r from-amber-600 to-amber-600 text-white px-4 py-2"
+                className="bg-gradient-to-r from-amber-600 to-amber-600 text-white px-4 py-2 rounded-xl"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -188,7 +188,7 @@ export default function Home() {
               // whileHover={{ scale: 1.05 }}
               // whileTap={{ scale: 0.95 }}
               >
-                <Link href="/project/commercialprojects" className="mt-4 inline-block bg-gradient-to-r from-amber-600 to-amber-600 text-white px-4 mx-24 py-2 md:mx-64">View Projects</Link>
+                <Link href="/project/commercialprojects" className="mt-4 inline-block bg-gradient-to-r from-amber-600 to-amber-600 text-white px-4 mx-24 py-2 md:mx-64 rounded-xl">View Projects</Link>
               </motion.div>
             </div>
           </motion.div>
@@ -224,7 +224,7 @@ export default function Home() {
           </motion.p>
           <motion.a
             href="/contact/career"
-            className="mt-4 inline-block bg-gradient-to-r from-amber-600 to-amber-600 text-white px-6 py-3"
+            className="mt-4 inline-block bg-gradient-to-r from-amber-600 to-amber-600 text-white px-6 py-3 rounded-xl"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             initial={{ opacity: 0 }}
