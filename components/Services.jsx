@@ -87,8 +87,8 @@ const ServicesGrid = () => {
 
     const titleVariants = {
         hidden: { opacity: 0, y: -50 },
-        visible: { 
-            opacity: 1, 
+        visible: {
+            opacity: 1,
             y: 0,
             transition: {
                 type: "spring",
@@ -101,7 +101,7 @@ const ServicesGrid = () => {
     return (
         <div className="bg-gradient-to-br from-gray-100 to-gray-200 py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto" ref={ref}>
-                <motion.h2 
+                <motion.h2
                     className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-gray-800 relative inline-block "
                     variants={titleVariants}
                     initial="hidden"
