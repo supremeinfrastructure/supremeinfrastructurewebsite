@@ -19,3 +19,10 @@ export const useOutsideClick = (ref, callback) => {
     };
   }, [ref, callback]);
 };
+
+
+export const solvetheError = ()=>{
+  return(
+    a-b
+  )
+}
