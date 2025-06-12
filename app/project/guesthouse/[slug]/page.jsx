@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useCallback, useMemo, useEffect } from "react";
-import { 
-  History, House, Banknote, Sprout, Timer, Wallpaper, 
-  GraduationCap, Utensils, Dumbbell, LampCeiling, CookingPot, 
+import {
+  History, House, Banknote, Sprout, Timer, Wallpaper,
+  GraduationCap, Utensils, Dumbbell, LampCeiling, CookingPot,
   BrickWall, Moon, DoorOpen
 } from 'lucide-react';
 import { guestprojects } from "../../../../data/guesthousedata";
@@ -75,7 +75,7 @@ const GalleryImage = React.memo(({ galleryImage, index, onImageClick }) => (
 // Memoized Highlight Item Component  
 const HighlightItem = React.memo(({ item, index }) => {
   const IconComponent = highlightsIcon[item.icon];
-  
+
   return (
     <div
       className="lg:my-8 flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
@@ -191,7 +191,7 @@ export default function ProjectPage() {
             {project.galleryImages && (
               <div className='grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 md:mt-16 w-full'>
                 {project.galleryImages.map((galleryImage, index) => (
-                  <GalleryImage 
+                  <GalleryImage
                     key={index}
                     galleryImage={galleryImage}
                     index={index}
