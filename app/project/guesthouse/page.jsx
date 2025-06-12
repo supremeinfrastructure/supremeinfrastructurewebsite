@@ -136,11 +136,11 @@ SearchIcon.displayName = 'SearchIcon';
 
 // Memoized ClearIcon component
 const ClearIcon = React.memo(() => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    className="h-5 w-5" 
-    fill="none" 
-    viewBox="0 0 24 24" 
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-5 w-5"
+    fill="none"
+    viewBox="0 0 24 24"
     stroke="currentColor"
     aria-hidden="true"
   >
@@ -152,11 +152,11 @@ ClearIcon.displayName = 'ClearIcon';
 
 // Memoized InfoIcon component
 const InfoIcon = React.memo(() => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    className="h-5 w-5 text-amber-500 mr-2" 
-    fill="none" 
-    viewBox="0 0 24 24" 
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-5 w-5 text-amber-500 mr-2"
+    fill="none"
+    viewBox="0 0 24 24"
     stroke="currentColor"
     aria-hidden="true"
   >
@@ -197,9 +197,9 @@ const GuestProject = () => {
         .toLowerCase()
         .split(/[\s,.-]+/)
         .filter(word => word.length > 3 && word.length < 15);
-      
+
       words.forEach(word => keywords.add(word));
-      
+
       // Also add project categories or types if available
       if (project.category) {
         keywords.add(project.category.toLowerCase());
@@ -211,14 +211,14 @@ const GuestProject = () => {
         keywords.add(project.type.toLowerCase());
       }
     });
-    
+
     return Array.from(keywords).slice(0, 8); // Up to 8 suggestions
   }, []);
 
   // Memoized filtered projects with improved search
   const filteredProjects = useMemo(() => {
     if (!debouncedSearchTerm.trim()) return guestprojects;
-    
+
     const searchLower = debouncedSearchTerm.toLowerCase();
     return guestprojects.filter(project => {
       const titleMatch = project.title.toLowerCase().includes(searchLower);
@@ -226,7 +226,7 @@ const GuestProject = () => {
       const categoryMatch = project.category?.toLowerCase().includes(searchLower);
       const locationMatch = project.location?.toLowerCase().includes(searchLower);
       const typeMatch = project.type?.toLowerCase().includes(searchLower);
-      
+
       return titleMatch || descriptionMatch || categoryMatch || locationMatch || typeMatch;
     });
   }, [debouncedSearchTerm]);
@@ -355,7 +355,7 @@ const GuestProject = () => {
               {debouncedSearchTerm && (
                 <div className="mb-8 text-center">
                   <p className="text-gray-600">
-                    {filteredProjects.length > 0 
+                    {filteredProjects.length > 0
                       ? `Found ${filteredProjects.length} project${filteredProjects.length === 1 ? '' : 's'}`
                       : 'No projects found'
                     }
@@ -377,10 +377,10 @@ const GuestProject = () => {
                     className="text-center py-16"
                   >
                     <div className="max-w-md mx-auto">
-                      <svg 
-                        className="h-20 w-20 text-gray-300 mx-auto mb-6" 
-                        fill="none" 
-                        viewBox="0 0 24 24" 
+                      <svg
+                        className="h-20 w-20 text-gray-300 mx-auto mb-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
                         stroke="currentColor"
                         aria-hidden="true"
                       >
