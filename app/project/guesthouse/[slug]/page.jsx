@@ -34,16 +34,16 @@ const COMMON_STYLES = {
 const projectCache = new Map();
 const getProjectBySlug = (slug) => {
   if (!slug) return null;
-  
+
   if (projectCache.has(slug)) {
     return projectCache.get(slug);
   }
-  
+
   const project = guestprojects.find((project) => project.slug === slug);
   if (project) {
     projectCache.set(slug, project);
   }
-  
+
   return project;
 };
 
@@ -130,9 +130,8 @@ const GalleryImage = React.memo(({ galleryImage, index, onImageClick }) => {
 
   return (
     <div
-      className={`relative aspect-video w-full rounded-lg overflow-hidden transition-all duration-300 ${
-        hasError ? 'bg-gray-200 cursor-default' : 'cursor-pointer hover:scale-105'
-      }`}
+      className={`relative aspect-video w-full rounded-lg overflow-hidden transition-all duration-300 ${hasError ? 'bg-gray-200 cursor-default' : 'cursor-pointer hover:scale-105'
+        }`}
       onClick={handleClick}
     >
       {hasError ? (
@@ -150,9 +149,8 @@ const GalleryImage = React.memo(({ galleryImage, index, onImageClick }) => {
             fill
             loading="lazy"
             sizes='(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw'
-            className={`object-cover transition-opacity duration-300 ${
-              isLoaded ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={`object-cover transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'
+              }`}
             onLoad={handleLoad}
             onError={handleError}
           />
@@ -186,8 +184,8 @@ const ConfigurationRow = React.memo(({ config, index }) => (
     <td className="py-3 px-4 md:text-center">{config.flat}</td>
     <td className="py-3 px-4 md:text-center">{config.carpet}</td>
     <td className="py-3 px-4 md:text-center">
-      <Link 
-        href="/contact" 
+      <Link
+        href="/contact"
         className={COMMON_STYLES.button}
         prefetch={false}
       >
@@ -256,7 +254,7 @@ ImageModal.displayName = 'ImageModal';
 export default function ProjectPage() {
   const { slug } = useParams();
   const [fullViewImage, setFullViewImage] = useState(null);
-  
+
   // Memoize project to prevent unnecessary recalculations
   const project = useMemo(() => getProjectBySlug(slug), [slug]);
 
@@ -272,7 +270,7 @@ export default function ProjectPage() {
   // Memoized rendered lists with null checks
   const videoList = useMemo(() => {
     if (!project?.videos?.length) return null;
-    
+
     return project.videos.map((video, index) => (
       <VideoPlayer key={`video-${index}`} video={video} index={index} />
     ));
@@ -280,7 +278,7 @@ export default function ProjectPage() {
 
   const galleryImagesList = useMemo(() => {
     if (!project?.galleryImages?.length) return null;
-    
+
     return project.galleryImages.map((galleryImage, index) => (
       <GalleryImage
         key={`gallery-${index}`}
@@ -293,7 +291,7 @@ export default function ProjectPage() {
 
   const highlightsList = useMemo(() => {
     if (!project?.highlights?.length) return null;
-    
+
     return project.highlights.map((item, index) => (
       <HighlightItem key={`highlight-${index}`} item={item} index={index} />
     ));
@@ -301,7 +299,7 @@ export default function ProjectPage() {
 
   const configurationRows = useMemo(() => {
     if (!project?.configuration?.length) return null;
-    
+
     return project.configuration.map((config, index) => (
       <ConfigurationRow key={`config-${index}`} config={config} index={index} />
     ));
