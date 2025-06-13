@@ -29,12 +29,12 @@ const highlightsIcon = {
   DoorOpen
 };
 
-// Memoized function to get project by slug
+// Memoized function to get project by slug - moved outside component for better performance
 const getProjectBySlug = (slug) => {
   return guestprojects.find((project) => project.slug === slug);
 };
 
-// Memoized Video Component
+// Memoized Video Component with display name for better debugging
 const VideoPlayer = React.memo(({ video, index }) => (
   <div className='relative aspect-video w-full rounded-lg overflow-hidden'>
     <video
@@ -54,27 +54,35 @@ const VideoPlayer = React.memo(({ video, index }) => (
     )}
   </div>
 ));
+VideoPlayer.displayName = 'VideoPlayer';
 
-// Memoized Gallery Image Component
-const GalleryImage = React.memo(({ galleryImage, index, onImageClick }) => (
-  <div
-    className='relative aspect-video w-full cursor-pointer rounded-lg overflow-hidden'
-    onClick={() => onImageClick(galleryImage.image)}
-  >
-    <Image
-      src={galleryImage.image}
-      alt={galleryImage.alt || `Gallery image ${index + 1}`}
-      fill
-      loading="lazy"
-      sizes='(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw'
-      className='object-cover transition duration-300 ease-in-out hover:scale-105'
-    />
-  </div>
-));
+// Memoized Gallery Image Component with display name
+const GalleryImage = React.memo(({ galleryImage, index, onImageClick }) => {
+  const handleClick = useCallback(() => {
+    onImageClick(galleryImage.image);
+  }, [galleryImage.image, onImageClick]);
 
-// Memoized Highlight Item Component  
+  return (
+    <div
+      className='relative aspect-video w-full cursor-pointer rounded-lg overflow-hidden'
+      onClick={handleClick}
+    >
+      <Image
+        src={galleryImage.image}
+        alt={galleryImage.alt || `Gallery image ${index + 1}`}
+        fill
+        loading="lazy"
+        sizes='(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw'
+        className='object-cover transition duration-300 ease-in-out hover:scale-105'
+      />
+    </div>
+  );
+});
+GalleryImage.displayName = 'GalleryImage';
+
+// Memoized Highlight Item Component with display name
 const HighlightItem = React.memo(({ item, index }) => {
-  const IconComponent = highlightsIcon[item.icon];
+  const IconComponent = useMemo(() => highlightsIcon[item.icon], [item.icon]);
 
   return (
     <div
@@ -85,8 +93,9 @@ const HighlightItem = React.memo(({ item, index }) => {
     </div>
   );
 });
+HighlightItem.displayName = 'HighlightItem';
 
-// Memoized Configuration Row Component
+// Memoized Configuration Row Component with display name
 const ConfigurationRow = React.memo(({ config, index }) => (
   <tr className="border-b border-gray-200 hover:bg-gray-100">
     <td className="py-3 px-4 md:text-center">{config.flat}</td>
@@ -98,6 +107,7 @@ const ConfigurationRow = React.memo(({ config, index }) => (
     </td>
   </tr>
 ));
+ConfigurationRow.displayName = 'ConfigurationRow';
 
 export default function ProjectPage() {
   const { slug } = useParams();
@@ -115,14 +125,15 @@ export default function ProjectPage() {
     setFullViewImage(null);
   }, []);
 
-  // Handle escape key for modal
-  useEffect(() => {
-    const handleEscape = (e) => {
-      if (e.key === 'Escape' && fullViewImage) {
-        closeFullView();
-      }
-    };
+  // Memoized event handler for escape key
+  const handleEscape = useCallback((e) => {
+    if (e.key === 'Escape' && fullViewImage) {
+      closeFullView();
+    }
+  }, [fullViewImage, closeFullView]);
 
+  // Handle escape key for modal - optimized with memoized handler
+  useEffect(() => {
     if (fullViewImage) {
       document.addEventListener('keydown', handleEscape);
       document.body.style.overflow = 'hidden';
@@ -132,8 +143,50 @@ export default function ProjectPage() {
       document.removeEventListener('keydown', handleEscape);
       document.body.style.overflow = 'unset';
     };
-  }, [fullViewImage, closeFullView]);
+  }, [fullViewImage, handleEscape]);
 
+  // Memoized video list to prevent recreation
+  const videoList = useMemo(() => {
+    if (!project?.videos?.length) return null;
+    
+    return project.videos.map((video, index) => (
+      <VideoPlayer key={index} video={video} index={index} />
+    ));
+  }, [project?.videos]);
+
+  // Memoized gallery images list
+  const galleryImagesList = useMemo(() => {
+    if (!project?.galleryImages) return null;
+    
+    return project.galleryImages.map((galleryImage, index) => (
+      <GalleryImage
+        key={index}
+        galleryImage={galleryImage}
+        index={index}
+        onImageClick={openFullView}
+      />
+    ));
+  }, [project?.galleryImages, openFullView]);
+
+  // Memoized highlights list
+  const highlightsList = useMemo(() => {
+    if (!project?.highlights) return null;
+    
+    return project.highlights.map((item, index) => (
+      <HighlightItem key={index} item={item} index={index} />
+    ));
+  }, [project?.highlights]);
+
+  // Memoized configuration rows
+  const configurationRows = useMemo(() => {
+    if (!project?.configuration) return null;
+    
+    return project.configuration.map((config, index) => (
+      <ConfigurationRow key={index} config={config} index={index} />
+    ));
+  }, [project?.configuration]);
+
+  // Early return for better performance
   if (!project) {
     return <ProjectNotFound />;
   }
@@ -177,27 +230,18 @@ export default function ProjectPage() {
             <div className='w-36 h-1 bg-gradient-to-r bg-amber-700 hover:bg-amber-700 mx-auto mb-8'></div>
 
             {/* Videos */}
-            {project.videos && project.videos.length > 0 && (
+            {videoList && (
               <div className='mb-12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                  {project.videos.map((video, index) => (
-                    <VideoPlayer key={index} video={video} index={index} />
-                  ))}
+                  {videoList}
                 </div>
               </div>
             )}
 
             {/* Images */}
-            {project.galleryImages && (
+            {galleryImagesList && (
               <div className='grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 md:mt-16 w-full'>
-                {project.galleryImages.map((galleryImage, index) => (
-                  <GalleryImage
-                    key={index}
-                    galleryImage={galleryImage}
-                    index={index}
-                    onImageClick={openFullView}
-                  />
-                ))}
+                {galleryImagesList}
               </div>
             )}
           </section>
@@ -210,9 +254,7 @@ export default function ProjectPage() {
             </h2>
             <div className="w-36 h-1 bg-gradient-to-r bg-amber-700 hover:bg-amber-700 mx-auto mb-8"></div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 w-full">
-              {project.highlights.map((item, index) => (
-                <HighlightItem key={index} item={item} index={index} />
-              ))}
+              {highlightsList}
             </div>
           </div>
         )}
@@ -234,9 +276,7 @@ export default function ProjectPage() {
                 </tr>
               </thead>
               <tbody>
-                {project.configuration && project.configuration.map((config, index) => (
-                  <ConfigurationRow key={index} config={config} index={index} />
-                ))}
+                {configurationRows}
               </tbody>
             </table>
           </div>
