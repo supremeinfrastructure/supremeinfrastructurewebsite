@@ -49,14 +49,13 @@ export async function POST(request) {
         <p>${additionalInfo || "No additional information provided."}</p>
         
         <h3>Resume</h3>
-        <p><a href="${
-          blob.url
+        <p><a href="${blob.url
         }" target="_blank">Click here to view resume</a></p>
         <p>The resume will be available for download using the link above.</p>
       `,
     });
 
-    
+
     return NextResponse.json({
       message: "Application submitted successfully",
       resumeUrl: blob.url,
