@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { FaBuilding, FaDrawPolygon, FaTree, FaHardHat, FaPaintBrush, FaLinkedin } from 'react-icons/fa';
 import Link from 'next/link';
 
+
 const AboutUsPage = () => {
     const services = [
         { icon: <FaBuilding />, title: 'Civil Construction', description: 'Expert construction services for various infrastructure projects.' },
