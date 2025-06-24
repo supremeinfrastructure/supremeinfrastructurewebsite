@@ -35,6 +35,7 @@ const AboutUsPage = () => {
             bio: "10 years of experience in the field of Construction and Interior design. Have worked in various sites for TATA groups.",
         },
     ];
+    
 
     return (
         <div className="min-h-screen bg-gray-50">
