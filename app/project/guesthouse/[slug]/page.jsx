@@ -30,6 +30,7 @@ const COMMON_STYLES = {
   button: 'bg-gradient-to-r from-amber-700 to-yellow-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out'
 };
 
+
 // Optimized project finder with caching
 const projectCache = new Map();
 const getProjectBySlug = (slug) => {
