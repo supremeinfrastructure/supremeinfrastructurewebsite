@@ -6,6 +6,7 @@ import { projects } from '../../../data/commercialprojects';
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 // Animation variants - moved outside component to prevent re-creation
 const fadeInUpVariant = {
   hidden: { opacity: 0, y: 50 },
