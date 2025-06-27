@@ -43,6 +43,7 @@ export default function ProjectPage() {
     CookingPotIcon, House, Wallpaper, Bath, Frame, InspectionPanel, BedSingle
   };
 
+  
   return (
     <div className={`bg-gradient-to-b from-white-100 to-white min-h-screen md:mt-36 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <div className="w-full">
