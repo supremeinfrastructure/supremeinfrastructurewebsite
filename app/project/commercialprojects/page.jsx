@@ -131,11 +131,11 @@ SearchIcon.displayName = 'SearchIcon';
 
 // Memoized ClearIcon component
 const ClearIcon = React.memo(() => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    className="h-5 w-5" 
-    fill="none" 
-    viewBox="0 0 24 24" 
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-5 w-5"
+    fill="none"
+    viewBox="0 0 24 24"
     stroke="currentColor"
     aria-hidden="true"
   >
@@ -166,7 +166,7 @@ const useDebounce = (value, delay) => {
 const CommercialProject = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
-  
+
   // Memoized suggestions generation
   const suggestions = useMemo(() => {
     const keywords = new Set();
@@ -176,9 +176,9 @@ const CommercialProject = () => {
         .toLowerCase()
         .split(/[\s,.-]+/)
         .filter(word => word.length > 3 && word.length < 15);
-      
+
       words.forEach(word => keywords.add(word));
-      
+
       // Also add project categories or types if available
       if (project.category) {
         keywords.add(project.category.toLowerCase());
@@ -187,21 +187,21 @@ const CommercialProject = () => {
         keywords.add(project.location.toLowerCase());
       }
     });
-    
+
     return Array.from(keywords).slice(0, 8); // Increase to 8 suggestions
   }, []);
 
   // Memoized filtered projects with improved search
   const filteredProjects = useMemo(() => {
     if (!debouncedSearchTerm.trim()) return projects;
-    
+
     const searchLower = debouncedSearchTerm.toLowerCase();
     return projects.filter(project => {
       const titleMatch = project.title.toLowerCase().includes(searchLower);
       const descriptionMatch = project.description?.toLowerCase().includes(searchLower);
       const categoryMatch = project.category?.toLowerCase().includes(searchLower);
       const locationMatch = project.location?.toLowerCase().includes(searchLower);
-      
+
       return titleMatch || descriptionMatch || categoryMatch || locationMatch;
     });
   }, [debouncedSearchTerm]);
@@ -268,11 +268,11 @@ const CommercialProject = () => {
                 >
                   <div className="p-4">
                     <div className="flex items-center mb-3">
-                      <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        className="h-5 w-5 text-amber-500 mr-2" 
-                        fill="none" 
-                        viewBox="0 0 24 24" 
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5 text-amber-500 mr-2"
+                        fill="none"
+                        viewBox="0 0 24 24"
                         stroke="currentColor"
                         aria-hidden="true"
                       >
@@ -323,7 +323,7 @@ const CommercialProject = () => {
               {debouncedSearchTerm && (
                 <div className="mb-6 text-center">
                   <p className="text-gray-600">
-                    {filteredProjects.length > 0 
+                    {filteredProjects.length > 0
                       ? `Found ${filteredProjects.length} project${filteredProjects.length === 1 ? '' : 's'}`
                       : 'No projects found'
                     }
