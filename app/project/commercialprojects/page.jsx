@@ -20,6 +20,7 @@ const fadeInUpVariant = {
   }
 };
 
+
 const hoverVariant = {
   scale: 1.02,
   transition: { duration: 0.2 }
