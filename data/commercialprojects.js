@@ -452,11 +452,11 @@ export const projects = [
   },
   {
     slug: "project-15",
-    title: "COASTAL ROAD MUMBAI (Coming Soon)",
+    title: "COASTAL ROAD MUMBAI",
     image: "/images/projects/COSTALROAD/costal-7.jpeg",
-    // description: "ATLANTAS CREW MANAGEMENT",
+    // description: "COASTAL ROAD MUMBAI (SOUTH)",
     // fullDescription:
-    //   "The Coastal road is a scenic and modern infrastructure projct designed ",
+    //   "Coastal road",
     // tagLine: "Atlanats Crew Management",
     // highlights: [
     //   { icon: "Armchair", description: "100+ Seating at single floor" },
@@ -472,12 +472,12 @@ export const projects = [
     // galleryImages: [
     //   { image: "/images/projects/COSTALROAD/costal-1.jpeg", alt: "coastal-1" },
     //   { image: "/images/projects/COSTALROAD/costal-2.jpeg", alt: "coastal-2" },
-    //   { image: "/images/projects/ATLANTAS/atlantas-4.jpg", alt: "atlantas-4" },
-    //   { image: "/images/projects/ATLANTAS/atlantas-5.jpg", alt: "atlantas-5" },
-    //   { image: "/images/projects/ATLANTAS/atlantas-7.jpg", alt: "atlantas-7" },
-    //   { image: "/images/projects/ATLANTAS/atlantas-13.jpg", alt: "atlantas-13" },
-    //   { image: "/images/projects/ATLANTAS/atlantas-18.jpg", alt: "atlantas-18" },
-    // ],
+    //   { image: "/images/projects/COSTALROAD/costal-3.jpeg", alt: "coastal-3" },
+    //   { image: "/images/projects/COSTALROAD/costal-4.jpeg", alt: "coastal-4" },
+    //   { image: "/images/projects/COSTALROAD/costal-5.jpeg", alt: "coastal-5" },
+    //   { image: "/images/projects/COSTALROAD/costal-6.jpeg", alt: "coastal-6" },
+    //   { image: "/images/projects/COSTALROAD/costal-7.jpeg", alt: "coastal-7" },
+    // ],  
   },
 ];
 
