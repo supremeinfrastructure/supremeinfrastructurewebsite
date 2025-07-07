@@ -356,9 +356,13 @@ const HeroSection = () => {
                     </div>
                   </div>
 
-                  {/* Card description */}
-                  <div className="p-4 md:p-6">
-                    <p className="text-gray-800 text-sm md:text-base mb-4">{currentCardData.description}</p>
+                  {/* View Project Button */}
+                  <div className='p-2'>
+                    <Link href={`/projects/${currentCardData.slug || 'costal-road'}`} passHref>
+                      <button className="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-full transition-all duration-300 text-sm md:text-base">
+                        View Project
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </motion.div>

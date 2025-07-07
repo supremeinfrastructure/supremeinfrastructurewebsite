@@ -450,6 +450,35 @@ export const projects = [
       { image: "/images/projects/ATLANTAS/atlantas-18.jpg", alt: "atlantas-18" },
     ],
   },
+  {
+    slug: "project-15",
+    title: "COASTAL ROAD MUMBAI (Coming Soon)",
+    image: "/images/projects/COSTALROAD/costal-7.jpeg",
+    // description: "ATLANTAS CREW MANAGEMENT",
+    // fullDescription:
+    //   "The Coastal road is a scenic and modern infrastructure projct designed ",
+    // tagLine: "Atlanats Crew Management",
+    // highlights: [
+    //   { icon: "Armchair", description: "100+ Seating at single floor" },
+    //   { icon: "Coffee", description: "65+ seating for cafeteria" },
+    //   { icon: "Presentation", description: "14 seater huge Conference room" },
+    //   { icon: "HandCoins", description: "Separate account department" },
+    //   { icon: "Users", description: "Colourful Interview room & meeting room" },
+    // ],
+    // configuration: [
+    //   { flat: "7500 sqft", carpet: "120 Days" },
+    // ],
+
+    // galleryImages: [
+    //   { image: "/images/projects/COSTALROAD/costal-1.jpeg", alt: "coastal-1" },
+    //   { image: "/images/projects/COSTALROAD/costal-2.jpeg", alt: "coastal-2" },
+    //   { image: "/images/projects/ATLANTAS/atlantas-4.jpg", alt: "atlantas-4" },
+    //   { image: "/images/projects/ATLANTAS/atlantas-5.jpg", alt: "atlantas-5" },
+    //   { image: "/images/projects/ATLANTAS/atlantas-7.jpg", alt: "atlantas-7" },
+    //   { image: "/images/projects/ATLANTAS/atlantas-13.jpg", alt: "atlantas-13" },
+    //   { image: "/images/projects/ATLANTAS/atlantas-18.jpg", alt: "atlantas-18" },
+    // ],
+  },
 ];
 
 export const getProjectBySlug = (slug) => {
