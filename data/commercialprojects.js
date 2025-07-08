@@ -454,30 +454,31 @@ export const projects = [
     slug: "project-15",
     title: "COASTAL ROAD MUMBAI",
     image: "/images/projects/COSTALROAD/costal-7.jpeg",
-    // description: "COASTAL ROAD MUMBAI (SOUTH)",
-    // fullDescription:
-    //   "Coastal road",
-    // tagLine: "Atlanats Crew Management",
-    // highlights: [
-    //   { icon: "Armchair", description: "100+ Seating at single floor" },
-    //   { icon: "Coffee", description: "65+ seating for cafeteria" },
-    //   { icon: "Presentation", description: "14 seater huge Conference room" },
-    //   { icon: "HandCoins", description: "Separate account department" },
-    //   { icon: "Users", description: "Colourful Interview room & meeting room" },
-    // ],
-    // configuration: [
-    //   { flat: "7500 sqft", carpet: "120 Days" },
-    // ],
-
-    // galleryImages: [
-    //   { image: "/images/projects/COSTALROAD/costal-1.jpeg", alt: "coastal-1" },
-    //   { image: "/images/projects/COSTALROAD/costal-2.jpeg", alt: "coastal-2" },
-    //   { image: "/images/projects/COSTALROAD/costal-3.jpeg", alt: "coastal-3" },
-    //   { image: "/images/projects/COSTALROAD/costal-4.jpeg", alt: "coastal-4" },
-    //   { image: "/images/projects/COSTALROAD/costal-5.jpeg", alt: "coastal-5" },
-    //   { image: "/images/projects/COSTALROAD/costal-6.jpeg", alt: "coastal-6" },
-    //   { image: "/images/projects/COSTALROAD/costal-7.jpeg", alt: "coastal-7" },
-    // ],  
+    description: "COASTAL ROAD MUMBAI (SOUTH)",
+    fullDescription:
+      "Coastal road",
+    tagLine: "Atlanats Crew Management",
+    highlights: [
+      { icon: "Armchair", description: "Fox tail palm" },
+      { icon: "Coffee", description: "Bougainvillea" },   
+      { icon: "Presentation", description: "Acalypha" },
+      { icon: "HandCoins", description: "Tecoma stans" },
+      { icon: "Users", description: "Pisonia" },
+      { icon: "Users", description: "Plumbago" },
+      { icon: "Users", description: "Kaner" },
+    ],
+    configuration: [
+      { flat: "7500 sqft", carpet: "120 Days" },
+    ],
+    galleryImages: [
+      { image: "/images/projects/COSTALROAD/costal-1.jpeg", alt: "coastal-1" },
+      { image: "/images/projects/COSTALROAD/costal-2.jpeg", alt: "coastal-2" },
+      { image: "/images/projects/COSTALROAD/costal-3.jpeg", alt: "coastal-3" },
+      { image: "/images/projects/COSTALROAD/costal-4.jpeg", alt: "coastal-4" },
+      { image: "/images/projects/COSTALROAD/costal-5.jpeg", alt: "coastal-5" },
+      { image: "/images/projects/COSTALROAD/costal-6.jpeg", alt: "coastal-6" },
+      { image: "/images/projects/COSTALROAD/costal-7.jpeg", alt: "coastal-7" },
+    ],
   },
 ];
 
