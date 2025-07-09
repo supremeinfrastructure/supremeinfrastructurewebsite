@@ -456,19 +456,19 @@ export const projects = [
     image: "/images/projects/COSTALROAD/costal-7.jpeg",
     description: "COASTAL ROAD MUMBAI (SOUTH)",
     fullDescription:
-      "Coastal road",
+      "The Landscaping work for the Mumbai Coastal Road project includes a variety of beautiful plantations and green spaces to enhance the city's waterfront.Here's how the project integrates lush greenery and aesthetic plantations into the design.Coastal Road Landscaping Project Inaugurated by Chief Minister of Maharashtra In a landmark event, the Chief Minister of Maharashtra officially inaugurated the state-of-the-art Coastal Road Landscaping project, marking a significant milestone in the region’s urban development and environmental enhancement. The project is part of the broader vision to transform Mumbai's coastal infrastructure while offering residents a dynamic blend of functionality, recreation, and scenic beauty.The landscaping efforts are concentrated on the landward side of the Coastal Road, contrasting with the seaward-facing promenade. Significant landscaped areas are planned at key interchanges, including Amarsons at Breach Candy, Mahalaxmi, Haji Ali, and Worli. Through these initiatives, the MCRP aims to redefine Mumbai's coastal landscape, offering residents and visitors enhanced recreational spaces while promoting environmental sustainability and urban beautification.",
     tagLine: "Atlanats Crew Management",
     highlights: [
-      { icon: "Armchair", description: "Fox tail palm" },
-      { icon: "Coffee", description: "Bougainvillea" },   
-      { icon: "Presentation", description: "Acalypha" },
-      { icon: "HandCoins", description: "Tecoma stans" },
-      { icon: "Users", description: "Pisonia" },
-      { icon: "Users", description: "Plumbago" },
-      { icon: "Users", description: "Kaner" },
+      { icon: "", description: "Fox tail palm" },
+      { icon: "", description: "Bougainvillea" },
+      { icon: "", description: "Acalypha" },
+      { icon: "", description: "Tecoma stans" },
+      { icon: "", description: "Pisonia" },
+      { icon: "", description: "Plumbago" },
+      { icon: "", description: "Kaner" },
     ],
     configuration: [
-      { flat: "7500 sqft", carpet: "120 Days" },
+      { flat: "2.3 KM", carpet: "60 days" },
     ],
     galleryImages: [
       { image: "/images/projects/COSTALROAD/costal-1.jpeg", alt: "coastal-1" },

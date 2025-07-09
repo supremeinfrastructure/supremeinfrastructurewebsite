@@ -358,7 +358,7 @@ const HeroSection = () => {
 
                   {/* View Project Button */}
                   <div className='p-2'>
-                    <Link href={`/projects/${currentCardData.slug || 'costal-road'}`} passHref>
+                    <Link href={`/project/commercialprojects/project-15`} passHref>
                       <button className="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-full transition-all duration-300 text-sm md:text-base">
                         View Project
                       </button>
