@@ -118,6 +118,10 @@ const portfolioItems = [
       '/services/horticulture-design/horticulture-4.png',
       '/services/horticulture-design/horticulture-5.png',
       '/services/horticulture-design/horticulture-6.png',
+
+      //  costal road 
+      '/services/horticulture-design/horticulture-7.jpeg',
+      '/services/horticulture-design/horticulture-8.jpeg',
     ]
   },
   {
