@@ -457,7 +457,7 @@ export const projects = [
     description: "COASTAL ROAD MUMBAI (SOUTH)",
     fullDescription:
       "The Landscaping work for the Mumbai Coastal Road project includes a variety of beautiful plantations and green spaces to enhance the city's waterfront.Here's how the project integrates lush greenery and aesthetic plantations into the design.Coastal Road Landscaping Project Inaugurated by Chief Minister of Maharashtra In a landmark event, the Chief Minister of Maharashtra officially inaugurated the state-of-the-art Coastal Road Landscaping project, marking a significant milestone in the region’s urban development and environmental enhancement. The project is part of the broader vision to transform Mumbai's coastal infrastructure while offering residents a dynamic blend of functionality, recreation, and scenic beauty.The landscaping efforts are concentrated on the landward side of the Coastal Road, contrasting with the seaward-facing promenade. Significant landscaped areas are planned at key interchanges, including Amarsons at Breach Candy, Mahalaxmi, Haji Ali, and Worli. Through these initiatives, the MCRP aims to redefine Mumbai's coastal landscape, offering residents and visitors enhanced recreational spaces while promoting environmental sustainability and urban beautification.",
-    tagLine: "Atlanats Crew Management",
+    tagLine: "Atlantas Crew Management",
     highlights: [
       { icon: "", description: "Fox tail palm" },
       { icon: "", description: "Bougainvillea" },
