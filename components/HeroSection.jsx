@@ -84,12 +84,12 @@ const TITLE = "Supreme Infrastructure Company";
 const DESCRIPTION = "We are a team of Talented, Innovative Designers, Engineers, and Horticulturists.";
 const CARD_CONTENT = [
   {
-    title: "Costal Road Mumbai",
+    title: "Coastal Road Mumbai",
     description: "ONGOING PROJECT",
     image: "/images/projects/COSTALROAD/costal-road.jpg"
   },
   {
-    title: "Costal Road Mumbai ( South )",
+    title: "Coastal Road Mumbai ( South )",
     description: "Inaugurated By Hon'ble Chief Minister Devendra Fadnavis, Deputy Chief Minister Eknath Shinde, Minister of Tourism Mangal Prabhat Lodha and other esteemed Government Officials.",
     image: "/images/projects/COSTALROAD/costal-road3.JPG"
   }
