@@ -118,6 +118,17 @@ const portfolioItems = [
       '/services/horticulture-design/horticulture-4.png',
       '/services/horticulture-design/horticulture-5.png',
       '/services/horticulture-design/horticulture-6.png',
+      '/services/horticulture-design/horticulture-7.jpeg',
+      '/services/horticulture-design/horticulture-8.jpeg',
+      '/services/horticulture-design/horticulture-9.jpeg',
+      '/services/horticulture-design/horticulture-10.jpeg',
+      '/services/horticulture-design/horticulture-11.jpeg',
+      '/services/horticulture-design/horticulture-12.jpeg',
+      '/services/horticulture-design/horticulture-13.jpeg',
+      '/services/horticulture-design/horticulture-14.jpeg',
+      '/services/horticulture-design/horticulture-15.jpeg',
+      '/services/horticulture-design/horticulture-16.jpeg',
+      '/services/horticulture-design/horticulture-17.jpeg',
 
       
     ]
