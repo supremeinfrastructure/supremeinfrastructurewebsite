@@ -86,12 +86,12 @@ const CARD_CONTENT = [
   {
     title: "Coastal Road Mumbai",
     description: "ONGOING PROJECT",
-    image: "/images/projects/COSTALROAD/costal-road.jpg"
+    image: "/images/projects/horticultureprojects/COASTALROAD/costal-road.jpg"
   },
   {
     title: "Coastal Road Mumbai ( South )",
     description: "Inaugurated By Hon'ble Chief Minister Devendra Fadnavis, Deputy Chief Minister Eknath Shinde, Minister of Tourism Mangal Prabhat Lodha and other esteemed Government Officials.",
-    image: "/images/projects/COSTALROAD/costal-road3.JPG"
+    image: "/images/projects/horticultureprojects/COASTALROAD/costal-road3.JPG"
   }
 ];
 

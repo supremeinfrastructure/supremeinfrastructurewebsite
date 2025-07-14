@@ -114,6 +114,9 @@ function Navbar({ className }) {
                         <MobileMenuItem href="/project/guesthouse" onClick={closeMenu}>
                             Guest House
                         </MobileMenuItem>
+                        <MobileMenuItem href="/project/horticultureprojects" onClick={closeMenu}>
+                            Green Initiatives
+                        </MobileMenuItem>
                     </MobileMenuDropdown>
 
                     <MobileMenuDropdown
@@ -162,6 +165,12 @@ function Navbar({ className }) {
                                 href="/project/guesthouse"
                                 src="/images/home/guestHouse.jpg"
                                 description="View our guest house projects."
+                            />
+                            <ProductItem
+                                title="Green Initiatives"
+                                href="/project/horticultureprojects"
+                                src="/images/home/greeninitiative.jpeg"
+                                description="Explore Our Green Creations"
                             />
                         </div>
                     </MenuItem></Link>
