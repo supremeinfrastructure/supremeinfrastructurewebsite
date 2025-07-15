@@ -88,11 +88,11 @@ const CARD_CONTENT = [
     description: "ONGOING PROJECT",
     image: "/images/projects/horticultureprojects/COASTALROAD/costal-road.jpg"
   },
-  {
-    title: "Coastal Road Mumbai ( South )",
-    description: "Inaugurated By Hon'ble Chief Minister Devendra Fadnavis, Deputy Chief Minister Eknath Shinde, Minister of Tourism Mangal Prabhat Lodha and other esteemed Government Officials.",
-    image: "/images/projects/horticultureprojects/COASTALROAD/costal-road3.JPG"
-  }
+  // {
+  //   title: "Coastal Road Mumbai ( South )",
+  //   description: "Inaugurated By Hon'ble Chief Minister Devendra Fadnavis, Deputy Chief Minister Eknath Shinde, Minister of Tourism Mangal Prabhat Lodha and other esteemed Government Officials.",
+  //   image: "/images/projects/horticultureprojects/COASTALROAD/costal-road3.JPG"
+  // }
 ];
 
 // Constant video sources
@@ -111,7 +111,7 @@ const HeroSection = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [fallbackImageVisible, setFallbackImageVisible] = useState(true);
-  const [currentCard, setCurrentCard] = useState(0); // Use 0-based index for array access
+  const [currentCard, setCurrentCard] = useState(1); // Use 0-based index for array access
   const [showCard, setShowCard] = useState(false);
 
   // Memoized title characters
@@ -220,16 +220,19 @@ const HeroSection = () => {
           muted
           loop
           className="absolute top-0 left-0 w-full h-full object-cover"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isVideoLoaded ? 1 : 0, scale: isVideoLoaded ? 1 : 1.1 }}
-          transition={{ duration: 1 }}
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: isVideoLoaded ? 1 : 0, scale: isVideoLoaded ? 1 : 1.05 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
           style={{
-            filter: 'brightness(0.7) contrast(1.1)',
+            filter: 'brightness(0.75) contrast(1.05)',
+            willChange: 'opacity, transform',
           }}
           onLoadedData={handleVideoLoaded}
           onError={handleVideoError}
           preload="auto"
-          loading="eager"
+          loading="lazy"
+          disableRemotePlayback
+          poster="/fallback-image.jpg" // optional - add a lightweight placeholder image
         >
           {VIDEO_SOURCES.map((source, index) => (
             <source key={index} src={source.src} type={source.type} />
@@ -344,7 +347,7 @@ const HeroSection = () => {
                   {/* Image with optimized loading */}
                   <div className="relative w-full h-48 sm:h-56 md:h-64 overflow-hidden">
                     <Image
-                      src={currentCardData.image}
+                      src="/images/projects/horticultureprojects/COASTALROAD/costal-road.jpg"
                       alt="Project Image"
                       width={600}
                       height={300}
@@ -352,13 +355,13 @@ const HeroSection = () => {
                       loading="eager"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent py-2 px-4">
-                      <h3 className="text-white font-semibold text-lg md:text-xl">{currentCardData.title}</h3>
+                      <h3 className="text-white font-semibold text-lg md:text-xl">Coastal Road Mumbai</h3>
                     </div>
                   </div>
 
                   {/* View Project Button */}
                   <div className='p-2'>
-                    <Link href={`/project/commercialprojects/project-15`} passHref>
+                    <Link href={`/project/horticultureprojects/project-1`} passHref>
                       <button className="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-full transition-all duration-300 text-sm md:text-base">
                         View Project
                       </button>
