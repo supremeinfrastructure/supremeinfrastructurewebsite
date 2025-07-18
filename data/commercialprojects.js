@@ -1,6 +1,75 @@
 export const projects = [
   {
-    slug: "project-1",
+    slug: "project-16",
+    title: "THE JOKER BISTRO",
+    image: "/images/projects/JOCKER/jocker-8.png",
+    description: "NAVI MUMBAI,CBD-BELAPUR",
+    fullDescription:
+      "At Jocker Bistro every design element has been meticulously crafted by Supreme Infrastructure Company from the evocative brick storytelling wall to the bold lighting plush velvet booths and striking mosaic tabletops .This space isnt just built -its curated to bring the bistro vision to life as an immersive dining experience . LAYERED TEXTURES & CUSTOM DECOR PANELS - blending tactile surfaces with modern finishes to create depth and intrigue .GEOMETRIC LIGHTING & BOLD COLOR PALETTE -Featuring deep reds,charcoal greys ,and warm wooden tones for a rich ,moody atmosphere .STATEMENT WALLS - Showcasing motivational typography ,graphic murals and hand-painted art that spark conversation .CUSTOM SEATING LAYOUTS - thoughtfully arranged for inimate dining ,group gatherings and casual lounging .AMBIENT LIGHTING DESIGN - A combination of warm industrial pendants and sleek architectural downlights enhances the mood at every turn .SHOWSTOPPER BAR DESIGN - Elevated bottle displays, elegant finishes and functional design come together in a dramatic centerpiece.",
+    tagLine: "Atlanats Crew Management",
+    highlights: [
+      { icon: "Armchair", description: "" },
+      { icon: "Coffee", description: "" },
+      { icon: "Presentation", description: "" },
+      { icon: "HandCoins", description: "" },
+      { icon: "Users", description: "" },
+    ],
+    configuration: [
+      // { flat: "7500 sqft", carpet: "120 Days" },
+    ],
+
+    galleryImages: [
+      { image: "/images/projects/JOCKER/jocker-1.jpeg", alt: "jocker-1" },
+      { image: "/images/projects/JOCKER/jocker-2.jpeg", alt: "jocker-2" },
+      { image: "/images/projects/JOCKER/jocker-3.jpeg", alt: "jocker-3" },
+      { image: "/images/projects/JOCKER/jocker-4.jpeg", alt: "jocker-4" },
+      { image: "/images/projects/JOCKER/jocker-5.jpeg", alt: "jocker-5" },
+      { image: "/images/projects/JOCKER/jocker-6.jpeg", alt: "jocker-6" },
+      { image: "/images/projects/JOCKER/jocker-7.jpg", alt: "jocker-7" },
+      { image: "/images/projects/JOCKER/jocker-8.png", alt: "jocker-8" },
+    ],
+  },
+
+  {
+    slug: "project-15",
+    title: "OM LAXMI CONSOLIDATORS (OMLC)",
+    image: "/images/projects/OMLC/omlc-1.png",
+    description: "THE CORPORATE PARK,NAVI MUMBAI",
+    fullDescription:
+      "CONTEMPORARY WORKSPACE DESIGN -Sleek ,ergonomic layouts tailored for high productivity ,High-end white workstations paired with designer office chairs, Streamlined desk setups that promote collaboration and comfort. VIBRANT & INSPIRING AMBIENCE - Bold yellow and grey accent walls for a lively atmosphere Motivational wall quotes like creativity is intelligence having fun to inspire daily innovation ,Thoughtfully designed lighting for an uplifting environment . CUSTOM PARTITION DESIGN - A handcrafted partition using wood and acrylic ,Intricate patterned panels that blend aesthatic with functionality ,smartly divides space while keeping an open ,connected feel. SIGNATURE ELEMENTS - Artistic epoxy world map table a stunning custom centerpiece symbolizing global amition and creativity Geometric wall paneling a premium wood-texture backdrop adding depth and luxury to executive areas ,ambient shelving & decor integrated lighting and modern display units to enhance visual appeal .",
+    tagLine: "Atlanats Crew Management",
+    highlights: [
+      { icon: "Armchair", description: "" },
+      { icon: "Coffee", description: "" },
+      { icon: "Presentation", description: "" },
+      { icon: "HandCoins", description: "" },
+      { icon: "Users", description: "" },
+    ],
+    configuration: [
+      // { flat: "7500 sqft", carpet: "120 Days" },
+    ],
+
+    galleryImages: [
+      { image: "/images/projects/OMLC/omlc-1.png", alt: "omlc-1" },
+      { image: "/images/projects/OMLC/omlc-2.jpeg", alt: "omlc-2" },
+      { image: "/images/projects/OMLC/omlc-3.jpeg", alt: "omlc-3" },
+      { image: "/images/projects/OMLC/omlc-4.jpeg", alt: "omlc-4" },
+      // { image: "/images/projects/OMLC/omlc-5.jpeg", alt: "omlc-5" },
+      { image: "/images/projects/OMLC/omlc-6.jpeg", alt: "omlc-6" },
+      { image: "/images/projects/OMLC/omlc-7.jpeg", alt: "omlc-7" },
+      { image: "/images/projects/OMLC/omlc-8.jpeg", alt: "omlc-8" },
+      { image: "/images/projects/OMLC/omlc-9.jpeg", alt: "omlc-9" },
+      // { image: "/images/projects/OMLC/omlc-10.jpeg", alt: "omlc-10" },
+      { image: "/images/projects/OMLC/omlc-11.jpeg", alt: "omlc-11" },
+      // { image: "/images/projects/OMLC/omlc-12.jpeg", alt: "omlc-12" },
+      // { image: "/images/projects/OMLC/omlc-13.jpeg", alt: "omlc-13" },
+      // { image: "/images/projects/OMLC/omlc-14.jpeg", alt: "omlc-14" },
+      // { image: "/images/projects/OMLC/omlc-15.jpeg", alt: "omlc-15" },
+      { image: "/images/projects/OMLC/omlc-10.png", alt: "omlc-10" }, ,
+    ],
+  },
+  {
+    slug: "project-14",
     title: "THE CORPORATE PARK , NAVI MUMBAI",
     image: "/images/projects/TCP/tcp-2.jpeg",
     description: "THE CORPORATE PARK ,NAVI MUMBAI",
@@ -38,7 +107,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-2",
+    slug: "project-13",
     title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 5B, MUMBAI ",
     image: "/images/projects/CARNACBUNDER5B/carnac-5.jpeg",
     description: "5B",
@@ -68,7 +137,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-3",
+    slug: "project-12",
     title: "TATA POWER RENEWABLE ENERGY LIMITED CARNAC BUNDER 2B, MUMBAI ",
     image: "/images/projects/CARNACBUNDER2B/carnac-9.jpeg",
     description: "2B",
@@ -111,7 +180,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-4",
+    slug: "project-11",
     title: "COACT IMPRINTS , NAVI MUMBAI",
     image: "/images/projects/COACT/coact-3.jpg",
     description: "COACT IMPRINTS",
@@ -140,7 +209,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-5",
+    slug: "project-10",
     title: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI , NAVI MUMBAI",
     image: "/images/projects/ALLANA/allana-1.jpeg",
     description: "CONSTRUCTION OF NEW FACTORY & GARDEN LANDSCAPING AT ALLANA KHOPOLI",
@@ -165,7 +234,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-6",
+    slug: "project-9",
     title: "KARANJADE BOUNDARY WALL, FOUNDATIONS 220KV,GIS STATION, TOSHIBA , NAVI MUMBAI",
     image: "/images/projects/TOSHIBAKARANJADE/toshiba-2.jpg",
     description: "TATA POWER FIRE TANK",
@@ -191,7 +260,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-7",
+    slug: "project-8",
     title: "FINANCE HEADQUARTER OF TATA POWER PENINSULA ,MUMBAI",
     image: "/images/projects/PENINSULA/peninsula-3.jpeg",
     description: "FINANCE HEADQUARTER OF TATA POWER PENINSULA",
@@ -233,7 +302,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-8",
+    slug: "project-7",
     title: "SUPREME INFRASTRUCTURE HEAD OFFICE AT MAYURESH PLANET BELAPUR ,NAVI MUMBAI",
     image: "/images/projects/MAYURESHPLANET/mayuresh-8.jpg",
     description: "DEVELOPMENT OF SUPREME INFRASTRUCTURE COMPANY OFFICE",
@@ -264,7 +333,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-9",
+    slug: "project-6",
     title: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT, BENGALURU",
     image: "/images/projects/TPSSLBANGOLARE/tpsslBanglore-14.png",
     description: "ADMIN AND HR OFFICE OF TATA POWER SOLAR AT BANGALORE",
@@ -295,7 +364,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-10",
+    slug: "project-5",
     title: "SPORTS COMPLEX OLYMPICS SIZE SWIMMING POOL WITH PAVILLION AT TATA SPORTS TROMBAY, MUMBAI",
     image: "/images/projects/TATASPORTCOMPLEXOLYMPICSIZESWIMMINGPOOL&PAVILIONWITHWASHROOMFACILITIES/tataGym-31.jpg",
     description: "TATA SPORT COMPLEX OLYMPIC SIZE SWIMMING POOL & PAVILION WITH WASHROOM FACILITIES",
@@ -330,7 +399,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-11",
+    slug: "project-4",
     title: "TATA POWER SOLAR CIVIL OFFICE AND BREAK OUT AREA , BENGALURU",
     image: "/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-19.jpg",
     description: "TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA , BANGOLARE",
@@ -358,7 +427,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-12",
+    slug: "project-3",
     title: "CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY MUMBAI",
     image: "/images/projects/TATAPOWERCIVILTROMBAY/trombay-6.jpeg",
     description: "CIVIL AND ESTATE OFFICE OF TATA POWER TROMBAY",
@@ -386,7 +455,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-13",
+    slug: "project-2",
     title: "PROCURMENT OFFICE OF TATA POWER SOLAR BENGALURU",
     image: "/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-12.jpg",
     description: "PROCURMENT OFFICE OF TATA POWER SOLAR BANGALORE",
@@ -422,7 +491,7 @@ export const projects = [
     ],
   },
   {
-    slug: "project-14",
+    slug: "project-1",
     title: "ATLANTAS",
     image: "/images/projects/ATLANTAS/atlantas-7.jpg",
     description: "ATLANTAS CREW MANAGEMENT",
