@@ -58,7 +58,7 @@ export const Menu = ({ setActive, children }) => {
         setIsHovered(false);
         setActive(null);
       }}
-      className={`relative rounded-2xl border border-transparent bg-gradient-to-r from-gray-200 to-gray-200 ${isHovered ? 'bg-gradient-to-r from-gray-300 to-gray-200' : 'bg-transparent'
+      className={`relative rounded-2xl border border-transparent bg-gradient-to-r from-white to-white ${isHovered ? 'bg-gradient-to-r from-gray-300 to-gray-200' : 'bg-transparent'
         } transition-colors duration-300 flex justify-center md:text-xl space-x-16 px-8 py-4 mt-6 ${isHovered ? 'shadow-3xl' : ''
         }`}
     >
