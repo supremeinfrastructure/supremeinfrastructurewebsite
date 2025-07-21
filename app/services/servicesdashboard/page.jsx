@@ -71,6 +71,11 @@ const portfolioItems = [
       '/images/projects/JOCKER/jocker-2.jpeg',
       '/images/projects/JOCKER/jocker-3.jpeg',
       '/images/projects/JOCKER/jocker-4.jpeg',
+
+      // OMLC ///////////////////////////////////
+      '/images/projects/OMLC/omlc-1.png',
+      '/images/projects/OMLC/omlc-2.jpeg',
+      '/images/projects/OMLC/omlc-10.jpeg'
     ]
   },
   {
@@ -94,21 +99,25 @@ const portfolioItems = [
       ////////////////////   Raheja  ////////////////////////////////
       '/images/projects/TATAPOWERMULSHIIB/mulshi-1.jpg',
 
-      ///////////////////  TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA BANGOLARE  ////////////////////////////////
+      ///////////////////    TATA POWER SOLAR CIVIL OFFICE AND BRICK OUT AREA BANGOLARE  ////////////////////////////////
       '/images/projects/TATAPOWERSOLARCIVILOFFICEANDBRICKOUTAREABANGOLARE/tataBanglore-4.jpg',
 
-      ///////////////////   TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE  ////////////////////////////////
+      ///////////////////    TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE  ////////////////////////////////
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-5.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-19.jpg',
       '/images/projects/TATAPOWERSOLARPROCUREMENTOFFICEBANGOLARE/tataBanglore-22.jpg',
 
 
-      ///////////////////   TATA TAMILNADU  ////////////////////////////////
+      ///////////////////    TATA TAMILNADU  ////////////////////////////////
       '/images/projects/TATATAMILNADU/tataTamilnadu-16.jpg',
 
-      /////////////////// TPSSLBANGOLARE   /////////////////////////////////
+      ///////////////////    TPSSLBANGOLARE   /////////////////////////////////
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-2.jpg',
       '/images/projects/TPSSLBANGOLARE/tpsslBanglore-4.jpg',
+
+      //////////////////     OMLC //////////////////////////////////////////////
+      '/images/projects/OMLC/omlc-2.jpeg',
+      '/images/projects/OMLC/omlc-10.jpeg'
 
     ]
   },
@@ -133,17 +142,14 @@ const portfolioItems = [
       '/services/horticulture-design/horticulture-16.jpeg',
       '/services/horticulture-design/horticulture-17.jpeg',
 
-      
+
     ]
   },
   {
     name: "Garden Maintenance",
     images: [
       '/services/garden-maintenence/garden-1.png',
-      // '/services/garden-maintenence/garden-2.jpg',
       '/services/garden-maintenence/garden-3.png',
-      // '/services/garden-maintenence/garden-4.jpg',
-      // '/services/garden-maintenence/garden-5.jpg',
       '/services/garden-maintenence/garden-6.png',
       '/services/garden-maintenence/garden-7.png',
       '/services/garden-maintenence/garden-8.png',
