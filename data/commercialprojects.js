@@ -58,8 +58,8 @@ export const projects = [
       { image: "/images/projects/OMLC/omlc-6.jpeg", alt: "omlc-6" },
       { image: "/images/projects/OMLC/omlc-7.jpeg", alt: "omlc-7" },
       { image: "/images/projects/OMLC/omlc-8.jpeg", alt: "omlc-8" },
-      { image: "/images/projects/OMLC/omlc-9.jpeg", alt: "omlc-9" },
-      { image: "/images/projects/OMLC/omlc-10.png", alt: "omlc-10" },
+      { image: "/images/projects/OMLC/omlc-9.png", alt: "omlc-9" },
+      { image: "/images/projects/OMLC/omlc-10.jpeg", alt: "omlc-10" },
     ],
   },
   {
