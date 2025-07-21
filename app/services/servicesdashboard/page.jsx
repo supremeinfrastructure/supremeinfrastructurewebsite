@@ -141,8 +141,6 @@ const portfolioItems = [
       '/services/horticulture-design/horticulture-15.jpeg',
       '/services/horticulture-design/horticulture-16.jpeg',
       '/services/horticulture-design/horticulture-17.jpeg',
-
-
     ]
   },
   {
