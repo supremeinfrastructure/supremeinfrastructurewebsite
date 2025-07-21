@@ -68,6 +68,14 @@ const portfolioItems = [
       '/images/projects/CARNACBUNDER5B/carnac-7.jpeg',
       // '/images/projects/CARNACBUNDER5B/carnac-8.jpeg',  ////////////////////
       '/images/projects/CARNACBUNDER5B/carnac-9.jpeg',
+
+
+
+      /// JOCKER /////////////////////////////////
+      '/images/projects/JOCKER/jocker-1.jpeg',
+      '/images/projects/JOCKER/jocker-2.jpeg',
+      '/images/projects/JOCKER/jocker-3.jpeg',
+      '/images/projects/JOCKER/jocker-4.jpeg',
     ]
   },
   {
