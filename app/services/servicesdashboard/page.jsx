@@ -62,13 +62,8 @@ const portfolioItems = [
       '/images/projects/CARNACBUNDER5B/carnac-1.jpeg',
       '/images/projects/CARNACBUNDER5B/carnac-2.jpeg',
       '/images/projects/CARNACBUNDER5B/carnac-3.jpeg',
-      // '/images/projects/CARNACBUNDER5B/carnac-4.jpeg',  ////////////////////
       '/images/projects/CARNACBUNDER5B/carnac-5.jpeg',
-      // '/images/projects/CARNACBUNDER5B/carnac-6.jpeg',  ////////////////////
       '/images/projects/CARNACBUNDER5B/carnac-7.jpeg',
-      // '/images/projects/CARNACBUNDER5B/carnac-8.jpeg',  ////////////////////
-      '/images/projects/CARNACBUNDER5B/carnac-9.jpeg',
-
 
 
       /// JOCKER /////////////////////////////////
