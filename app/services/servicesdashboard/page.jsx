@@ -190,6 +190,7 @@ export default function Home() {
       scrollContainerRef.current.scrollTop = 0;
     }
   };
+  
 
   const openFullView = (image) => {
     setFullViewImage(image);
