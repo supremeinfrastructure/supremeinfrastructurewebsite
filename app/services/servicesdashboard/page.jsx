@@ -58,7 +58,6 @@ const portfolioItems = [
       '/images/projects/TCP/tcp-4.jpeg',
 
 
-
       ///  CARNAC 5B  //////////////////// 
       '/images/projects/CARNACBUNDER5B/carnac-1.jpeg',
       '/images/projects/CARNACBUNDER5B/carnac-2.jpeg',
