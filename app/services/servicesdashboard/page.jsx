@@ -241,6 +241,7 @@ export default function Home() {
     </div>
   );
 
+  
   return (
     <div className="flex flex-col md:flex-row min-h-screen max-h-screen bg-gray-100 overflow-hidden">
       {/* Mobile Menu Toggle */}
