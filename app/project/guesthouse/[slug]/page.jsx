@@ -531,6 +531,7 @@ const ConfigRow = React.memo(({ config }) => (
   </tr>
 ));
 
+// UPDATED: Fullscreen ImageModal
 const ImageModal = ({ image, onClose }) => {
   const modalRef = useRef();
   useEffect(() => {
@@ -544,10 +545,26 @@ const ImageModal = ({ image, onClose }) => {
   }, [onClose]);
 
   return (
-    <div ref={modalRef} onClick={(e) => e.target === modalRef.current && onClose()} className='fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50'>
-      <div className='relative w-full max-w-5xl max-h-[90vh] p-4'>
-        <Image src={image} alt='Preview' fill sizes='100vw' className='object-contain' priority />
-        <button onClick={onClose} className='absolute top-4 right-4 text-white text-4xl hover:text-red-500'>&times;</button>
+    <div
+      ref={modalRef}
+      onClick={(e) => e.target === modalRef.current && onClose()}
+      className='fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50'
+    >
+      <div className='relative w-full h-full'>
+        <Image
+          src={image}
+          alt='Preview'
+          fill
+          sizes='100vw'
+          className='object-contain'
+          priority
+        />
+        <button
+          onClick={onClose}
+          className='absolute top-6 right-6 text-white text-4xl hover:text-red-500 z-50'
+        >
+          &times;
+        </button>
       </div>
     </div>
   );
