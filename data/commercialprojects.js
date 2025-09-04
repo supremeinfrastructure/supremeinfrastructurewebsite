@@ -298,7 +298,7 @@ export const projects = [
   {
     slug: "project-7",
     title: "SUPREME INFRASTRUCTURE HEAD OFFICE AT MAYURESH PLANET BELAPUR ,NAVI MUMBAI",
-    image: "/images/projects/MAYURESHPLANET/mayuresh-8.jpg",
+    image: "/images/projects/MAYURESHPLANET/landscape.jpg",
     description: "DEVELOPMENT OF SUPREME INFRASTRUCTURE COMPANY OFFICE",
     fullDescription:
       "Spanning 1,100 square feet, the Supreme Infrastructure Head Office renovation at Mayuresh Planet, Belapur, is a model of space efficiency and contemporary design, completed in just 44 days. The office’s vibrant, functional atmosphere is achieved through a combination of striking decorative MS partitions and colorful back-painted magnetic glass, adding both utility and visual interest. Unique lighting elements, including zigzag hanging lights, lend character and warmth to the space, enhancing the modern aesthetic. Thoughtful space utilization ensures that every area is both purposeful and appealing, providing a stylish and efficient workspace that reflects the dynamic ethos of Supreme Infrastructure.",

@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import {
   Archive, Columns4, Component, DoorOpen, CircleSlash2, PaintBucket, CookingPotIcon, House, Wallpaper, Bath, Frame, InspectionPanel, BedSingle, Fence, LampCeiling, Dumbbell,
-  Lightbulb
+  Lightbulb,Sofa, ChefHat,Bed,ChevronUp,Badge,PanelsTopLeft,Shield,ShowerHead
 } from 'lucide-react';
 import { projects } from "../../../../data/residencialprojects";
 import Image from "next/image";
@@ -40,7 +40,7 @@ export default function ProjectPage() {
 
   const highlightsIcon = {
     Archive, Columns4, Component, DoorOpen, CircleSlash2, PaintBucket, Fence, LampCeiling, Lightbulb, Dumbbell,
-    CookingPotIcon, House, Wallpaper, Bath, Frame, InspectionPanel, BedSingle
+    CookingPotIcon, House, Wallpaper, Bath, Frame, InspectionPanel, BedSingle,Sofa,ChefHat,Bed,ChevronUp,Badge,PanelsTopLeft,Shield,ShowerHead
   };
 
 
