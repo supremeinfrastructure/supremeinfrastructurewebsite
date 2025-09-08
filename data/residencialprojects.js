@@ -81,14 +81,14 @@ export const projects = [
         ],
 
         galleryImages: [
-            { image: "/images/projects/SAIVIHAR/SAI-1.jpg", alt: "SAI-1" },
-            { image: "/images/projects/SAIVIHAR/greenworld-6.jpg", alt: "greenworld-6" },
-            { image: "/images/projects/SAIVIHAR/greenworld-11.jpg", alt: "greenworld-11" },
-            { image: "/images/projects/SAIVIHAR/greenworld-13.jpg", alt: "greenworld-13" },
-            { image: "/images/projects/GSAIVIHAR/greenworld-15.jpg", alt: "greenworld-15" },
-            { image: "/images/projects/SAIVIHAR/greenworld-17.jpg", alt: "greenworld-17" },
-            { image: "/images/projects/SAIVIHAR/greenworld-18.jpg", alt: "greenworld-18" },
-            { image: "/images/projects/SAIVIHAR/greenworld-19.jpg", alt: "greenworld-19" },
+            { image: "/images/projects/GREENWORLD/greenworld-1.jpg", alt: "greenworld-1" },
+            { image: "/images/projects/GREENWORLD/greenworld-6.jpg", alt: "greenworld-6" },
+            { image: "/images/projects/GREENWORLD/greenworld-11.jpg", alt: "greenworld-11" },
+            { image: "/images/projects/GREENWORLD/greenworld-13.jpg", alt: "greenworld-13" },
+            { image: "/images/projects/GREENWORLD/greenworld-15.jpg", alt: "greenworld-15" },
+            { image: "/images/projects/GREENWORLD/greenworld-17.jpg", alt: "greenworld-17" },
+            { image: "/images/projects/GREENWORLD/greenworld-18.jpg", alt: "greenworld-18" },
+            { image: "/images/projects/GREENWORLD/greenworld-19.jpg", alt: "greenworld-19" },
         ],
     },
     {
