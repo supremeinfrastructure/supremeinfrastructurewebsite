@@ -38,6 +38,7 @@ export default function ProjectPage() {
     document.body.style.overflow = 'auto';
   };
 
+  
   const highlightsIcon = {
     Archive, Columns4, Component, DoorOpen, CircleSlash2, PaintBucket, Fence, LampCeiling, Lightbulb, Dumbbell,
     CookingPotIcon, House, Wallpaper, Bath, Frame, InspectionPanel, BedSingle,Sofa,ChefHat,Bed,ChevronUp,Badge,PanelsTopLeft,Shield,ShowerHead
