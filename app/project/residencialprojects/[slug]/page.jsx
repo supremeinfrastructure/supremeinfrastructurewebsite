@@ -51,7 +51,7 @@ export default function ProjectPage() {
               transition={{ duration: 0.6 }}
               className="lg:w-1/2 text-center lg:text-left"
             >
-              <h1 className="text-3xl md:text-5xl font-extrabold text-amber-800 mb-4">
+              <h1 className="text-3xl md:text-5xl font-extrabold text-amber-800 mb-4 mt-12">
                 {project.title}
               </h1>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed">
