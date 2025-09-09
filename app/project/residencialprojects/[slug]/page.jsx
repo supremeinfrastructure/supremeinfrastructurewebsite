@@ -51,7 +51,7 @@ export default function ProjectPage() {
               transition={{ duration: 0.6 }}
               className="lg:w-1/2 text-center lg:text-left"
             >
-              <h1 className="text-3xl md:text-5xl font-extrabold text-amber-800 mb-4 mt-12">
+              <h1 className="text-3xl md:text-5xl font-extrabold text-orange-800 mb-4 mt-12">
                 {project.title}
               </h1>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed">
@@ -81,7 +81,7 @@ export default function ProjectPage() {
         {/* Gallery */}
         {(project.galleryImages || project.videos) && (
           <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 lg:px-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-amber-800 mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-orange-800 mb-10">
               Gallery
             </h2>
 
@@ -132,7 +132,7 @@ export default function ProjectPage() {
         {/* Highlights */}
         {project.highlights && (
           <section className="bg-white py-16 px-6 lg:px-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-amber-800 mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-orange-800 mb-12">
               Project Highlights
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">

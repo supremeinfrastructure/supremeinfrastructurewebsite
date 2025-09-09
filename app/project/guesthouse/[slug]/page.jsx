@@ -193,7 +193,7 @@ export default function ProjectPage() {
       <section className="py-12 px-6 lg:px-16 ">
         <div className="flex flex-col lg:flex-row items-center gap-12 md:mt-24">
           <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-3xl md:text-5xl font-extrabold text-amber-800 mb-4">
+            <h1 className="text-3xl md:text-5xl font-extrabold text-orange-800 mb-4">
               {project.title}
             </h1>
             <p className="text-base md:text-lg text-gray-700 leading-relaxed">
