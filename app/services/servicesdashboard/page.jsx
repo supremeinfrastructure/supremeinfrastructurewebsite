@@ -10,6 +10,16 @@ const portfolioItems = [
   {
     name: "Interior Design",
     images: [
+      ////// sai vihar ///////////////////////////
+      '/images/projects/SAIVIHAR/sai-1.jpg',
+      '/images/projects/SAIVIHAR/sai-2.jpg',
+      '/images/projects/SAIVIHAR/sai-3.jpg',
+      '/images/projects/SAIVIHAR/sai-16.jpg',
+      '/images/projects/SAIVIHAR/sai-25.jpg',
+
+      ////// Dongarwadi ////////////////////////////
+      '/images/projects/dongarwadi/',
+
       /// ATLANTAS ///////////////
       '/images/projects/ATLANTAS/atlantas-7.jpg',
       '/images/projects/ATLANTAS/atlantas-18.jpg',
@@ -77,7 +87,9 @@ const portfolioItems = [
       // OMLC ///////////////////////////////////
       '/images/projects/OMLC/omlc-1.png',
       '/images/projects/OMLC/omlc-2.jpeg',
-      '/images/projects/OMLC/omlc-10.jpeg'
+      '/images/projects/OMLC/omlc-10.jpeg',
+
+
     ]
   },
   {
@@ -242,7 +254,7 @@ export default function Home() {
     </div>
   );
 
-  
+
   return (
     <div className="flex flex-col md:flex-row min-h-screen max-h-screen bg-gray-100 overflow-hidden">
       {/* Mobile Menu Toggle */}
@@ -258,13 +270,14 @@ export default function Home() {
       {/* Sidebar for Mobile and Desktop */}
       <aside
         className={`
-          fixed inset-y-0 left-0 w-64 bg-gray-200 p-4 transform transition-transform duration-300 ease-in-out z-40
-          md:relative md:w-1/3 lg:w-1/6 md:translate-x-0
-          ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
-        `}
+    fixed inset-y-0 left-0 w-64 bg-gray-200 p-4 transform transition-transform duration-300 ease-in-out z-40
+    md:relative md:w-1/3 lg:w-1/4 xl:w-1/5 2xl:w-1/6 md:translate-x-0
+    ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
+  `}
       >
+
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-start text-black lg:my-12 mt-16 md:mx-4 m-16">
-          Portfolio
+          PORTFOLIO
         </h2>
         <ul className="space-y-10">
           {portfolioItems.map((item, index) => (
