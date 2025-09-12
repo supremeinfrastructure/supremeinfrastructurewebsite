@@ -5,7 +5,6 @@ import Image from 'next/image';
 
 
 
-
 const portfolioItems = [
   {
     name: "Interior Design",
