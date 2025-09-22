@@ -86,7 +86,6 @@ const portfolioItems = [
       '/images/projects/OMLC/omlc-2.jpeg',
       '/images/projects/OMLC/omlc-10.jpeg',
 
-
     ]
   },
   {
