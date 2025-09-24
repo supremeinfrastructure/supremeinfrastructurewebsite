@@ -3,6 +3,8 @@ import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 
 
+
+
 const portfolioItems = [
   {
     name: "Interior Design",
