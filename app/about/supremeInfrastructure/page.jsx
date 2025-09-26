@@ -6,7 +6,6 @@ import { FaBuilding, FaDrawPolygon, FaTree, FaHardHat, FaPaintBrush, FaInstagram
 import Link from 'next/link';
 
 
-
 const AboutUsPage = () => {
     const services = [
         { icon: <FaBuilding />, title: 'Interior Design', description: 'Efficient space utilization with cutting edge design concepts' },
