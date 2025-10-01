@@ -162,6 +162,7 @@ const AboutUsPage = () => {
                     </motion.div>
                 </section>
 
+
                 {/* CTA Section */}
                 <section className="text-center">
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Ready to Build Your Dream Project?</h2>
