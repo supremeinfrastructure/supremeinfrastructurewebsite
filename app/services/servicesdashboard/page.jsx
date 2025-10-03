@@ -13,8 +13,6 @@ const portfolioItems = [
       '/images/projects/SAIVIHAR/sai-16.jpg',
       '/images/projects/SAIVIHAR/sai-25.jpg',
 
-     
-
       /// ATLANTAS ///////////////
       '/images/projects/ATLANTAS/atlantas-7.jpg',
       '/images/projects/ATLANTAS/atlantas-18.jpg',
