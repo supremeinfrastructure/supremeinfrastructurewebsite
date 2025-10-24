@@ -158,12 +158,12 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-center">Good. Better. ICS.</h3>
-            <p className="mt-2 text-center">ICS was founded to supply the demand...</p>
+            <h3 className="text-2xl font-bold text-center">Commercial | Residential | Restaurant Interiors</h3>
+            <p className="mt-2 text-center">From vibrant cafés to high-end workspaces, we design interiors that elevate ambience, strengthen brand identity, and leave a lasting impression.</p>
           </motion.div>
           <motion.div className="p-6 border rounded-md text-center">
-            <h4 className="text-xl font-bold">We're the difference between "meh" and "wow"</h4>
-            <p className="mt-2">ICS was founded to supply the demand for...</p>
+            <h4 className="text-xl font-bold">Design Beyond the Ordinary.</h4>
+            <p className="mt-2">We don’t just decorate — we transform. Our team brings your ideas to life with bold creativity, refined materials, and a touch of innovation that turns every corner into an experience.</p>
             <Link href="/project/commercialprojects" className="inline-block bg-amber-600 text-white px-6 py-2 mt-4 rounded-xl">View Projects</Link>
           </motion.div>
         </div>
