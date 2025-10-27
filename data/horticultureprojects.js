@@ -5,7 +5,7 @@ export const projects = [
         image: "/images/projects/horticultureprojects/COASTALROAD/costal-7.jpeg",
         description: "COASTAL ROAD MUMBAI (SOUTH)",
         fullDescription:
-            "The Mumbai Coastal Road Landscaping project, Inaugurated by the Chief Minister of Maharashtra, marks a major milestone in the city’s urban development and environmental enhancement. The project integrates lush greenery and aesthetic plantations along the waterfront, transforming Mumbai’s coastal infrastructure into a blend of functionality, recreation, and scenic beauty. Landscaping efforts focus on the landward side of the road, with key landscaped areas at Amarsons (Breach Candy), Mahalaxmi, Haji Ali, and Worli. These initiatives aim to redefine Mumbai’s coastline by creating vibrant green spaces that promote sustainability and enhance the city’s visual appeal.",
+            "The Mumbai Coastal Road Landscaping project, Inaugurated by the Chief Minister of Maharashtra, marks a major milestone in the city’s Urban Development and Environmental enhancement. The project integrates lush greenery and aesthetic plantations along the waterfront, transforming Mumbai’s Coastal infrastructure into a blend of functionality, recreation, and scenic beauty. Landscaping efforts focus on the landward side of the road, with key landscaped areas at Amarsons (Breach Candy), Mahalaxmi, Haji Ali, and Worli. These initiatives aim to redefine Mumbai’s coastline by creating vibrant green spaces that promote sustainability and enhance the city’s visual appeal.",
         tagLine: "Atlantas Crew Management",
         highlights: [
             { icon: "SunSnow", description: "Understanding the value of ecosystem and importance of preserving them for future generation" },
