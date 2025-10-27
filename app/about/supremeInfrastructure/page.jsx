@@ -5,8 +5,6 @@ import { motion } from 'framer-motion';
 import { FaBuilding, FaDrawPolygon, FaTree, FaHardHat, FaPaintBrush, FaInstagram } from 'react-icons/fa';
 import Link from 'next/link';
 
-
-
 const AboutUsPage = () => {
     const services = [
         { icon: <FaBuilding />, title: 'Interior Design', description: 'Efficient space utilization with cutting edge design concepts' },
@@ -22,7 +20,6 @@ const AboutUsPage = () => {
         { value: '10 +', label: 'Years of Experience' },
         { value: '100 +', label: 'Happy Clients' },
     ];
-
 
     return (
         <div className="min-h-screen bg-gray-50">
