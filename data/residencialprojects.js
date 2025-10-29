@@ -144,6 +144,35 @@ export const projects = [
             { image: "/images/projects/SAIVIHAR/sai-26.jpg", alt: "sai-26" },
         ],
     },
+
+    // {
+    //     slug: "project-5",
+    //     title: "Amarante",
+    //     image: "/images/projects/AMARANTE/amarante.png",
+    //     description: "Belapur,Navi Mumbai",
+    //     fullDescription:
+    //         "This 2500 sq. ft. duplex flat is a seamless blend of traditional elegance and modern sophistication. The interiors open with a regal living room styled with Maharaja-inspired furniture, flowing into a sleek modular kitchen with smart storage and premium accessories. The master bedroom follows a modern theme, defined by clean lines and calming tones, while the floating ceiling with refined finishes and concealed lighting enhances spatial drama. Artistic embroidery-finished wallpapers add depth and luxury, complemented by a striking staircase design with mirror-accented panels. The outdoor space features a customized washbasin counter with invisible grills for safety without compromising the view, while the washroom is elevated with decor-highlighted floor tiles and a bespoke standalone basin. Every detail has been thoughtfully designed to create a home that feels both luxurious and timeless.",
+    //     tagLine: "Project information",
+    //     reraNumber: "P52000011751",
+    //     highlights: [
+    //         { icon: "Sofa", description: "Traditional theme living room Maharaja style" },
+    //         { icon: "ChefHat", description: "Modular kitchen with accessories" },
+    //         { icon: "Bed", description: "Modern theme master bedroom" },
+    //         { icon: "ChevronUp", description: "Floating ceiling with refined finish" },
+    //         { icon: "Badge", description: "Embroidery-finished highlighted wallpaper" },
+    //         { icon: "PanelsTopLeft", description: "Staircase with highlighted panel & mirror" },
+    //         { icon: "Shield", description: "Outdoor space with custom washbasin & invisible grill" },
+    //         { icon: "ShowerHead", description: "Washroom with decor floor tiles & standalone basin" },
+
+    //     ],
+    //     configuration: [
+    //         { flat: "2500 sqft", carpet: "60 Days" },
+    //     ],
+
+    //     galleryImages: [
+    //         { image: "/images/projects/SAIVIHAR/sai-1.jpg", alt: "sai-1" },
+    //     ],
+    // },
 ];
 
 
