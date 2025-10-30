@@ -155,7 +155,7 @@ export const projects = [
     //     tagLine: "Project information",
     //     reraNumber: "P52000011751",
     //     highlights: [
-    //         { icon: "Sofa", description: "Traditional theme living room Maharaja style" },
+    //         { icon: "Sofa", description: "Magnetic Effect Ceiling" },
     //         { icon: "ChefHat", description: "Modular kitchen with accessories" },
     //         { icon: "Bed", description: "Modern theme master bedroom" },
     //         { icon: "ChevronUp", description: "Floating ceiling with refined finish" },
@@ -170,7 +170,13 @@ export const projects = [
     //     ],
 
     //     galleryImages: [
-    //         { image: "/images/projects/SAIVIHAR/sai-1.jpg", alt: "sai-1" },
+    //         { image: "/images/projects/AMARANTE/amarante-2.jpg", alt: "amarante-2" },
+    //         { image: "/images/projects/AMARANTE/amarante-3.jpg", alt: "amarante-3" },
+    //         { image: "/images/projects/AMARANTE/amarante-4.jpg", alt: "amarante-4" },
+    //         { image: "/images/projects/AMARANTE/amarante-5.jpg", alt: "amarante-5" },
+    //         { image: "/images/projects/AMARANTE/amarante-6.jpg", alt: "amarante-6" },
+    //         { image: "/images/projects/AMARANTE/amarante-7.jpg", alt: "amarante-7" },
+    //         { image: "/images/projects/AMARANTE/amarante-8.jpg", alt: "amarante-8" },
     //     ],
     // },
 ];
