@@ -146,6 +146,7 @@ export const projects = [
     },
 
     
+    
     // {
     //     slug: "project-5",
     //     title: "Amarante",
