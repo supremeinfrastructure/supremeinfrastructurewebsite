@@ -35,6 +35,7 @@ function Navbar({ className }) {
         }));
     }, []);
 
+    
     return (
         <nav className={cn("fixed top-4 inset-x-0 max-w-4xl mx-auto z-50", className)}>
             {/* Mobile Menu Button */}
