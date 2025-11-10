@@ -186,14 +186,6 @@ export default function Home() {
           >
             Ready to make a move?
           </motion.h3>
-          <motion.p
-            className="mt-4"
-            initial={{ y: 50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            ICS needs leaders and problem solvers...
-          </motion.p>
           <motion.a
             href="/contact/career"
             className="mt-6 inline-block bg-amber-600 text-white px-6 py-3 rounded-xl"
