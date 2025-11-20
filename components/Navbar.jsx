@@ -14,7 +14,6 @@ export function NavbarDemo() {
 }
 
 
-
 function Navbar({ className }) {
     const [active, setActive] = useState(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
