@@ -60,6 +60,7 @@ const HeroCarousel = () => {
     setCurrentIndex(index);
   };
 
+  
   return (
     <div className="relative w-full h-screen overflow-hidden">
       {/* Animated Logo */}
