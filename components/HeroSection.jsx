@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-
-
 const HeroCarousel = () => {
   // Sample images - replace with your actual image URLs
   const images = [
