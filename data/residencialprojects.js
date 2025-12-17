@@ -145,8 +145,6 @@ export const projects = [
         ],
     },
 
-    
-    
     {
         slug: "project-5",
         title: "Amarante",
@@ -157,26 +155,58 @@ export const projects = [
         tagLine: "Project information",
         reraNumber: "P52000011751",
         highlights: [
-           { icon:"Lamp", description:"Magnetic Effect Ceiling"},
-           { icon:"Wallpaper", description:"Tropical Wallapaper HIghlights"},
-           { icon:"Lightbulb", description:"Customized Designer Hanging Light"},
-           { icon:"Frame", description:"Hidden Window With Moulded Panelling"},
-           { icon:"Archive", description:"Cane-Finished Storage With Modern Touch"}
+            { icon: "Lamp", description: "Magnetic Effect Ceiling" },
+            { icon: "Wallpaper", description: "Tropical Wallapaper HIghlights" },
+            { icon: "Lightbulb", description: "Customized Designer Hanging Light" },
+            { icon: "Frame", description: "Hidden Window With Moulded Panelling" },
+            { icon: "Archive", description: "Cane-Finished Storage With Modern Touch" }
         ],
         configuration: [
             { flat: "550 sqft", carpet: "30 Days" },
         ],
 
         galleryImages: [
-            { image:"/images/projects/AMARANTE/amarante-2.jpg", alt:"amarante-2"},
-            { image:"/images/projects/AMARANTE/amarante-3.jpg", alt:"amarante-3"},
-            { image:"/images/projects/AMARANTE/amarante-4.jpg", alt:"amarante-4"},
-            { image:"/images/projects/AMARANTE/amarante-5.jpg", alt:"amarante-5"},
-            { image:"/images/projects/AMARANTE/amarante-6.jpg", alt:"amarante-6"},
-            { image:"/images/projects/AMARANTE/amarante-7.jpg", alt:"amarante-7"},
-            { image:"/images/projects/AMARANTE/amarante-8.jpg", alt:"amarante-8"}
+            { image: "/images/projects/AMARANTE/amarante-2.jpg", alt: "amarante-2" },
+            { image: "/images/projects/AMARANTE/amarante-3.jpg", alt: "amarante-3" },
+            { image: "/images/projects/AMARANTE/amarante-4.jpg", alt: "amarante-4" },
+            { image: "/images/projects/AMARANTE/amarante-5.jpg", alt: "amarante-5" },
+            { image: "/images/projects/AMARANTE/amarante-6.jpg", alt: "amarante-6" },
+            { image: "/images/projects/AMARANTE/amarante-7.jpg", alt: "amarante-7" },
+            { image: "/images/projects/AMARANTE/amarante-8.jpg", alt: "amarante-8" }
         ],
     },
+
+    // {
+    //     slug: "project-6",
+    //     title: "Paramount",
+    //     image: "/images/projects/PARAMOUNT/paramount-10.png",
+    //     description: "Navi Mumbai",
+    //     fullDescription:
+    //         "This 550 sq. ft. flat renovation, completed in just 30 days, showcases a perfect blend of creativity and craftsmanship. The space features a striking magnetic effect ceiling that adds modern depth, while tropical wallpaper highlights infuse freshness and vibrancy. A customized designer hanging light enhances the ambience with a touch of elegance. The hidden window with moulded panelling offers a seamless, sophisticated look, and cane-finished storage units introduce natural warmth with a modern twist — together creating a stylish, functional, and personalized home interior.",
+    //     tagLine: "Project information",
+    //     reraNumber: "P52000011751",
+    //     highlights: [
+    //         { icon: "Lamp", description: "Magnetic Effect Ceiling" },
+    //         { icon: "Wallpaper", description: "Tropical Wallapaper HIghlights" },
+    //         { icon: "Lightbulb", description: "Customized Designer Hanging Light" },
+    //         { icon: "Frame", description: "Hidden Window With Moulded Panelling" },
+    //         { icon: "Archive", description: "Cane-Finished Storage With Modern Touch" }
+    //     ],
+    //     configuration: [
+    //         { flat: "550 sqft", carpet: "30 Days" },
+    //     ],
+
+    //     galleryImages: [
+    //         { image: "/images/projects/PARAMOUNT/paramount-1.jpg", alt: "paramount-1" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-2.jpg", alt: "paramount-2" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-3.jpg", alt: "paramount-3" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-4.jpg", alt: "paramount-4" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-5.jpg", alt: "paramount-5" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-7.jpg", alt: "paramount-7" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-8.jpg", alt: "paramount-8" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-9.jpg", alt: "paramount-9" }
+    //     ],
+    // },
 ];
 
 
