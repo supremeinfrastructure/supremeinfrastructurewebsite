@@ -182,18 +182,18 @@ export const projects = [
     //     image: "/images/projects/PARAMOUNT/paramount-10.png",
     //     description: "Navi Mumbai",
     //     fullDescription:
-    //         "This 550 sq. ft. flat renovation, completed in just 30 days, showcases a perfect blend of creativity and craftsmanship. The space features a striking magnetic effect ceiling that adds modern depth, while tropical wallpaper highlights infuse freshness and vibrancy. A customized designer hanging light enhances the ambience with a touch of elegance. The hidden window with moulded panelling offers a seamless, sophisticated look, and cane-finished storage units introduce natural warmth with a modern twist — together creating a stylish, functional, and personalized home interior.",
+    //         "This compact 650 sq. ft. ground-floor space is thoughtfully transformed through creative design, precise execution, and smart space planning. Every element is curated to maximize visual impact while maintaining comfort and functionality.A striking magnetic-effect ceiling introduces bold depth and contemporary character, instantly becoming a standout feature that elevates the overall ambience. Carefully selected tropical wallpaper highlights add a refreshing burst of color and energy, bringing warmth, vibrancy, and a lively charm to the interiors.Complementing the design, a customized designer hanging light enhances the space with elegant illumination. Its unique craftsmanship creates a refined, artistic glow, perfectly balancing aesthetics and ambience.",
     //     tagLine: "Project information",
     //     reraNumber: "P52000011751",
     //     highlights: [
-    //         { icon: "Lamp", description: "Magnetic Effect Ceiling" },
-    //         { icon: "Wallpaper", description: "Tropical Wallapaper HIghlights" },
-    //         { icon: "Lightbulb", description: "Customized Designer Hanging Light" },
-    //         { icon: "Frame", description: "Hidden Window With Moulded Panelling" },
-    //         { icon: "Archive", description: "Cane-Finished Storage With Modern Touch" }
+    //         { icon: "BetweenVerticalStart", description: "Smart Space Transformation" },
+    //         { icon: "Wallpaper", description: "Magnetic-Effect Ceiling" },
+    //         { icon: "Lightbulb", description: "Tropical Wallpaper Accents" },
+    //         { icon: "LampCeiling", description: "Customized Designer Hanging Light" },
+    //         { icon: "Archive", description: "Balanced Aesthetics & Functionality" }
     //     ],
     //     configuration: [
-    //         { flat: "550 sqft", carpet: "30 Days" },
+    //         { flat: "650 sqft", carpet: "45 Days" },
     //     ],
 
     //     galleryImages: [
