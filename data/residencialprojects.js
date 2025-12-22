@@ -198,7 +198,7 @@ export const projects = [
 
     //     galleryImages: [
     //         { image: "/images/projects/PARAMOUNT/paramount-1.jpg", alt: "paramount-1" },
-    //         { image: "/images/projects/PARAMOUNT/paramount-2.jpg", alt: "paramount-2" },
+    //         { image: "/images/projects/PARAMOUNT/paramount-2.jpg", alt: "paramount-2" },    
     //         { image: "/images/projects/PARAMOUNT/paramount-3.jpg", alt: "paramount-3" },
     //         { image: "/images/projects/PARAMOUNT/paramount-4.jpg", alt: "paramount-4" },
     //         { image: "/images/projects/PARAMOUNT/paramount-5.jpg", alt: "paramount-5" },
