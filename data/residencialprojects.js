@@ -177,37 +177,37 @@ export const projects = [
     },
 
     
-    // {
-    //     slug: "project-6",
-    //     title: "Paramount",
-    //     image: "/images/projects/PARAMOUNT/paramount-10.png",
-    //     description: "Navi Mumbai",
-    //     fullDescription:
-    //         "This compact 650 sq. ft. ground-floor space is thoughtfully transformed through creative design, precise execution, and smart space planning. Every element is curated to maximize visual impact while maintaining comfort and functionality.A striking magnetic-effect ceiling introduces bold depth and contemporary character, instantly becoming a standout feature that elevates the overall ambience. Carefully selected tropical wallpaper highlights add a refreshing burst of color and energy, bringing warmth, vibrancy, and a lively charm to the interiors.Complementing the design, a customized designer hanging light enhances the space with elegant illumination. Its unique craftsmanship creates a refined, artistic glow, perfectly balancing aesthetics and ambience.",
-    //     tagLine: "Project information",
-    //     reraNumber: "P52000011751",
-    //     highlights: [
-    //         { icon: "BetweenVerticalStart", description: "Smart Space Transformation" },
-    //         { icon: "Wallpaper", description: "Magnetic-Effect Ceiling" },
-    //         { icon: "Lightbulb", description: "Tropical Wallpaper Accents" },
-    //         { icon: "LampCeiling", description: "Customized Designer Hanging Light" },
-    //         { icon: "Archive", description: "Balanced Aesthetics & Functionality" }
-    //     ],
-    //     configuration: [
-    //         { flat: "650 sqft", carpet: "45 Days" },
-    //     ],
+    {
+        slug: "project-6",
+        title: "Paramount",
+        image: "/images/projects/PARAMOUNT/paramount-10.png",
+        description: "Navi Mumbai",
+        fullDescription:
+            "This compact 650 sq. ft. ground-floor space is thoughtfully transformed through creative design, precise execution, and smart space planning. Every element is curated to maximize visual impact while maintaining comfort and functionality.A striking magnetic-effect ceiling introduces bold depth and contemporary character, instantly becoming a standout feature that elevates the overall ambience. Carefully selected tropical wallpaper highlights add a refreshing burst of color and energy, bringing warmth, vibrancy, and a lively charm to the interiors.Complementing the design, a customized designer hanging light enhances the space with elegant illumination. Its unique craftsmanship creates a refined, artistic glow, perfectly balancing aesthetics and ambience.",
+        tagLine: "Project information",
+        reraNumber: "P52000011751",
+        highlights: [
+            { icon: "BetweenVerticalStart", description: "Smart Space Transformation" },
+            { icon: "Wallpaper", description: "Magnetic-Effect Ceiling" },
+            { icon: "Lightbulb", description: "Tropical Wallpaper Accents" },
+            { icon: "LampCeiling", description: "Customized Designer Hanging Light" },
+            { icon: "Archive", description: "Balanced Aesthetics & Functionality" }
+        ],
+        configuration: [
+            { flat: "650 sqft", carpet: "45 Days" },
+        ],
 
-    //     galleryImages: [
-    //         { image: "/images/projects/PARAMOUNT/paramount-1.jpg", alt: "paramount-1" },
-    //         { image: "/images/projects/PARAMOUNT/paramount-2.jpg", alt: "paramount-2" },    
-    //         { image: "/images/projects/PARAMOUNT/paramount-3.jpg", alt: "paramount-3" },
-    //         { image: "/images/projects/PARAMOUNT/paramount-4.jpg", alt: "paramount-4" },
-    //         { image: "/images/projects/PARAMOUNT/paramount-5.jpg", alt: "paramount-5" },
-    //         { image: "/images/projects/PARAMOUNT/paramount-7.jpg", alt: "paramount-7" },
-    //         { image: "/images/projects/PARAMOUNT/paramount-8.jpg", alt: "paramount-8" },
-    //         { image: "/images/projects/PARAMOUNT/paramount-9.jpg", alt: "paramount-9" }
-    //     ],
-    // },
+        galleryImages: [
+            { image: "/images/projects/PARAMOUNT/paramount-1.jpg", alt: "paramount-1" },
+            { image: "/images/projects/PARAMOUNT/paramount-2.jpg", alt: "paramount-2" },    
+            { image: "/images/projects/PARAMOUNT/paramount-3.jpg", alt: "paramount-3" },
+            { image: "/images/projects/PARAMOUNT/paramount-4.jpg", alt: "paramount-4" },
+            { image: "/images/projects/PARAMOUNT/paramount-5.jpg", alt: "paramount-5" },
+            { image: "/images/projects/PARAMOUNT/paramount-7.jpg", alt: "paramount-7" },
+            { image: "/images/projects/PARAMOUNT/paramount-8.jpg", alt: "paramount-8" },
+            { image: "/images/projects/PARAMOUNT/paramount-9.jpg", alt: "paramount-9" }
+        ],
+    },
 ];
 
 
