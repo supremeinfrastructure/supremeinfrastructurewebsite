@@ -176,7 +176,6 @@ export const projects = [
         ],
     },
 
-
     {
         slug: "project-6",
         title: "Paramount",
