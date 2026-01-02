@@ -77,10 +77,21 @@ const portfolioItems = [
       '/images/projects/JOCKER/jocker-3.jpeg',
       '/images/projects/JOCKER/jocker-4.jpeg',
 
-      // OMLC ///////////////////////////////////
+      /// OMLC ///////////////////////////////////
       '/images/projects/OMLC/omlc-1.png',
       '/images/projects/OMLC/omlc-2.jpeg',
       '/images/projects/OMLC/omlc-10.jpeg',
+
+      /// Amarante ////////////////////////////////
+      '/images/projects/AMARANTE/amarante.png',
+      '/images/projects/AMARANTE/amarante-5.jpg',
+      '/images/projects/AMARANTE/amarante-8.jpg',
+
+      /// Paramount ///////////////////////////////
+      '/images/projects/PARAMOUNT/paramount-2.jpg',
+      '/images/projects/PARAMOUNT/paramount-3.jpg',
+      '/images/projects/PARAMOUNT/paramount-4.jpg',
+      '/images/projects/PARAMOUNT/paramount-8.jpg',
 
     ]
   },
