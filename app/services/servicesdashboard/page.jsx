@@ -94,9 +94,13 @@ const portfolioItems = [
       '/images/projects/PARAMOUNT/paramount-4.jpg',
       '/images/projects/PARAMOUNT/paramount-8.jpg',
 
+
+      //// Jamshedpur IEL /////////////////////////
+      '/images/projects/JAMSHEDPUR/iel-5.jpg',
+      '/images/projects/JAMSHEDPUR/iel-8.jpg',
     ]
   },
-  
+
   {
     name: "Civil Construction",
     images: []
