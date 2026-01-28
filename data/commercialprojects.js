@@ -19,12 +19,12 @@ export const projects = [
     ],
 
     galleryImages: [
-      { image: "/images/projects/JAMSHEDPUR/IEL-1.jpg", alt: "jocker-1" },
-      { image: "/images/projects/JAMSHEDPUR/IEL-2.jpg", alt: "jocker-2" },
-      { image: "/images/projects/JAMSHEDPUR/IEL-5.jpg", alt: "jocker-3" },
-      { image: "/images/projects/JAMSHEDPUR/IEL-6.jpg", alt: "jocker-4" },
-      { image: "/images/projects/JAMSHEDPUR/IEL-7.jpg", alt: "jocker-5" },
-      { image: "/images/projects/JAMSHEDPUR/IEL-8.jpg", alt: "jocker-5" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-1.jpg", alt: "iel-1" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-2.jpg", alt: "iel-2" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-5.jpg", alt: "iel-5" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-6.jpg", alt: "iel-6" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-7.jpg", alt: "iel-7" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-8.jpg", alt: "iel-8" },
     ],
   },
   {
