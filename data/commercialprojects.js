@@ -1,5 +1,33 @@
 export const projects = [
   {
+    slug: "project-17",
+    title: "IEL POWER HOUSE",
+    image: "/images/projects/JAMSHEDPUR/iel-5.jpg",
+    description: "JAMSHEDPUR",
+    fullDescription:
+      "Designed and executed within 30 days, this 3,500 sq. ft. workspace offers a calm, productive, and efficient work environment. The layout features open workstations, dedicated meeting rooms, modern false ceiling with LED lighting, premium finishes, and glass partitions. Concealed wiring and a future-ready infrastructure ensure a clean, scalable, and professional workspace.",
+    tagLine: "Atlanats Crew Management",
+    highlights: [
+      { icon: "Armchair", description: "Efficient Space Planning" },
+      { icon: "Columns2", description: "Open & Collaborative Workstations" },
+      { icon: "Scale3D", description: "Premium Finishes & Flooring" },
+      { icon: "LampWallUp", description: "Glass Partitions & Concealed Services" },
+      { icon: "Timer", description: "Fast-Track 30-Day Execution" },
+    ],
+    configuration: [
+      { flat: "3500 sqft", carpet: "30 Days" },
+    ],
+
+    galleryImages: [
+      { image: "/images/projects/JAMSHEDPUR/IEL-1.jpg", alt: "jocker-1" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-2.jpg", alt: "jocker-2" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-5.jpg", alt: "jocker-3" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-6.jpg", alt: "jocker-4" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-7.jpg", alt: "jocker-5" },
+      { image: "/images/projects/JAMSHEDPUR/IEL-8.jpg", alt: "jocker-5" },
+    ],
+  },
+  {
     slug: "project-16",
     title: "THE JOKER BISTRO",
     image: "/images/projects/JOCKER/jocker-8.png",
@@ -13,7 +41,7 @@ export const projects = [
       { icon: "Fence", description: "Geometric Decor Panels" },
       { icon: "LampWallUp", description: "Ambient Lighting Design" },
       { icon: "Wine", description: "Showstopper Bar Design" },
-    ],        
+    ],
     configuration: [
       // { flat: "7500 sqft", carpet: "120 Days" },
     ],
