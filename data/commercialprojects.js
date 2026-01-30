@@ -1,5 +1,4 @@
 export const projects = [
-  
   {
     slug: "project-17",
     title: "IEL POWER HOUSE",
