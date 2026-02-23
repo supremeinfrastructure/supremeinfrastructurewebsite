@@ -5,6 +5,7 @@ import { NavbarDemo } from "@/components/Navbar";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
 
+
 const rubik = Rubik({
   weight: '500',
   subsets: ["hebrew"],
